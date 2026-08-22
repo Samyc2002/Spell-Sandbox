@@ -29,11 +29,19 @@ Spells are comprized of three main elements:
       1. [Radial](Assets/Signs/Radial.webp): Radial lets two sigil's effects to be added together, causing their effects to combine. For example, if fire and wind is combined, we get heat. If water and fire are combined, we get steam, if water and wind are combined, we get mist and so on. However, not all sigils can be combined, for example, Water and Light.
 3. **Ring**: The ring is a circle that encloses the sigil and signs of a spell. A spell will only activate if its ring is complete.
 
+In short, every spell must have:
+
+1. A central symbol (sigil or a transformation sign)
+2. Control Signs around the central symbol
+3. Manifestation signs in between the control signs around the central symbol (optional)
+4. A ring surrounding the signs and the central symbol
+5. In case composition sign is used, the sign and the sigils take the place of the central symbol
+
 ## Advanced Spell Systems
 
 ### Linked Spells
 
-When two spells are connected by a line, their effects will link together, and if both spells are identical or similar, their power will increase. Due to this phenomenon, if several small, identical spells are linked together, it is possible to make the spells more powerful than a large spell that takes up the same amount of space, allowing for very powerful spells to be drawn on small areas.
+When two spells are connected by a line, they will activate and fire at the same time. Each spell still fires independently, retaining its own effect rather than combining with the others. This can be used to cast multiple incantations of the same spell simultaneously.
 
 ### Reversed Signs
 
@@ -45,25 +53,20 @@ As a spell will only activate when it’s ring is closed, it is possible to togg
 
 ### Nested Glyphs
 
-It is possible to have spells enclosed within one another, allowing their effects to combine. This technique can be used to boost the power of spells, quickly change part of a spell's effect without redrawing it entirely, or to create much more sophisticated and complex spells than otherwise possible. The spells that are nested inside only activate once the outermost ring is complete.
+It is possible to have spells enclosed within one another, allowing their effects to combine. This technique can be used to boost the power of spells, quickly change part of a spell's effect without redrawing it entirely, or to create much more sophisticated and complex spells than otherwise possible. The spells that are nested inside only activate once the outermost ring is complete. When the glyph activates, the innermost spell takes effect first, and the effects then move outward through each enclosing spell.
 
 ## Architectural Decisions
 
 1. Spells are represented internally as structured JSON objects.
-
 2. User-created spells and automatically generated spells share the same representation.
-
 3. A spell interpreter evaluates spell structures and computes metrics.
-
 4. The initial implementation will focus on a visual spell composition interface rather than a CLI.
-
 5. Spell signs will be classified into categories before implementation:
    - Element Sigils
    - Transformation Signs
    - Shape / Delivery Signs
    - Spatial Signs
    - Composition Operators
-
 6. Advanced behaviors such as nested spells and linked spells are included in scope.
-
 7. Certain signs (e.g. Repetition, Enlarge) may initially be restricted to object transformations rather than direct elemental manipulation to reduce ambiguity.
+8. For simplicity, a spell can either be nested or linked, not both.

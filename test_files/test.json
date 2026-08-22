@@ -1,0 +1,29 @@
+{
+  "spell": [
+    {
+      "symbol": "Repetition",
+      "sign": [
+        {
+          "sign": "Float",
+          "reversed": true
+        },
+        {
+          "sign": "Enlarge",
+          "reversed": false
+        }
+      ]
+    },
+    {
+      "symbol": {
+        "composition": "Radial",
+        "sigils": ["Fire", "Earth"]
+      },
+      "sign": [
+        {
+          "sign": "Pull",
+          "reversed": true
+        }
+      ]
+    }
+  ]
+}
