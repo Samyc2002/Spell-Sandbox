@@ -1,7 +1,6 @@
 export type Sigil = "Air" | "Water" | "Earth" | "Fire" | "Light";
 export type Manifestation = "Column" | "Dispersion" | "Bolt" | "Rain" | "Bird";
 export type Control =
-    | "Direction"
     | "Levitation"
     | "Float"
     | "Pull"

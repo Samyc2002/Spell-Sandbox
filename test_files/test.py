@@ -17,7 +17,6 @@ manifestation = [
 ]
 
 control = [
-    "Direction",
     "Levitation",
     "Float",
     "Pull",

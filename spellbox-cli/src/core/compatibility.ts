@@ -2,18 +2,6 @@ import type { Sigil } from "../models/spell.ts";
 
 export type CompatibilityStatus = "compatible" | "incompatible" | "unspecified";
 
-/**
- * rules.md only confirms a handful of pairs explicitly:
- *   - Fire + Air    -> heat        (compatible)
- *   - Water + Fire  -> steam       (compatible)
- *   - Water + Air   -> mist        (compatible)
- *   - Water + Light -> (called out as NOT combinable)
- *
- * Every other pair is genuinely unspecified in the doc — rather than guessing,
- * unlisted pairs resolve to "unspecified" so the validator can flag them as a
- * warning instead of silently treating them as valid or invalid. Update this
- * table as the rules get nailed down.
- */
 const COMPATIBILITY_TABLE: Record<string, CompatibilityStatus> = {
     "Air+Air": "compatible",
     "Air+Water": "compatible",
@@ -41,6 +29,7 @@ const COMPATIBILITY_TABLE: Record<string, CompatibilityStatus> = {
     "Light+Fire": "incompatible",
     "Light+Light": "incompatible",
 };
+
 const COMPATIBILITY_RESULT: Record<string, string> = {
     "Air+Air": "Air",
     "Air+Water": "Mist",

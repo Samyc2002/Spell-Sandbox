@@ -8,7 +8,6 @@ import type {
 import { getCompatibility, getCompositionResult } from "./compatibility.ts";
 
 const CONTROL_SIGNS = new Set([
-    "Direction",
     "Levitation",
     "Float",
     "Pull",

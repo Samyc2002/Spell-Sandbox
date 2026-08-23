@@ -47,6 +47,18 @@ The majority of the motivation for this project lies in the [Witch Hat Atlier](h
 
 This project is inspired by fictional magic systems that emphasize composition and creativity. The objective is not to reproduce any specific magic system, but to explore how a small set of composable primitives can generate a wide range of magical effects and behaviors.
 
+## Metrics
+
+Metrics currently being collected on generated and hand-authored spells:
+
+- **Structural features**: sign counts by category (Control / Manifestation / Transformation), the multiset of specific signs used, reversed-sign count, central-symbol composition (element, transformation-as-core, or Radial composition), nesting depth, and linked-branch count.
+- **Complexity score**: a weighted score over the structural features above, classifying each spell into a tier (e.g. Cantrip / Apprentice / Adept / Master).
+- **Similarity**: a breakdown comparing two spells along separate effect axes like element, delivery (Manifestation), movement (Control), transformation, and structural shape, rather than a single blended number.
+- **Diff**: a positional, node-by-node comparison between two spells reporting symbol changes, signs added/removed, and nesting differences.
+- **Validation status**: errors and warnings (e.g. missing Control sign, incompatible sigil composition, illegal nesting+linking) reported alongside the above.
+
+**NOTE**: Complexity score is also being normalized and the normalization function used might also affect the results. Hence, that is another point we need to check on while running the mass simulations.
+
 ## Future Work
 
 Potential future directions include:

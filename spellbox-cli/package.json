@@ -4,7 +4,9 @@
     "description": "",
     "main": "src/index.js",
     "scripts": {
-        "start": "node src/index.ts"
+        "start": "node src/index.ts",
+        "test": "node src/scripts/bulkMetrics.ts --count 10000 --out ./out/bulk-spells.json",
+        "plot": "node src/scripts/plotMetrics.ts --in ./out/bulk-spells.json --out ./out/bulk-metrics-plot.html"
     },
     "keywords": [],
     "author": "",

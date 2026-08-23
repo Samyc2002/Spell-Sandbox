@@ -29,7 +29,6 @@ const manifestations: Manifestation[] = [
 ];
 
 const controls: Control[] = [
-    "Direction",
     "Levitation",
     "Float",
     "Pull",

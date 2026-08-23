@@ -12,7 +12,6 @@ import { getCompatibility } from "./compatibility.ts";
 
 const SIGILS: readonly Sigil[] = ["Air", "Water", "Earth", "Fire", "Light"];
 const CONTROL_SIGNS: readonly Control[] = [
-    "Direction",
     "Levitation",
     "Float",
     "Pull",
@@ -112,7 +111,7 @@ function validateSymbol(
             issues.push({
                 path: `${path}.sigils`,
                 severity: "warning",
-                message: `Compatibility of "${a}" + "${b}" is not specified in rules.md — verify before relying on this combination.`,
+                message: `Compatibility of "${a}" + "${b}" is not specified. Verify before relying on this combination.`,
             });
         }
 
@@ -228,9 +227,8 @@ export function validateSpell(spell: Spell, path = "spell"): ValidationResult {
     let issues: ValidationIssue[];
 
     if (Array.isArray(spell)) {
-        // A top-level array means this spell is "linked". Per rules.md
-        // architectural decision #8, a spell is either nested or linked, not
-        // both — so none of these branches may carry their own nested spell.
+        // A top-level array means this spell is "linked"
+        // so none of these branches may carry their own nested spell.
         issues = spell.flatMap((child, i) =>
             validateBasicSpell(child, `${path}[${i}]`, false)
         );

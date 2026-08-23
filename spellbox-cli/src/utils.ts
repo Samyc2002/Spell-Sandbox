@@ -33,11 +33,16 @@ export async function loadSpellFromFile(filePath: string): Promise<Spell> {
         );
     }
 
+    // A real BasicSpell always carries "symbol" alongside "spell" when it's
+    // nested. Only the generator's { spell: ... } wrapper has "spell" with
+    // no sibling "symbol". Checking for "spell" alone would strip the outer
+    // layer off any nested spell loaded from disk.
     if (
         parsed !== null &&
         typeof parsed === "object" &&
         !Array.isArray(parsed) &&
-        "spell" in (parsed as Record<string, unknown>)
+        "spell" in (parsed as Record<string, unknown>) &&
+        !("symbol" in (parsed as Record<string, unknown>))
     ) {
         return (parsed as { spell: Spell }).spell;
     }
@@ -102,4 +107,40 @@ export function randomElement<T>(items: readonly T[]): T {
 
 export function thisOrThat() {
     return Boolean(Math.floor(Math.random() * 2));
+}
+
+const NORMALIZATION_VALUE = 15;
+
+export const NORMALIZATION_TYPES = {
+    SIGMOID: "sigmoid",
+    EXPONENTIAL: "exponential",
+    ARCTAN: "arctan",
+    NONE: "none",
+};
+
+function sigmoid(value: number): number {
+    return 2 / (1 + Math.exp((-1 * value) / NORMALIZATION_VALUE)) - 1;
+}
+
+function exponential(value: number): number {
+    return Math.exp(-NORMALIZATION_VALUE / value);
+}
+
+function arctan(value: number): number {
+    return (1 / Math.PI) * Math.atan(value / NORMALIZATION_VALUE);
+}
+
+export function normalize(value: number, type: string): number {
+    switch (type) {
+        case NORMALIZATION_TYPES.SIGMOID:
+            return sigmoid(value);
+        case NORMALIZATION_TYPES.EXPONENTIAL:
+            return exponential(value);
+        case NORMALIZATION_TYPES.ARCTAN:
+            return arctan(value);
+        case NORMALIZATION_TYPES.NONE:
+            return value;
+        default:
+            return value;
+    }
 }

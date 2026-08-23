@@ -1,0 +1,33 @@
+{
+  "spell": {
+    "symbol": "Enlarge",
+    "sign": [
+      {
+        "sign": "Convergence",
+        "reversed": true
+      }
+    ],
+    "spell": {
+      "symbol": "Water",
+      "sign": [
+        {
+          "sign": "Collection",
+          "reversed": true
+        },
+        {
+          "sign": "Dispersion",
+          "reversed": true
+        }
+      ],
+      "spell": {
+        "symbol": "Crush",
+        "sign": [
+          {
+            "sign": "Convergence",
+            "reversed": true
+          }
+        ]
+      }
+    }
+  }
+}

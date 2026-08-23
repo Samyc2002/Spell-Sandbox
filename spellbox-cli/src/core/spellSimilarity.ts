@@ -16,10 +16,10 @@ function jaccard(a: Map<string, number>, b: Map<string, number>): number {
 }
 
 export interface SimilarityBreakdown {
-    element: number; // same core symbol(s) — the spell's element/compound
-    delivery: number; // same manifestation signs — how it's shot/shaped
-    movement: number; // same control signs — how it's positioned/aimed
-    transformation: number; // same transformation signs — what property it changes
+    element: number; // same core symbol(s). The spell's element/compound
+    delivery: number; // same manifestation signs. How it's shot/shaped
+    movement: number; // same control signs. How it's positioned/aimed
+    transformation: number; // same transformation signs .What property it changes
     shape: number; // similar nesting depth / linked-branch count / total node count
     overall: number; // weighted combination
 }

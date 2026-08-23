@@ -1,9 +1,10 @@
 import type { Spell } from "../models/spell.ts";
+import { NORMALIZATION_TYPES, normalize } from "../utils.ts";
 import { computeFeatures } from "./spellFeatures.ts";
 
 /**
  * Relative weights for the complexity/power score. These encode a judgment
- * call, not a rule from rules.md — tune them as the sandbox's sense of
+ * call, not a rule. Tune them as the sandbox's sense of
  * "power" gets more defined. Rationale for the current values:
  *   - control signs are the mandatory baseline, so they're cheapest
  *   - manifestation signs add delivery-shape complexity
@@ -12,7 +13,7 @@ import { computeFeatures } from "./spellFeatures.ts";
  *   - a composition symbol is inherently a two-sigil effect, so it's a flat bonus
  *   - nesting compounds effects into each other (rules.md: nesting "boosts power"),
  *     so each level is weighted heavily
- *   - linking just adds parallel, independent casts — more scale, not more power per-cast
+ *   - linking just adds parallel, independent casts. More scale, not more power per-cast
  */
 export const SCORE_WEIGHTS = {
     control: 1,
@@ -24,7 +25,7 @@ export const SCORE_WEIGHTS = {
     linkedBranchBeyondFirst: 2,
 };
 
-export function scoreSpell(spell: Spell): number {
+export function rawScoreSpell(spell: Spell): number {
     const f = computeFeatures(spell);
 
     return (
@@ -39,6 +40,16 @@ export function scoreSpell(spell: Spell): number {
     );
 }
 
+export function scoreSpell(
+    spell: Spell,
+    normalizationType: string = NORMALIZATION_TYPES.EXPONENTIAL
+): number {
+    const score = rawScoreSpell(spell);
+
+    // Normalize scores
+    return normalize(score, normalizationType);
+}
+
 export interface TierThresholds {
     /** Ascending score cutoffs. A spell scoring below thresholds[0] is tier 0, etc. */
     cutoffs: number[];
@@ -47,21 +58,30 @@ export interface TierThresholds {
 
 /**
  * Default cutoffs, derived empirically (not guessed) by sampling 2000 spells
- * from the actual generator (nesting 0-4, or linking 0-4 when unnested — the
+ * from the actual generator (nesting 0-4, or linking 0-4 when unnested. The
  * two are mutually exclusive) and taking the quartile boundaries of their
  * scores (observed range across the sample: ~1 to ~52). Recompute with
  * calibrateTiers() if SCORE_WEIGHTS or the generator's random ranges change.
+ *
+ * These cutoffs were calibrated against the EXPONENTIAL-normalized score.
+ * Sigmoid and arctan normalization produce differently-shaped distributions
+ * (e.g. sigmoid's range is roughly (-1, 1), not (0, 1)), so passing a
+ * different normalizationType into classifySpell() below will compare that
+ * distribution against thresholds tuned for a different one — tier labels
+ * won't be meaningful until you recalibrate with calibrateTiers() against a
+ * sample generated using that same normalization.
  */
 export const DEFAULT_TIERS: TierThresholds = {
-    cutoffs: [13.5, 22, 31],
+    cutoffs: [0.3, 0.5, 0.75],
     labels: ["Novice", "Apprentice", "Adept", "Master"],
 };
 
 export function classifySpell(
     spell: Spell,
-    tiers: TierThresholds = DEFAULT_TIERS
+    tiers: TierThresholds = DEFAULT_TIERS,
+    normalizationType: string = NORMALIZATION_TYPES.EXPONENTIAL
 ): { score: number; tier: string } {
-    const score = scoreSpell(spell);
+    const score = scoreSpell(spell, normalizationType);
     let index = tiers.cutoffs.findIndex((cutoff) => score < cutoff);
     if (index === -1) index = tiers.labels.length - 1;
     const tier = tiers.labels[index];
