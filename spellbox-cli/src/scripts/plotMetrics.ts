@@ -1,5 +1,7 @@
-import { readFile, writeFile } from "fs/promises";
+import { createReadStream } from "fs";
+import { writeFile } from "fs/promises";
 import { resolve } from "path";
+import * as readline from "readline";
 
 interface BulkOutput {
     generatedAt: string;
@@ -23,6 +25,72 @@ interface BulkOutput {
     }>;
 }
 
+/**
+ * Streams bulkMetrics.ts's output line-by-line instead of reading it into one
+ * string, since at large --count the file can exceed V8's max string length
+ * (~536M chars) and readFile()+JSON.parse() would throw "Invalid string length".
+ * Only pulls the small per-spell fields plot needs (id/score/tier/valid), never
+ * materializing the full "spell" tree or feature multisets from each record.
+ */
+async function readBulkOutput(path: string): Promise<BulkOutput> {
+    const rl = readline.createInterface({
+        input: createReadStream(path, { encoding: "utf-8" }),
+        crlfDelay: Infinity,
+    });
+
+    const headerLines: string[] = [];
+    let inSpells = false;
+    let objectLines: string[] = [];
+    let depth = 0;
+    const spells: BulkOutput["spells"] = [];
+
+    for await (const line of rl) {
+        if (!inSpells) {
+            if (line.trim() === '"spells": [') {
+                inSpells = true;
+                continue;
+            }
+            headerLines.push(line);
+            continue;
+        }
+
+        if (objectLines.length === 0 && !line.trim().startsWith("{")) {
+            // closing "]" of the spells array (or trailing comma/whitespace)
+            continue;
+        }
+
+        objectLines.push(line);
+        for (const ch of line) {
+            if (ch === "{") depth++;
+            else if (ch === "}") depth--;
+        }
+
+        if (depth === 0) {
+            let objText = objectLines.join("\n").trim();
+            if (objText.endsWith(",")) objText = objText.slice(0, -1);
+            const record = JSON.parse(objText);
+            spells.push({
+                id: record.id,
+                rawScore: record.rawScore,
+                score: record.score,
+                tier: record.tier,
+                valid: record.valid,
+            });
+            objectLines = [];
+        }
+    }
+
+    const headerText = headerLines.join("\n").replace(/,\s*$/, "") + "\n}";
+    const header = JSON.parse(headerText);
+
+    return {
+        generatedAt: header.generatedAt,
+        config: header.config,
+        summary: header.summary,
+        spells,
+    };
+}
+
 interface Histogram {
     labels: string[];
     counts: number[];
@@ -32,8 +100,12 @@ interface Histogram {
 function histogram(values: number[], binCount = 20): Histogram {
     if (values.length === 0) return { labels: [], counts: [] };
 
-    const min = Math.min(...values);
-    const max = Math.max(...values);
+    let min = values[0]!;
+    let max = values[0]!;
+    for (const v of values) {
+        if (v < min) min = v;
+        if (v > max) max = v;
+    }
     const range = max - min || 1; // avoid divide-by-zero if all values are identical
     const binSize = range / binCount;
     const counts = new Array(binCount).fill(0);
@@ -196,23 +268,12 @@ async function main() {
     const outPath = getArg(argv, "--out", "-o", "./bulk-metrics-plot.html");
 
     const resolvedIn = resolve(inPath);
-    let raw: string;
+    let data: BulkOutput;
     try {
-        raw = await readFile(resolvedIn, "utf-8");
+        data = await readBulkOutput(resolvedIn);
     } catch (err) {
         console.log(
             `Could not read "${resolvedIn}": ${(err as Error).message}`
-        );
-        process.exitCode = 1;
-        return;
-    }
-
-    let data: BulkOutput;
-    try {
-        data = JSON.parse(raw);
-    } catch (err) {
-        console.log(
-            `"${resolvedIn}" is not valid JSON: ${(err as Error).message}`
         );
         process.exitCode = 1;
         return;

@@ -1,4 +1,5 @@
-import { writeFile } from "fs/promises";
+import { createReadStream, createWriteStream } from "fs";
+import { rm } from "fs/promises";
 import { resolve } from "path";
 import spellBuilder from "../core/spellBuilder.ts";
 import { computeFeatures, type SpellFeatures } from "../core/spellFeatures.ts";
@@ -117,35 +118,43 @@ function buildRecord(
     };
 }
 
-function summarize(records: SpellRecord[], signatures: string[]) {
-    const tierCounts: Record<string, number> = {};
-    const symbolFrequency: Record<string, number> = {};
-    const signFrequency: Record<string, number> = {};
-    let totalScore = 0;
-    let validCount = 0;
+class SummaryAccumulator {
+    private tierCounts: Record<string, number> = {};
+    private symbolFrequency: Record<string, number> = {};
+    private signFrequency: Record<string, number> = {};
+    private signatures = new Set<string>();
+    private totalScore = 0;
+    private validCount = 0;
+    private totalGenerated = 0;
 
-    for (const r of records) {
-        tierCounts[r.tier] = (tierCounts[r.tier] ?? 0) + 1;
-        totalScore += r.score;
-        if (r.valid) validCount++;
+    add(r: SpellRecord, sig: string): void {
+        this.totalGenerated++;
+        this.tierCounts[r.tier] = (this.tierCounts[r.tier] ?? 0) + 1;
+        this.totalScore += r.score;
+        if (r.valid) this.validCount++;
+        this.signatures.add(sig);
         for (const [k, v] of Object.entries(r.features.symbolMultiset)) {
-            symbolFrequency[k] = (symbolFrequency[k] ?? 0) + v;
+            this.symbolFrequency[k] = (this.symbolFrequency[k] ?? 0) + v;
         }
         for (const [k, v] of Object.entries(r.features.signMultiset)) {
-            signFrequency[k] = (signFrequency[k] ?? 0) + v;
+            this.signFrequency[k] = (this.signFrequency[k] ?? 0) + v;
         }
     }
 
-    return {
-        totalGenerated: records.length,
-        uniqueSignatures: new Set(signatures).size,
-        validCount,
-        invalidCount: records.length - validCount,
-        averageScore: records.length ? totalScore / records.length : 0,
-        tierCounts,
-        symbolFrequency,
-        signFrequency,
-    };
+    finalize() {
+        return {
+            totalGenerated: this.totalGenerated,
+            uniqueSignatures: this.signatures.size,
+            validCount: this.validCount,
+            invalidCount: this.totalGenerated - this.validCount,
+            averageScore: this.totalGenerated
+                ? this.totalScore / this.totalGenerated
+                : 0,
+            tierCounts: this.tierCounts,
+            symbolFrequency: this.symbolFrequency,
+            signFrequency: this.signFrequency,
+        };
+    }
 }
 
 function getArg(
@@ -190,18 +199,41 @@ async function main() {
         );
     }
 
-    const records: SpellRecord[] = [];
-    const signatures: string[] = [];
+    const resolvedPath = resolve(outPath);
+    const spellsPath = resolvedPath + ".spells.tmp";
+
+    // Spell records are streamed to a temp file first since the summary (which
+    // must appear before "spells" in the output) can only be finalized after
+    // every record has been generated. The temp file is then appended onto the
+    // real output after the header+summary are written, and removed.
+    const spellsStream = createWriteStream(spellsPath, { encoding: "utf-8" });
+    const writeSpells = (chunk: string) =>
+        new Promise<void>((res, rej) =>
+            spellsStream.write(chunk, (err) => (err ? rej(err) : res()))
+        );
+
+    const accumulator = new SummaryAccumulator();
 
     for (let i = 0; i < count; i++) {
         const { nested, linked } = randomSpellConfig(maxNested, maxLinked);
         const { spell } = spellBuilder({ nested, linked });
-        records.push(buildRecord(i, spell, resolvedNormalization));
-        signatures.push(signature(spell));
+        const record = buildRecord(i, spell, resolvedNormalization);
+        const sig = signature(spell);
+        accumulator.add(record, sig);
+
+        const recordJson = JSON.stringify(record, null, 2)
+            .split("\n")
+            .map((line) => "    " + line)
+            .join("\n");
+        await writeSpells((i > 0 ? ",\n" : "") + recordJson);
     }
 
-    const summary = summarize(records, signatures);
-    const output = {
+    await new Promise<void>((res, rej) =>
+        spellsStream.end((err: unknown) => (err ? rej(err) : res()))
+    );
+
+    const summary = accumulator.finalize();
+    const header = {
         generatedAt: new Date().toISOString(),
         config: {
             count,
@@ -210,11 +242,27 @@ async function main() {
             normalization: resolvedNormalization,
         },
         summary,
-        spells: records,
     };
+    const headerJson = JSON.stringify(header, null, 2);
 
-    const resolvedPath = resolve(outPath);
-    await writeFile(resolvedPath, JSON.stringify(output, null, 2), "utf-8");
+    const outStream = createWriteStream(resolvedPath, { encoding: "utf-8" });
+    const writeOut = (chunk: string) =>
+        new Promise<void>((res, rej) =>
+            outStream.write(chunk, (err) => (err ? rej(err) : res()))
+        );
+
+    await writeOut(headerJson.slice(0, -2) + ',\n  "spells": [\n');
+    await new Promise<void>((res, rej) => {
+        const reader = createReadStream(spellsPath, { encoding: "utf-8" });
+        reader.on("data", (chunk) => outStream.write(chunk));
+        reader.on("end", () => res());
+        reader.on("error", rej);
+    });
+    await writeOut("\n  ]\n}\n");
+    await new Promise<void>((res, rej) =>
+        outStream.end((err: unknown) => (err ? rej(err) : res()))
+    );
+    await rm(spellsPath);
 
     console.log(`Generated ${count} spells -> ${resolvedPath}`);
     console.log("Summary:");
