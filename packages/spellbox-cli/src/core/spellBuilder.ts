@@ -10,7 +10,7 @@ import {
     type Spell,
     type Transformation,
 } from "../models/spell.ts";
-import { randomElement, thisOrThat } from "../utils.ts";
+import { randomElement, thisOrThat } from "./random.ts";
 import { validateSpell } from "./spellValidator.ts";
 
 interface SpellBuilderConfig {

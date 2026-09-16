@@ -1,5 +1,5 @@
 import type { Spell } from "../models/spell.ts";
-import { NORMALIZATION_TYPES, normalize } from "../utils.ts";
+import { NORMALIZATION_TYPES, normalize } from "./normalization.ts";
 import { computeFeatures } from "./spellFeatures.ts";
 
 /**

@@ -1,0 +1,8 @@
+{
+  "name": "spell-sandbox",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
