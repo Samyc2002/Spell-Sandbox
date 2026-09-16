@@ -3,6 +3,7 @@ import { resolve } from "path";
 import spellBuilder from "../core/spellBuilder.ts";
 import { computeFeatures, type SpellFeatures } from "../core/spellFeatures.ts";
 import { classifySpell, rawScoreSpell } from "../core/spellScoring.ts";
+import { signature } from "../core/spellSignature.ts";
 import { validateSpell } from "../core/spellValidator.ts";
 import { NORMALIZATION_TYPES } from "../utils.ts";
 import type { Spell } from "../models/spell.ts";
@@ -10,6 +11,7 @@ import type { Spell } from "../models/spell.ts";
 interface SpellRecord {
     id: number;
     spell: Spell;
+    signature: string;
     rawScore: number;
     score: number;
     tier: string;
@@ -51,32 +53,6 @@ function randomSpellConfig(
     return { nested, linked };
 }
 
-/**
- * A structural "fingerprint" for counting distinct spells (plan.md Q1/Q2).
- * Deliberately effect-based rather than raw JSON equality: two spells with
- * the same signs/symbols/shape but signs listed in a different array order,
- * or nested/linked children in a different order, count as the *same* spell
- * here, since sign order doesn't change what the spell does. This is a
- * design choice — if you want strict positional equality instead, compare
- * JSON.stringify(spell) directly rather than this signature.
- */
-function signature(spell: Spell): string {
-    const f = computeFeatures(spell);
-    const sortedEntries = (m: Map<string, number>) =>
-        [...m.entries()].sort(([a], [b]) => a.localeCompare(b));
-
-    return JSON.stringify({
-        symbol: sortedEntries(f.symbolMultiset),
-        control: sortedEntries(f.controlMultiset),
-        manifestation: sortedEntries(f.manifestationMultiset),
-        transformation: sortedEntries(f.transformationMultiset),
-        reversedCount: f.reversedCount,
-        nesting: f.maxNestingDepth,
-        linked: f.linkedBranches,
-        compositionCount: f.compositionCount,
-    });
-}
-
 function buildRecord(
     id: number,
     spell: Spell,
@@ -90,6 +66,7 @@ function buildRecord(
     return {
         id,
         spell,
+        signature: signature(spell),
         rawScore: raw,
         score,
         tier,
@@ -157,7 +134,9 @@ function getArg(
     const idx = argv.findIndex(
         (a) => a === long || (short !== null && a === short)
     );
-    return idx !== -1 && argv[idx + 1] !== undefined ? argv[idx + 1]! : fallback;
+    return idx !== -1 && argv[idx + 1] !== undefined
+        ? argv[idx + 1]!
+        : fallback;
 }
 
 async function main() {
@@ -191,16 +170,17 @@ async function main() {
     }
 
     const records: SpellRecord[] = [];
-    const signatures: string[] = [];
 
     for (let i = 0; i < count; i++) {
         const { nested, linked } = randomSpellConfig(maxNested, maxLinked);
         const { spell } = spellBuilder({ nested, linked });
         records.push(buildRecord(i, spell, resolvedNormalization));
-        signatures.push(signature(spell));
     }
 
-    const summary = summarize(records, signatures);
+    const summary = summarize(
+        records,
+        records.map((r) => r.signature)
+    );
     const output = {
         generatedAt: new Date().toISOString(),
         config: {
