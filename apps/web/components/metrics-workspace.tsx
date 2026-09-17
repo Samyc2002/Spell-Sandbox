@@ -1,6 +1,8 @@
 import { Bars } from "@/components/bars";
 import { Panel } from "@/components/panel";
 import { palette, type Metrics } from "@/lib/metrics";
+import { Button } from "./ui/button";
+import { Download } from "lucide-react";
 
 export function MetricsWorkspace({
 	metrics,
@@ -35,6 +37,24 @@ export function MetricsWorkspace({
 		);
 	}
 
+	const downloadReport = () => {
+		const blob = new Blob([JSON.stringify(metrics, null, 2)], {
+			type: "application/json",
+		});
+		const url = URL.createObjectURL(blob);
+		const link = document.createElement("a");
+		const timestamp = new Date(metrics.generatedAt)
+			.toISOString()
+			.replace(/[:.]/g, "-");
+
+		link.href = url;
+		link.download = `spell-metrics-${timestamp}.json`;
+		document.body.appendChild(link);
+		link.click();
+		document.body.removeChild(link);
+		URL.revokeObjectURL(url);
+	};
+
 	return (
 		<>
 			<div className="run-meta">
@@ -42,15 +62,34 @@ export function MetricsWorkspace({
 					LAST RUN {new Date(metrics.generatedAt).toTimeString()}
 				</span>
 				<span>
-					GENERATED <strong>{metrics.total.toLocaleString()}</strong>
+					GENERATED <strong>{metrics.total.toLocaleString()}</strong>{" "}
+					SPELLS
 				</span>
 				<span>
 					STRUCTURALLY DISTINCT{" "}
 					<strong>{metrics.unique.toLocaleString()}</strong>
 				</span>
 				<span>
-					AVG SCORE <strong>{metrics.average.toFixed(3)}</strong>
+					MAX NESTING <strong>{metrics.maxNesting.toFixed(3)}</strong>
 				</span>
+				<span>
+					AVG LINKS <strong>{metrics.maxLinks.toFixed(3)}</strong>
+				</span>
+				<span>
+					NORMALIZATION USED{" "}
+					<strong>{metrics.normalization.toLocaleString()}</strong>
+				</span>
+				<span>
+					SEED USED <strong>{metrics.seed.toFixed(3)}</strong>
+				</span>
+				<Button
+					className={
+						"ml-auto bg-teal-500 hover:bg-teal-400 hover:shadow-md hover:shadow-teal-950 text-gray-950 cursor-pointer"
+					}
+					onClick={() => downloadReport()}
+				>
+					<Download /> Download Report
+				</Button>
 			</div>
 			<div className="metric-grid">
 				<Panel

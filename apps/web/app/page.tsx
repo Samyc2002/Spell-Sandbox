@@ -45,6 +45,20 @@ export default function Home() {
 						onNestingOrLinksTypeChange={setNestingOrLinksType}
 						onSeedChange={setSeed}
 						onNormalizationChange={setNormalization}
+						onReportUpload={(report) => {
+							setMetrics(report);
+							setAmount(report.total.toString());
+							if (report.maxNesting > 0) {
+								setNestingOrLinksType("nesting");
+								setNestingOrLinks(report.maxNesting.toString());
+							}
+							if (report.maxLinks > 0) {
+								setNestingOrLinksType("links");
+								setNestingOrLinks(report.maxLinks.toString());
+							}
+							setNormalization(report.normalization);
+							setSeed(report.seed.toString());
+						}}
 						onSubmit={(event) => {
 							event.preventDefault();
 							setIsLoading(true);
@@ -55,10 +69,10 @@ export default function Home() {
 											Number(amount) || 1,
 											nestingOrLinksType === "nesting"
 												? Number(nestingOrLinks)
-												: 4,
+												: 0,
 											nestingOrLinksType === "nesting"
 												? Number(nestingOrLinks)
-												: 4,
+												: 0,
 											normalization,
 											Number(seed),
 										),

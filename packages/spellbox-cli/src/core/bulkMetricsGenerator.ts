@@ -52,6 +52,7 @@ export interface BulkOutput {
         maxNested: number;
         maxLinked: number;
         normalization: string;
+        seed: number;
     };
     summary: BulkSummary;
     spells: SpellRecord[];
@@ -179,7 +180,7 @@ export function generateBulkMetrics(
     return {
         generatedAt: new Date().toISOString(),
         seed,
-        config: { count: safeCount, maxNested, maxLinked, normalization },
+        config: { count: safeCount, maxNested, maxLinked, normalization, seed },
         summary: accumulator.finalize(),
         spells,
     };

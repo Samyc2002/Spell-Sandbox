@@ -210,6 +210,7 @@ h1 span {
 
 .run-meta {
   display: flex;
+  align-items: center;
   gap: 32px;
   flex-wrap: wrap;
   color: var(--foreground);
