@@ -42,7 +42,7 @@ export function RulesPane() {
 	return (
 		<aside>
 			<div className="rules-heading">
-				<p className="eyebrow">REFERENCE / 01</p>
+				<p className="eyebrow">REFERENCE / 02</p>
 				<h2>Spell rules</h2>
 				<p>Structural constraints behind every generated glyph.</p>
 			</div>

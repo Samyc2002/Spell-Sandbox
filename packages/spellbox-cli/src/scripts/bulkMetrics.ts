@@ -6,7 +6,7 @@ import {
     type BulkOutput,
 } from "../core/bulkMetricsGenerator.ts";
 import { SEED } from "../core/spellBuilder.ts";
-import { NORMALIZATION_TYPES } from "../utils.ts";
+import { NORMALIZATION_TYPES } from "../constants.ts";
 
 function getArg(
     argv: string[],

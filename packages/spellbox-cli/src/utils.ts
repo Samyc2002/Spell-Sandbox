@@ -5,6 +5,7 @@ import type { SimilarityBreakdown } from "./core/spellSimilarity.ts";
 import * as readline from "readline/promises";
 import { stdin as input, stdout as output } from "process";
 import type { Spell } from "./models/spell.ts";
+import { NORMALIZATION_TYPES, NORMALIZATION_VALUE } from "./constants.ts";
 
 /**
  * Loads a Spell from a JSON file on disk. Accepts either a bare Spell
@@ -100,15 +101,6 @@ export async function ask(question: string) {
 
     return answer;
 }
-
-const NORMALIZATION_VALUE = 15;
-
-export const NORMALIZATION_TYPES = {
-    SIGMOID: "sigmoid",
-    EXPONENTIAL: "exponential",
-    ARCTAN: "arctan",
-    NONE: "none",
-};
 
 function sigmoid(value: number): number {
     return 2 / (1 + Math.exp((-1 * value) / NORMALIZATION_VALUE)) - 1;

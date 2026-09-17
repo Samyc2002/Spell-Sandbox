@@ -7,20 +7,16 @@ import { RulesPane } from "@/components/rules-pane";
 import { metricsFromGenerated, type Metrics } from "@/lib/metrics";
 import { generateBulkMetrics } from "spellbox/src/core/bulkMetricsGenerator";
 import { InputForm } from "@/components/input-form";
-import { DropdownMenuSeparator } from "@/components/ui/dropdown-menu";
-
-export const NORMALIZATION_TYPES = {
-	SIGMOID: "sigmoid",
-	EXPONENTIAL: "exponential",
-	ARCTAN: "arctan",
-	NONE: "none",
-};
+import { NORMALIZATION_TYPES } from "spellbox/src/constants";
 
 export default function Home() {
 	const [amount, setAmount] = useState("10000");
 	const [nestingOrLinksType, setNestingOrLinksType] = useState("nesting");
 	const [nestingOrLinks, setNestingOrLinks] = useState("4");
 	const [seed, setSeed] = useState("12345");
+	const [normalization, setNormalization] = useState(
+		NORMALIZATION_TYPES.EXPONENTIAL,
+	);
 	const [metrics, setMetrics] = useState<Metrics | null>(null);
 	const [isLoading, setIsLoading] = useState(false);
 
@@ -43,10 +39,12 @@ export default function Home() {
 						nestingOrLinks={nestingOrLinks}
 						nestingOrLinksType={nestingOrLinksType}
 						seed={seed}
+						normalization={normalization}
 						onAmountChange={setAmount}
 						onNestingOrLinksChange={setNestingOrLinks}
 						onNestingOrLinksTypeChange={setNestingOrLinksType}
 						onSeedChange={setSeed}
+						onNormalizationChange={setNormalization}
 						onSubmit={(event) => {
 							event.preventDefault();
 							setIsLoading(true);
@@ -61,7 +59,7 @@ export default function Home() {
 											nestingOrLinksType === "nesting"
 												? Number(nestingOrLinks)
 												: 4,
-											NORMALIZATION_TYPES.SIGMOID,
+											normalization,
 											Number(seed),
 										),
 									),

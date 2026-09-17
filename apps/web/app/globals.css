@@ -274,7 +274,7 @@ h1 span {
 
 .rule-group {
   padding: 20px 0 4px;
-  border-bottom: 1px solid var(--line);
+  /* border-bottom: 1px solid var(--line); */
 }
 
 .rule-group:last-child {

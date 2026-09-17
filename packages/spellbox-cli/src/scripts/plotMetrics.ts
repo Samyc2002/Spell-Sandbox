@@ -2,7 +2,8 @@ import { readFile, writeFile } from "fs/promises";
 import { resolve } from "path";
 import { DEFAULT_TIERS } from "../core/spellScoring.ts";
 import { signature } from "../core/spellSignature.ts";
-import { NORMALIZATION_TYPES, normalize } from "../utils.ts";
+import { normalize } from "../utils.ts";
+import { NORMALIZATION_TYPES } from "../constants.ts";
 import type { BasicSpell, Spell } from "../models/spell.ts";
 
 interface SpellRecord {
