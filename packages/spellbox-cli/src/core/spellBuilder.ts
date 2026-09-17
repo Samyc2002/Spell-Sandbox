@@ -10,8 +10,11 @@ import {
     type Spell,
     type Transformation,
 } from "../models/spell.ts";
-import { randomElement, thisOrThat } from "./random.ts";
+import { randomElement, thisOrThat, type Generator } from "./random.ts";
 import { validateSpell } from "./spellValidator.ts";
+
+/** Hardcoded for now; will move to the UI later. */
+export const SEED = 12345;
 
 interface SpellBuilderConfig {
     nested: number;
@@ -46,51 +49,51 @@ const transformations: Transformation[] = [
 
 const composition: Composition[] = ["Radial"];
 
-function buildSign(sign: Sign): PlacedSign<typeof sign> {
+function buildSign(rng: Generator, sign: Sign): PlacedSign<typeof sign> {
     return {
         sign,
-        reversed: thisOrThat(),
+        reversed: thisOrThat(rng),
     };
 }
 
-function getSign(signOption: number) {
-    if (signOption === 1) return [buildSign(randomElement(controls))];
+function getSign(rng: Generator, signOption: number) {
+    if (signOption === 1) return [buildSign(rng, randomElement(rng, controls))];
 
     if (signOption === 2) {
-        const isTransformation = thisOrThat();
+        const isTransformation = thisOrThat(rng);
         if (isTransformation)
             return [
-                buildSign(randomElement(controls)),
-                buildSign(randomElement(transformations)),
+                buildSign(rng, randomElement(rng, controls)),
+                buildSign(rng, randomElement(rng, transformations)),
             ];
         else
             return [
-                buildSign(randomElement(controls)),
-                buildSign(randomElement(manifestations)),
+                buildSign(rng, randomElement(rng, controls)),
+                buildSign(rng, randomElement(rng, manifestations)),
             ];
     }
 
     if (signOption === 3)
         return [
-            buildSign(randomElement(controls)),
-            buildSign(randomElement(manifestations)),
-            buildSign(randomElement(transformations)),
+            buildSign(rng, randomElement(rng, controls)),
+            buildSign(rng, randomElement(rng, manifestations)),
+            buildSign(rng, randomElement(rng, transformations)),
         ];
 
     return [];
 }
 
-function getSpell(hasChildren: number) {
+function getSpell(rng: Generator, hasChildren: number) {
     const symbolOptions: CentralSymbol[] = [
-        randomElement(sigils),
-        randomElement(transformations),
+        randomElement(rng, sigils),
+        randomElement(rng, transformations),
         {
-            composition: randomElement(composition),
-            sigils: [randomElement(sigils), randomElement(sigils)],
+            composition: randomElement(rng, composition),
+            sigils: [randomElement(rng, sigils), randomElement(rng, sigils)],
         },
     ];
 
-    const symbol = randomElement(symbolOptions);
+    const symbol = randomElement(rng, symbolOptions);
 
     const signOptions = [
         1, // Only Control
@@ -98,7 +101,7 @@ function getSpell(hasChildren: number) {
         3, // All three
     ];
 
-    const sign = getSign(randomElement(signOptions));
+    const sign = getSign(rng, randomElement(rng, signOptions));
 
     const spell: BasicSpell = {
         symbol,
@@ -106,25 +109,25 @@ function getSpell(hasChildren: number) {
     };
 
     if (hasChildren > 1) {
-        spell.spell = getSpell(hasChildren - 1);
+        spell.spell = getSpell(rng, hasChildren - 1);
     }
 
     return spell;
 }
 
-export default function spellBuilder(config: SpellBuilderConfig) {
+export default function spellBuilder(rng: Generator, config: SpellBuilderConfig) {
     const { nested, linked } = config;
 
     if (linked > 0) {
         const spell: Spell = [];
         for (let count = 0; count < linked; count++) {
-            spell.push(getSpell(1));
+            spell.push(getSpell(rng, 1));
         }
 
         return { spell };
     }
 
-    const spell = getSpell(nested);
+    const spell = getSpell(rng, nested);
 
     return { spell };
 }

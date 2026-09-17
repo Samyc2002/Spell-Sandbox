@@ -1,4 +1,5 @@
-import spellBuilder from "./core/spellBuilder.ts";
+import spellBuilder, { SEED } from "./core/spellBuilder.ts";
+import { defaultRng } from "./core/random.ts";
 import { validateSpell } from "./core/spellValidator.ts";
 import {
     describeSpell,
@@ -32,8 +33,14 @@ export async function generateFlow() {
         return;
     }
 
-    const generated = spellBuilder({ nested, linked });
-    console.log(JSON.stringify(generated, null, 4));
+    const seedInput = await ask(
+        `Seed? Leave blank to use the default (${SEED}): `
+    );
+    const seed = seedInput.trim() === "" ? SEED : Number(seedInput);
+
+    const rng = defaultRng(seed);
+    const generated = spellBuilder(rng, { nested, linked });
+    console.log(JSON.stringify({ seed, ...generated }, null, 4));
     console.log("\n" + describeValidatedSpell(generated.spell));
 }
 

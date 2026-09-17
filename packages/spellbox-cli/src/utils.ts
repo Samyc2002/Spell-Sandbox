@@ -101,14 +101,6 @@ export async function ask(question: string) {
     return answer;
 }
 
-export function randomElement<T>(items: readonly T[]): T {
-    return items[Math.floor(Math.random() * items.length)]!;
-}
-
-export function thisOrThat() {
-    return Boolean(Math.floor(Math.random() * 2));
-}
-
 const NORMALIZATION_VALUE = 15;
 
 export const NORMALIZATION_TYPES = {

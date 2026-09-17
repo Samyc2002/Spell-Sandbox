@@ -1,4 +1,5 @@
-import spellBuilder from "./spellBuilder.ts";
+import spellBuilder, { SEED } from "./spellBuilder.ts";
+import { defaultRng, type Generator } from "./random.ts";
 import { computeFeatures, type SpellFeatures } from "./spellFeatures.ts";
 import { classifySpell, rawScoreSpell } from "./spellScoring.ts";
 import { signature } from "./spellSignature.ts";
@@ -45,6 +46,7 @@ export interface BulkSummary {
 
 export interface BulkOutput {
     generatedAt: string;
+    seed: number;
     config: {
         count: number;
         maxNested: number;
@@ -60,12 +62,12 @@ function mapToObject(map: Map<string, number>): Record<string, number> {
 }
 
 function randomSpellConfig(
+    rng: Generator,
     maxNested: number,
     maxLinked: number
 ): { nested: number; linked: number } {
-    const nested = Math.floor(Math.random() * (maxNested + 1));
-    const linked =
-        nested === 0 ? Math.floor(Math.random() * (maxLinked + 1)) : 0;
+    const nested = rng.integers(maxNested + 1);
+    const linked = nested === 0 ? rng.integers(maxLinked + 1) : 0;
     return { nested, linked };
 }
 
@@ -158,15 +160,17 @@ export function generateBulkMetrics(
     count: number,
     maxNested = 4,
     maxLinked = 4,
-    normalization: string = NORMALIZATION_TYPES.EXPONENTIAL
+    normalization: string = NORMALIZATION_TYPES.EXPONENTIAL,
+    seed: number = SEED
 ): BulkOutput {
     const safeCount = Math.max(0, Math.floor(count));
     const spells: SpellRecord[] = [];
     const accumulator = new SummaryAccumulator();
+    const rng = defaultRng(seed);
 
     for (let id = 0; id < safeCount; id++) {
-        const { nested, linked } = randomSpellConfig(maxNested, maxLinked);
-        const { spell } = spellBuilder({ nested, linked });
+        const { nested, linked } = randomSpellConfig(rng, maxNested, maxLinked);
+        const { spell } = spellBuilder(rng, { nested, linked });
         const record = buildRecord(id, spell, normalization);
         accumulator.add(record);
         spells.push(record);
@@ -174,6 +178,7 @@ export function generateBulkMetrics(
 
     return {
         generatedAt: new Date().toISOString(),
+        seed,
         config: { count: safeCount, maxNested, maxLinked, normalization },
         summary: accumulator.finalize(),
         spells,

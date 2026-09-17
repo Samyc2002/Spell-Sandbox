@@ -5,6 +5,7 @@ import {
     generateBulkMetrics,
     type BulkOutput,
 } from "../core/bulkMetricsGenerator.ts";
+import { SEED } from "../core/spellBuilder.ts";
 import { NORMALIZATION_TYPES } from "../utils.ts";
 
 function getArg(
@@ -28,6 +29,7 @@ async function main() {
     const outPath = getArg(argv, "--out", "-o", "./bulk-spells.json");
     const maxNested = Number(getArg(argv, "--max-nested", null, "4"));
     const maxLinked = Number(getArg(argv, "--max-linked", null, "4"));
+    const seed = Number(getArg(argv, "--seed", null, String(SEED)));
     const normalizationType = getArg(
         argv,
         "--normalization",
@@ -68,7 +70,8 @@ async function main() {
         count,
         maxNested,
         maxLinked,
-        resolvedNormalization
+        resolvedNormalization,
+        seed
     );
 
     for (const [index, record] of generated.spells.entries()) {
@@ -86,6 +89,7 @@ async function main() {
     const summary = generated.summary;
     const header = {
         generatedAt: generated.generatedAt,
+        seed: generated.seed,
         config: generated.config,
         summary,
     };
@@ -110,7 +114,7 @@ async function main() {
     );
     await rm(spellsPath);
 
-    console.log(`Generated ${count} spells -> ${resolvedPath}`);
+    console.log(`Generated ${count} spells (seed=${seed}) -> ${resolvedPath}`);
     console.log("Summary:");
     console.log(JSON.stringify(summary, null, 2));
 }
