@@ -40,7 +40,7 @@ const ruleGroups = [
 
 export function RulesPane() {
 	return (
-		<aside className="rules-pane">
+		<aside>
 			<div className="rules-heading">
 				<p className="eyebrow">REFERENCE / 01</p>
 				<h2>Spell rules</h2>
