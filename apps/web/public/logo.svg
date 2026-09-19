@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="SpellBox Research Console logo">
+    <defs>
+        <linearGradient id="g" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#58c8b0" />
+            <stop offset="58%" stop-color="#9adfcb" />
+            <stop offset="100%" stop-color="#f5a65b" />
+        </linearGradient>
+    </defs>
+    <rect width="512" height="512" rx="96" fill="#0b0d10" />
+    <circle cx="256" cy="256" r="196" fill="rgba(88,200,176,0.05)" stroke="rgba(255,255,255,0.18)" stroke-width="4" />
+    <circle cx="256" cy="256" r="152" fill="none" stroke="url(#g)" stroke-width="10" />
+    <path d="M256 80 L330 182 L256 400 L182 182 Z" fill="none" stroke="url(#g)" stroke-width="10"
+        stroke-linejoin="round" />
+    <path d="M80 256 L182 176 L432 256 L182 336 Z" fill="none" stroke="url(#g)" stroke-width="10"
+        stroke-linejoin="round" />
+    <path d="M256 70 L256 442 M72 256 L440 256" stroke="rgba(255,255,255,0.62)" stroke-width="4"
+        stroke-linecap="round" />
+    <circle cx="256" cy="256" r="26" fill="#f5a65b" stroke="#0b0d10" stroke-width="8" />
+    <circle cx="140" cy="256" r="16" fill="#58c8b0" />
+    <circle cx="372" cy="256" r="16" fill="#58c8b0" />
+    <circle cx="256" cy="140" r="16" fill="#f5a65b" />
+    <circle cx="256" cy="372" r="16" fill="#f5a65b" />
+</svg>

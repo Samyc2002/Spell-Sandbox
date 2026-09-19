@@ -112,6 +112,30 @@ body {
   border-bottom: 1px solid var(--line);
 }
 
+.brand-block {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.brand-mark-wrap {
+  width: 84px;
+  height: 84px;
+  display: grid;
+  place-items: center;
+  padding: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(88, 200, 176, 0.08), rgba(245, 166, 91, 0.08));
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+}
+
+.brand-mark {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
 .eyebrow,
 .generator label,
 .run-meta,
