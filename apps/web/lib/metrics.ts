@@ -1,4 +1,5 @@
 import { type BulkOutput } from "spellbox/src/core/bulkMetricsGenerator";
+import { DEFAULT_TIERS } from "spellbox/src/core/spellScoring";
 
 export type Histogram = { labels: string[]; counts: number[] };
 
@@ -18,12 +19,15 @@ export type Metrics = {
 	symbolCounts: number[];
 	signLabels: string[];
 	signCounts: number[];
+	avgScore: number;
 	scoreHist: Histogram;
+	avgRawScore: number;
 	rawScoreHist: Histogram;
 	normalizationHistograms: { type: string; histogram: Histogram }[];
 	saturation: { n: number; unique: number }[];
 	buckets: { label: string; count: number }[];
 	depth: { label: string; ratio: number; total: number }[];
+	avgRatio: number;
 };
 
 export const palette = ["#f5a65b", "#58c8b0", "#e56b8a", "#8c7cf4", "#e8d36b"];
@@ -44,6 +48,7 @@ function histogram(values: number[], binCount = 12): Histogram {
 }
 
 export function metricsFromGenerated(data: BulkOutput): Metrics {
+	console.info("Raw Data", data);
 	const records = [...data.spells].sort((a, b) => a.id - b.id);
 	const signatures = records.map((record) => record.signature);
 	const counts = new Map<string, number>();
@@ -82,6 +87,10 @@ export function metricsFromGenerated(data: BulkOutput): Metrics {
 		depthMap.set(depth, entry);
 	});
 
+	const tierCounts = DEFAULT_TIERS.labels.map(
+		(tier) => data.summary.tierCounts[tier] ?? 0,
+	);
+
 	return {
 		generatedAt: data.generatedAt,
 		total: data.summary.totalGenerated,
@@ -92,10 +101,11 @@ export function metricsFromGenerated(data: BulkOutput): Metrics {
 		maxLinks: data.config.maxLinked,
 		normalization: data.config.normalization,
 		seed: data.config.seed,
-		tierLabels: ["Cantrip", "Apprentice", "Adept", "Master"],
-		tierCounts: ["Cantrip", "Apprentice", "Adept", "Master"].map(
-			(tier) => data.summary.tierCounts[tier] ?? 0,
+		tierLabels: DEFAULT_TIERS.labels.map(
+			(tier, i) =>
+				`${tier} ${Number(tierCounts[i] / data.summary.totalGenerated).toFixed(2)}`,
 		),
+		tierCounts: tierCounts,
 		symbolLabels: sorted(data.summary.symbolFrequency, 5).map(
 			([label]) => label,
 		),
@@ -108,7 +118,12 @@ export function metricsFromGenerated(data: BulkOutput): Metrics {
 		signCounts: sorted(data.summary.signFrequency, 6).map(
 			([, value]) => value,
 		),
+		avgScore:
+			records.reduce((acc, curr) => acc + curr.score, 0) / records.length,
 		scoreHist: histogram(records.map((record) => record.score)),
+		avgRawScore:
+			records.reduce((acc, curr) => acc + curr.rawScore, 0) /
+			records.length,
 		rawScoreHist: histogram(records.map((record) => record.rawScore)),
 		normalizationHistograms: [
 			"sigmoid",
@@ -134,5 +149,10 @@ export function metricsFromGenerated(data: BulkOutput): Metrics {
 				ratio: value.signatures.size / value.total,
 				total: value.total,
 			})),
+		avgRatio:
+			[...depthMap.values()].reduce(
+				(acc, value) => acc + value.signatures.size / value.total,
+				0,
+			) / [...depthMap.values()].length,
 	};
 }

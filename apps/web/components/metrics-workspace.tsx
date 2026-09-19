@@ -129,14 +129,20 @@ export function MetricsWorkspace({
 						</div>
 					</div>
 				</Panel>
-				<Panel title="Score distribution" note="As generated">
+				<Panel
+					title="Score distribution"
+					note={`Average Score ${metrics.avgScore.toFixed(2)}`}
+				>
 					<Bars
 						values={metrics.scoreHist.counts}
 						labels={metrics.scoreHist.labels}
 						color="#f5a65b"
 					/>
 				</Panel>
-				<Panel title="Raw score distribution">
+				<Panel
+					title="Raw score distribution"
+					note={`Average Raw Score ${metrics.avgRawScore.toFixed(2)}`}
+				>
 					<Bars
 						values={metrics.rawScoreHist.counts}
 						labels={metrics.rawScoreHist.labels}
@@ -233,7 +239,7 @@ export function MetricsWorkspace({
 				</Panel>
 				<Panel
 					title="Uniqueness ratio by nesting depth"
-					note="Distinct structures / total spells at each depth"
+					note={`Distinct structures / total spells at each depth (Average Ratio ${metrics.avgRatio.toFixed(2)})`}
 					wide
 				>
 					<Bars
