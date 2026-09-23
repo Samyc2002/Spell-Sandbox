@@ -59,9 +59,10 @@ export default function BatchPage() {
 							<div className="panel-heading">
 								<h2>Matrix generator</h2>
 								<p>
-									Sweep a list of spell amounts across one
-									or more normalizations, same shape as the
-									"Varying Amount of Spells" experiment.
+									Sweep a list of spell amounts across one or
+									more normalizations, same shape as the
+									&quot;Varying Amount of Spells&quot;
+									experiment.
 								</p>
 							</div>
 							<MatrixBuilder
@@ -80,8 +81,8 @@ export default function BatchPage() {
 									<h2>Queued configs</h2>
 									<p>
 										Edit any row, or add one manually. All
-										queued rows run when you hit "Run
-										all".
+										queued rows run when you hit &quot;Run
+										all&quot;.
 									</p>
 								</div>
 								<div className="flex gap-2">
@@ -136,8 +137,8 @@ export default function BatchPage() {
 								<div className="panel-heading">
 									<h2>Results</h2>
 									<p>
-										Matches the Detailed Observations
-										table in docs/reports/compiled-analysis.md.
+										Matches the Detailed Observations table
+										in docs/reports/compiled-analysis.md.
 									</p>
 								</div>
 								<ResultsTable results={results} />

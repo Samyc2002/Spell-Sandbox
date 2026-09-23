@@ -70,7 +70,7 @@ export default function Home() {
 											nestingOrLinksType === "nesting"
 												? Number(nestingOrLinks)
 												: 0,
-											nestingOrLinksType === "nesting"
+											nestingOrLinksType === "links"
 												? Number(nestingOrLinks)
 												: 0,
 											normalization,

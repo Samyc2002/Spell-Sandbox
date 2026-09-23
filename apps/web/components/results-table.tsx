@@ -5,6 +5,7 @@ import { Download } from "lucide-react";
 import {
 	type BatchResult,
 	downloadJsonReport,
+	downloadJsonReportsZip,
 	downloadTextFile,
 	highestTier,
 	resultsToMarkdownTable,
@@ -24,8 +25,8 @@ export function ResultsTable({ results }: { results: BatchResult[] }) {
 			<div className="config-table-actions">
 				<p className="batch-summary-note">
 					{results.length} run{results.length === 1 ? "" : "s"}{" "}
-					completed. Table mirrors the "Varying Amount of Spells"
-					section of compiled-analysis.md.
+					completed. Table mirrors the &quot;Varying Amount of
+					Spells&quot; section of compiled-analysis.md.
 				</p>
 				<div className="flex gap-2">
 					<Button
@@ -46,13 +47,9 @@ export function ResultsTable({ results }: { results: BatchResult[] }) {
 						variant="outline"
 						size="sm"
 						className="rounded-2xl"
-						onClick={() => {
-							results.forEach((result, index) =>
-								downloadJsonReport(result, index),
-							);
-						}}
+						onClick={() => void downloadJsonReportsZip(results)}
 					>
-						<Download size={14} /> Export all reports (.json)
+						<Download size={14} /> Export all reports (.zip)
 					</Button>
 				</div>
 			</div>
@@ -78,7 +75,9 @@ export function ResultsTable({ results }: { results: BatchResult[] }) {
 							<td>{index + 1}</td>
 							<td>{result.metrics.total.toLocaleString()}</td>
 							<td>{validityPercent(result.metrics)}</td>
-							<td>{uniquenessRatio(result.metrics).toFixed(2)}</td>
+							<td>
+								{uniquenessRatio(result.metrics).toFixed(2)}
+							</td>
 							<td>{result.metrics.avgScore.toFixed(2)}</td>
 							<td>{result.metrics.avgRawScore.toFixed(2)}</td>
 							<td>
