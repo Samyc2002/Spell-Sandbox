@@ -13,6 +13,7 @@ import {
 	type BatchResult,
 } from "@/lib/batch";
 import { Plus } from "lucide-react";
+import { Navbar } from "@/components/navbar";
 
 export default function BatchPage() {
 	const [configs, setConfigs] = useState<BatchConfig[]>([]);
@@ -39,10 +40,12 @@ export default function BatchPage() {
 			setResults(configs.map((config) => runConfig(config)));
 			setIsRunning(false);
 		}, 0);
+		window.scrollTo(0, document.body.scrollHeight);
 	};
 
 	return (
 		<main className="dashboard-shell">
+			<Navbar />
 			<div className="batch-shell">
 				<DashboardHeader
 					title={

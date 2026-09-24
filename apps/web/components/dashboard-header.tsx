@@ -1,8 +1,5 @@
 "use client";
 
-import Link from "next/link";
-import { usePathname } from "next/navigation";
-
 export function DashboardHeader({
 	title = (
 		<>
@@ -14,7 +11,6 @@ export function DashboardHeader({
 	title?: React.ReactNode;
 	lede?: React.ReactNode;
 }) {
-	const pathname = usePathname();
 
 	return (
 		<header className="topbar">
@@ -25,20 +21,6 @@ export function DashboardHeader({
 					<p className="lede">{lede}</p>
 				</div>
 			</div>
-			<nav className="page-nav">
-				<Link
-					href="/"
-					className={`page-nav-link ${pathname === "/" ? "active" : ""}`}
-				>
-					Single Run
-				</Link>
-				<Link
-					href="/batch"
-					className={`page-nav-link ${pathname === "/batch" ? "active" : ""}`}
-				>
-					Batch Runs
-				</Link>
-			</nav>
 		</header>
 	);
 }

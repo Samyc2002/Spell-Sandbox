@@ -8,6 +8,9 @@ import { metricsFromGenerated, type Metrics } from "@/lib/metrics";
 import { generateBulkMetrics } from "spellbox/src/core/bulkMetricsGenerator";
 import { InputForm } from "@/components/input-form";
 import { NORMALIZATION_TYPES } from "spellbox/src/constants";
+import Link from "next/dist/client/link";
+import { usePathname } from "next/dist/client/components/navigation";
+import { Navbar } from "@/components/navbar";
 
 export default function Home() {
 	const [amount, setAmount] = useState("10000");
@@ -22,6 +25,7 @@ export default function Home() {
 
 	return (
 		<main className="dashboard-shell">
+			<Navbar />
 			<div className="workspace-layout">
 				<div>
 					<DashboardHeader />
