@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { DashboardHeader } from "@/components/dashboard-header";
 import { MatrixBuilder } from "@/components/matrix-builder";
 import { ConfigTable } from "@/components/config-table";
@@ -8,17 +8,21 @@ import { ResultsTable } from "@/components/results-table";
 import { Button } from "@/components/ui/button";
 import {
 	createEmptyConfig,
+	downloadConfigs,
+	parseConfigsFile,
 	runConfig,
 	type BatchConfig,
 	type BatchResult,
 } from "@/lib/batch";
-import { Plus } from "lucide-react";
+import { Plus, Download, Upload, X } from "lucide-react";
 import { Navbar } from "@/components/navbar";
 
 export default function BatchPage() {
 	const [configs, setConfigs] = useState<BatchConfig[]>([]);
 	const [results, setResults] = useState<BatchResult[]>([]);
 	const [isRunning, setIsRunning] = useState(false);
+	const [loadError, setLoadError] = useState<string | null>(null);
+	const fileInputRef = useRef<HTMLInputElement>(null);
 
 	const updateConfig = (id: string, patch: Partial<BatchConfig>) => {
 		setConfigs((prev) =>
@@ -32,6 +36,11 @@ export default function BatchPage() {
 		setConfigs((prev) => prev.filter((config) => config.id !== id));
 	};
 
+	const clearConfigs = () => {
+		setConfigs([]);
+		setResults([]);
+	};
+
 	const runAll = () => {
 		if (configs.length === 0) return;
 		setIsRunning(true);
@@ -41,6 +50,21 @@ export default function BatchPage() {
 			setIsRunning(false);
 		}, 0);
 		window.scrollTo(0, document.body.scrollHeight);
+	};
+
+	const handleLoadFile = (event: React.ChangeEvent<HTMLInputElement>) => {
+		const file = event.target.files?.[0];
+		event.target.value = "";
+		if (!file) return;
+		file.text()
+			.then((contents) => {
+				const loaded = parseConfigsFile(contents);
+				setConfigs((prev) => [...prev, ...loaded]);
+				setLoadError(null);
+			})
+			.catch(() => {
+				setLoadError("Couldn't load that file as batch configs.");
+			});
 	};
 
 	return (
@@ -89,6 +113,32 @@ export default function BatchPage() {
 									</p>
 								</div>
 								<div className="flex gap-2">
+									<input
+										ref={fileInputRef}
+										type="file"
+										accept="application/json"
+										className="hidden"
+										onChange={handleLoadFile}
+									/>
+									<Button
+										variant="outline"
+										size="sm"
+										className="rounded-2xl"
+										onClick={() =>
+											fileInputRef.current?.click()
+										}
+									>
+										<Upload size={14} /> Load config
+									</Button>
+									<Button
+										variant="outline"
+										size="sm"
+										className="rounded-2xl"
+										disabled={configs.length === 0}
+										onClick={() => downloadConfigs(configs)}
+									>
+										<Download size={14} /> Save config
+									</Button>
 									<Button
 										variant="outline"
 										size="sm"
@@ -101,6 +151,15 @@ export default function BatchPage() {
 										}
 									>
 										<Plus size={14} /> Add row
+									</Button>
+									<Button
+										variant="outline"
+										size="sm"
+										className="rounded-2xl"
+										disabled={configs.length === 0}
+										onClick={clearConfigs}
+									>
+										<X size={14} /> Clear
 									</Button>
 									<Button
 										size="sm"
@@ -117,6 +176,11 @@ export default function BatchPage() {
 									</Button>
 								</div>
 							</div>
+							{loadError && (
+								<p className="batch-summary-note" role="alert">
+									{loadError}
+								</p>
+							)}
 							<ConfigTable
 								configs={configs}
 								onChange={updateConfig}

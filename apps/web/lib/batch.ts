@@ -148,3 +148,33 @@ export function downloadJsonReport(result: BatchResult, index: number) {
 		"application/json",
 	);
 }
+
+export function downloadConfigs(configs: BatchConfig[]) {
+	downloadTextFile(
+		"batch-configs.json",
+		JSON.stringify(configs, null, 2),
+		"application/json",
+	);
+}
+
+function isBatchConfig(value: unknown): value is BatchConfig {
+	if (typeof value !== "object" || value === null) return false;
+	const record = value as Record<string, unknown>;
+	return (
+		typeof record.amount === "string" &&
+		(record.nestingOrLinksType === "nesting" ||
+			record.nestingOrLinksType === "links") &&
+		typeof record.nestingOrLinks === "string" &&
+		typeof record.normalization === "string" &&
+		typeof record.seed === "string"
+	);
+}
+
+export function parseConfigsFile(contents: string): BatchConfig[] {
+	const parsed: unknown = JSON.parse(contents);
+	const rows = Array.isArray(parsed) ? parsed : [parsed];
+	if (rows.length === 0 || !rows.every(isBatchConfig)) {
+		throw new Error("File doesn't look like a batch config export.");
+	}
+	return rows.map((row) => ({ ...row, id: createConfigId() }));
+}

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "y9lxhspl",
+    "amount": "12",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "sigmoid",
+    "seed": "12345"
+  },
+  {
+    "id": "wfdetx1n",
+    "amount": "120",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "sigmoid",
+    "seed": "12345"
+  },
+  {
+    "id": "aahpok46",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "sigmoid",
+    "seed": "12345"
+  },
+  {
+    "id": "n8w8h3ay",
+    "amount": "12000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "sigmoid",
+    "seed": "12345"
+  },
+  {
+    "id": "zqfdvxvh",
+    "amount": "120000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "sigmoid",
+    "seed": "12345"
+  },
+  {
+    "id": "iyfgkm1f",
+    "amount": "12",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "12345"
+  },
+  {
+    "id": "y2m9m614",
+    "amount": "120",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "12345"
+  },
+  {
+    "id": "5eiu1ysl",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "12345"
+  },
+  {
+    "id": "coo8lyx8",
+    "amount": "12000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "12345"
+  },
+  {
+    "id": "e4eymzwd",
+    "amount": "120000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "12345"
+  },
+  {
+    "id": "fidiki48",
+    "amount": "12",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "arctan",
+    "seed": "12345"
+  },
+  {
+    "id": "el14vbk1",
+    "amount": "120",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "arctan",
+    "seed": "12345"
+  },
+  {
+    "id": "whtqgsv1",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "arctan",
+    "seed": "12345"
+  },
+  {
+    "id": "h8me4bso",
+    "amount": "12000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "arctan",
+    "seed": "12345"
+  },
+  {
+    "id": "2jfxgfhi",
+    "amount": "120000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "arctan",
+    "seed": "12345"
+  },
+  {
+    "id": "w1s8b91w",
+    "amount": "12",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "sigmoid",
+    "seed": "12345"
+  },
+  {
+    "id": "uvmfvsv0",
+    "amount": "120",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "sigmoid",
+    "seed": "12345"
+  },
+  {
+    "id": "xutwdae7",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "sigmoid",
+    "seed": "12345"
+  },
+  {
+    "id": "4s0f7lel",
+    "amount": "12000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "sigmoid",
+    "seed": "12345"
+  },
+  {
+    "id": "3c5su3z6",
+    "amount": "120000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "sigmoid",
+    "seed": "12345"
+  },
+  {
+    "id": "tsaqehg8",
+    "amount": "12",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "12345"
+  },
+  {
+    "id": "pb158auh",
+    "amount": "120",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "12345"
+  },
+  {
+    "id": "udwxmbba",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "12345"
+  },
+  {
+    "id": "w5y5m7zd",
+    "amount": "12000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "12345"
+  },
+  {
+    "id": "z5b0uawt",
+    "amount": "120000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "12345"
+  },
+  {
+    "id": "5019akhs",
+    "amount": "12",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "arctan",
+    "seed": "12345"
+  },
+  {
+    "id": "mfa698x0",
+    "amount": "120",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "arctan",
+    "seed": "12345"
+  },
+  {
+    "id": "2rs3w8vh",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "arctan",
+    "seed": "12345"
+  },
+  {
+    "id": "l8v0txl2",
+    "amount": "12000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "arctan",
+    "seed": "12345"
+  },
+  {
+    "id": "jt1cws6c",
+    "amount": "120000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "arctan",
+    "seed": "12345"
+  },
+  {
+    "id": "x30hwvb8",
+    "amount": "12",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "0",
+    "normalization": "sigmoid",
+    "seed": "12345"
+  },
+  {
+    "id": "0nyib0u3",
+    "amount": "120",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "0",
+    "normalization": "sigmoid",
+    "seed": "12345"
+  },
+  {
+    "id": "z146qs6z",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "0",
+    "normalization": "sigmoid",
+    "seed": "12345"
+  },
+  {
+    "id": "h1zgdpgx",
+    "amount": "12000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "0",
+    "normalization": "sigmoid",
+    "seed": "12345"
+  },
+  {
+    "id": "riexoobv",
+    "amount": "120000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "0",
+    "normalization": "sigmoid",
+    "seed": "12345"
+  },
+  {
+    "id": "tdxm8evd",
+    "amount": "12",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "12345"
+  },
+  {
+    "id": "tvevbw5d",
+    "amount": "120",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "12345"
+  },
+  {
+    "id": "4fsbbkl5",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "12345"
+  },
+  {
+    "id": "p7iv34n3",
+    "amount": "12000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "12345"
+  },
+  {
+    "id": "ugktox9m",
+    "amount": "120000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "12345"
+  },
+  {
+    "id": "zzffsgog",
+    "amount": "12",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "0",
+    "normalization": "arctan",
+    "seed": "12345"
+  },
+  {
+    "id": "6z85bq6j",
+    "amount": "120",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "0",
+    "normalization": "arctan",
+    "seed": "12345"
+  },
+  {
+    "id": "azaec57a",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "0",
+    "normalization": "arctan",
+    "seed": "12345"
+  },
+  {
+    "id": "mcjeps7z",
+    "amount": "12000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "0",
+    "normalization": "arctan",
+    "seed": "12345"
+  },
+  {
+    "id": "eja7qjxy",
+    "amount": "120000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "0",
+    "normalization": "arctan",
+    "seed": "12345"
+  }
+]
