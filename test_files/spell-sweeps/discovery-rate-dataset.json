@@ -1,0 +1,2162 @@
+[
+  {
+    "id": "disc0001",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "1"
+  },
+  {
+    "id": "disc0002",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "2"
+  },
+  {
+    "id": "disc0003",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "3"
+  },
+  {
+    "id": "disc0004",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "4"
+  },
+  {
+    "id": "disc0005",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "5"
+  },
+  {
+    "id": "disc0006",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "6"
+  },
+  {
+    "id": "disc0007",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "7"
+  },
+  {
+    "id": "disc0008",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "8"
+  },
+  {
+    "id": "disc0009",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "9"
+  },
+  {
+    "id": "disc0010",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "10"
+  },
+  {
+    "id": "disc0011",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "11"
+  },
+  {
+    "id": "disc0012",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "12"
+  },
+  {
+    "id": "disc0013",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "13"
+  },
+  {
+    "id": "disc0014",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "14"
+  },
+  {
+    "id": "disc0015",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "15"
+  },
+  {
+    "id": "disc0016",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "16"
+  },
+  {
+    "id": "disc0017",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "17"
+  },
+  {
+    "id": "disc0018",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "18"
+  },
+  {
+    "id": "disc0019",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "19"
+  },
+  {
+    "id": "disc0020",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "20"
+  },
+  {
+    "id": "disc0021",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "21"
+  },
+  {
+    "id": "disc0022",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "22"
+  },
+  {
+    "id": "disc0023",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "23"
+  },
+  {
+    "id": "disc0024",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "24"
+  },
+  {
+    "id": "disc0025",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "25"
+  },
+  {
+    "id": "disc0026",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "26"
+  },
+  {
+    "id": "disc0027",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "27"
+  },
+  {
+    "id": "disc0028",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "28"
+  },
+  {
+    "id": "disc0029",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "29"
+  },
+  {
+    "id": "disc0030",
+    "amount": "200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "30"
+  },
+  {
+    "id": "disc0031",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "1"
+  },
+  {
+    "id": "disc0032",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "2"
+  },
+  {
+    "id": "disc0033",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "3"
+  },
+  {
+    "id": "disc0034",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "4"
+  },
+  {
+    "id": "disc0035",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "5"
+  },
+  {
+    "id": "disc0036",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "6"
+  },
+  {
+    "id": "disc0037",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "7"
+  },
+  {
+    "id": "disc0038",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "8"
+  },
+  {
+    "id": "disc0039",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "9"
+  },
+  {
+    "id": "disc0040",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "10"
+  },
+  {
+    "id": "disc0041",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "11"
+  },
+  {
+    "id": "disc0042",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "12"
+  },
+  {
+    "id": "disc0043",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "13"
+  },
+  {
+    "id": "disc0044",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "14"
+  },
+  {
+    "id": "disc0045",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "15"
+  },
+  {
+    "id": "disc0046",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "16"
+  },
+  {
+    "id": "disc0047",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "17"
+  },
+  {
+    "id": "disc0048",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "18"
+  },
+  {
+    "id": "disc0049",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "19"
+  },
+  {
+    "id": "disc0050",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "20"
+  },
+  {
+    "id": "disc0051",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "21"
+  },
+  {
+    "id": "disc0052",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "22"
+  },
+  {
+    "id": "disc0053",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "23"
+  },
+  {
+    "id": "disc0054",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "24"
+  },
+  {
+    "id": "disc0055",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "25"
+  },
+  {
+    "id": "disc0056",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "26"
+  },
+  {
+    "id": "disc0057",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "27"
+  },
+  {
+    "id": "disc0058",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "28"
+  },
+  {
+    "id": "disc0059",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "29"
+  },
+  {
+    "id": "disc0060",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "30"
+  },
+  {
+    "id": "disc0061",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "1"
+  },
+  {
+    "id": "disc0062",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "2"
+  },
+  {
+    "id": "disc0063",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "3"
+  },
+  {
+    "id": "disc0064",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "4"
+  },
+  {
+    "id": "disc0065",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "5"
+  },
+  {
+    "id": "disc0066",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "6"
+  },
+  {
+    "id": "disc0067",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "7"
+  },
+  {
+    "id": "disc0068",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "8"
+  },
+  {
+    "id": "disc0069",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "9"
+  },
+  {
+    "id": "disc0070",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "10"
+  },
+  {
+    "id": "disc0071",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "11"
+  },
+  {
+    "id": "disc0072",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "12"
+  },
+  {
+    "id": "disc0073",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "13"
+  },
+  {
+    "id": "disc0074",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "14"
+  },
+  {
+    "id": "disc0075",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "15"
+  },
+  {
+    "id": "disc0076",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "16"
+  },
+  {
+    "id": "disc0077",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "17"
+  },
+  {
+    "id": "disc0078",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "18"
+  },
+  {
+    "id": "disc0079",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "19"
+  },
+  {
+    "id": "disc0080",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "20"
+  },
+  {
+    "id": "disc0081",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "21"
+  },
+  {
+    "id": "disc0082",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "22"
+  },
+  {
+    "id": "disc0083",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "23"
+  },
+  {
+    "id": "disc0084",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "24"
+  },
+  {
+    "id": "disc0085",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "25"
+  },
+  {
+    "id": "disc0086",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "26"
+  },
+  {
+    "id": "disc0087",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "27"
+  },
+  {
+    "id": "disc0088",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "28"
+  },
+  {
+    "id": "disc0089",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "29"
+  },
+  {
+    "id": "disc0090",
+    "amount": "5000",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "30"
+  },
+  {
+    "id": "disc0091",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "1"
+  },
+  {
+    "id": "disc0092",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "2"
+  },
+  {
+    "id": "disc0093",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "3"
+  },
+  {
+    "id": "disc0094",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "4"
+  },
+  {
+    "id": "disc0095",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "5"
+  },
+  {
+    "id": "disc0096",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "6"
+  },
+  {
+    "id": "disc0097",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "7"
+  },
+  {
+    "id": "disc0098",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "8"
+  },
+  {
+    "id": "disc0099",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "9"
+  },
+  {
+    "id": "disc0100",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "10"
+  },
+  {
+    "id": "disc0101",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "11"
+  },
+  {
+    "id": "disc0102",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "12"
+  },
+  {
+    "id": "disc0103",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "13"
+  },
+  {
+    "id": "disc0104",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "14"
+  },
+  {
+    "id": "disc0105",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "15"
+  },
+  {
+    "id": "disc0106",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "16"
+  },
+  {
+    "id": "disc0107",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "17"
+  },
+  {
+    "id": "disc0108",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "18"
+  },
+  {
+    "id": "disc0109",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "19"
+  },
+  {
+    "id": "disc0110",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "20"
+  },
+  {
+    "id": "disc0111",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "21"
+  },
+  {
+    "id": "disc0112",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "22"
+  },
+  {
+    "id": "disc0113",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "23"
+  },
+  {
+    "id": "disc0114",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "24"
+  },
+  {
+    "id": "disc0115",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "25"
+  },
+  {
+    "id": "disc0116",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "26"
+  },
+  {
+    "id": "disc0117",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "27"
+  },
+  {
+    "id": "disc0118",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "28"
+  },
+  {
+    "id": "disc0119",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "29"
+  },
+  {
+    "id": "disc0120",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "30"
+  },
+  {
+    "id": "disc0121",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "1"
+  },
+  {
+    "id": "disc0122",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "2"
+  },
+  {
+    "id": "disc0123",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "3"
+  },
+  {
+    "id": "disc0124",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "4"
+  },
+  {
+    "id": "disc0125",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "5"
+  },
+  {
+    "id": "disc0126",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "6"
+  },
+  {
+    "id": "disc0127",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "7"
+  },
+  {
+    "id": "disc0128",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "8"
+  },
+  {
+    "id": "disc0129",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "9"
+  },
+  {
+    "id": "disc0130",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "10"
+  },
+  {
+    "id": "disc0131",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "11"
+  },
+  {
+    "id": "disc0132",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "12"
+  },
+  {
+    "id": "disc0133",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "13"
+  },
+  {
+    "id": "disc0134",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "14"
+  },
+  {
+    "id": "disc0135",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "15"
+  },
+  {
+    "id": "disc0136",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "16"
+  },
+  {
+    "id": "disc0137",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "17"
+  },
+  {
+    "id": "disc0138",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "18"
+  },
+  {
+    "id": "disc0139",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "19"
+  },
+  {
+    "id": "disc0140",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "20"
+  },
+  {
+    "id": "disc0141",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "21"
+  },
+  {
+    "id": "disc0142",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "22"
+  },
+  {
+    "id": "disc0143",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "23"
+  },
+  {
+    "id": "disc0144",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "24"
+  },
+  {
+    "id": "disc0145",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "25"
+  },
+  {
+    "id": "disc0146",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "26"
+  },
+  {
+    "id": "disc0147",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "27"
+  },
+  {
+    "id": "disc0148",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "28"
+  },
+  {
+    "id": "disc0149",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "29"
+  },
+  {
+    "id": "disc0150",
+    "amount": "200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "30"
+  },
+  {
+    "id": "disc0151",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "1"
+  },
+  {
+    "id": "disc0152",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "2"
+  },
+  {
+    "id": "disc0153",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "3"
+  },
+  {
+    "id": "disc0154",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "4"
+  },
+  {
+    "id": "disc0155",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "5"
+  },
+  {
+    "id": "disc0156",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "6"
+  },
+  {
+    "id": "disc0157",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "7"
+  },
+  {
+    "id": "disc0158",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "8"
+  },
+  {
+    "id": "disc0159",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "9"
+  },
+  {
+    "id": "disc0160",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "10"
+  },
+  {
+    "id": "disc0161",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "11"
+  },
+  {
+    "id": "disc0162",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "12"
+  },
+  {
+    "id": "disc0163",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "13"
+  },
+  {
+    "id": "disc0164",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "14"
+  },
+  {
+    "id": "disc0165",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "15"
+  },
+  {
+    "id": "disc0166",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "16"
+  },
+  {
+    "id": "disc0167",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "17"
+  },
+  {
+    "id": "disc0168",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "18"
+  },
+  {
+    "id": "disc0169",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "19"
+  },
+  {
+    "id": "disc0170",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "20"
+  },
+  {
+    "id": "disc0171",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "21"
+  },
+  {
+    "id": "disc0172",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "22"
+  },
+  {
+    "id": "disc0173",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "23"
+  },
+  {
+    "id": "disc0174",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "24"
+  },
+  {
+    "id": "disc0175",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "25"
+  },
+  {
+    "id": "disc0176",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "26"
+  },
+  {
+    "id": "disc0177",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "27"
+  },
+  {
+    "id": "disc0178",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "28"
+  },
+  {
+    "id": "disc0179",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "29"
+  },
+  {
+    "id": "disc0180",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "30"
+  },
+  {
+    "id": "disc0181",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "1"
+  },
+  {
+    "id": "disc0182",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "2"
+  },
+  {
+    "id": "disc0183",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "3"
+  },
+  {
+    "id": "disc0184",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "4"
+  },
+  {
+    "id": "disc0185",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "5"
+  },
+  {
+    "id": "disc0186",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "6"
+  },
+  {
+    "id": "disc0187",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "7"
+  },
+  {
+    "id": "disc0188",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "8"
+  },
+  {
+    "id": "disc0189",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "9"
+  },
+  {
+    "id": "disc0190",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "10"
+  },
+  {
+    "id": "disc0191",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "11"
+  },
+  {
+    "id": "disc0192",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "12"
+  },
+  {
+    "id": "disc0193",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "13"
+  },
+  {
+    "id": "disc0194",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "14"
+  },
+  {
+    "id": "disc0195",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "15"
+  },
+  {
+    "id": "disc0196",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "16"
+  },
+  {
+    "id": "disc0197",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "17"
+  },
+  {
+    "id": "disc0198",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "18"
+  },
+  {
+    "id": "disc0199",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "19"
+  },
+  {
+    "id": "disc0200",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "20"
+  },
+  {
+    "id": "disc0201",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "21"
+  },
+  {
+    "id": "disc0202",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "22"
+  },
+  {
+    "id": "disc0203",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "23"
+  },
+  {
+    "id": "disc0204",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "24"
+  },
+  {
+    "id": "disc0205",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "25"
+  },
+  {
+    "id": "disc0206",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "26"
+  },
+  {
+    "id": "disc0207",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "27"
+  },
+  {
+    "id": "disc0208",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "28"
+  },
+  {
+    "id": "disc0209",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "29"
+  },
+  {
+    "id": "disc0210",
+    "amount": "5000",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "4",
+    "normalization": "exponential",
+    "seed": "30"
+  },
+  {
+    "id": "disc0211",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "1"
+  },
+  {
+    "id": "disc0212",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "2"
+  },
+  {
+    "id": "disc0213",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "3"
+  },
+  {
+    "id": "disc0214",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "4"
+  },
+  {
+    "id": "disc0215",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "5"
+  },
+  {
+    "id": "disc0216",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "6"
+  },
+  {
+    "id": "disc0217",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "7"
+  },
+  {
+    "id": "disc0218",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "8"
+  },
+  {
+    "id": "disc0219",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "9"
+  },
+  {
+    "id": "disc0220",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "10"
+  },
+  {
+    "id": "disc0221",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "11"
+  },
+  {
+    "id": "disc0222",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "12"
+  },
+  {
+    "id": "disc0223",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "13"
+  },
+  {
+    "id": "disc0224",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "14"
+  },
+  {
+    "id": "disc0225",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "15"
+  },
+  {
+    "id": "disc0226",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "16"
+  },
+  {
+    "id": "disc0227",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "17"
+  },
+  {
+    "id": "disc0228",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "18"
+  },
+  {
+    "id": "disc0229",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "19"
+  },
+  {
+    "id": "disc0230",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "20"
+  },
+  {
+    "id": "disc0231",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "21"
+  },
+  {
+    "id": "disc0232",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "22"
+  },
+  {
+    "id": "disc0233",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "23"
+  },
+  {
+    "id": "disc0234",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "24"
+  },
+  {
+    "id": "disc0235",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "25"
+  },
+  {
+    "id": "disc0236",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "26"
+  },
+  {
+    "id": "disc0237",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "27"
+  },
+  {
+    "id": "disc0238",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "28"
+  },
+  {
+    "id": "disc0239",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "29"
+  },
+  {
+    "id": "disc0240",
+    "amount": "1200",
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": "10",
+    "normalization": "exponential",
+    "seed": "30"
+  },
+  {
+    "id": "disc0241",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "1"
+  },
+  {
+    "id": "disc0242",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "2"
+  },
+  {
+    "id": "disc0243",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "3"
+  },
+  {
+    "id": "disc0244",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "4"
+  },
+  {
+    "id": "disc0245",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "5"
+  },
+  {
+    "id": "disc0246",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "6"
+  },
+  {
+    "id": "disc0247",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "7"
+  },
+  {
+    "id": "disc0248",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "8"
+  },
+  {
+    "id": "disc0249",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "9"
+  },
+  {
+    "id": "disc0250",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "10"
+  },
+  {
+    "id": "disc0251",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "11"
+  },
+  {
+    "id": "disc0252",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "12"
+  },
+  {
+    "id": "disc0253",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "13"
+  },
+  {
+    "id": "disc0254",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "14"
+  },
+  {
+    "id": "disc0255",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "15"
+  },
+  {
+    "id": "disc0256",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "16"
+  },
+  {
+    "id": "disc0257",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "17"
+  },
+  {
+    "id": "disc0258",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "18"
+  },
+  {
+    "id": "disc0259",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "19"
+  },
+  {
+    "id": "disc0260",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "20"
+  },
+  {
+    "id": "disc0261",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "21"
+  },
+  {
+    "id": "disc0262",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "22"
+  },
+  {
+    "id": "disc0263",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "23"
+  },
+  {
+    "id": "disc0264",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "24"
+  },
+  {
+    "id": "disc0265",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "25"
+  },
+  {
+    "id": "disc0266",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "26"
+  },
+  {
+    "id": "disc0267",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "27"
+  },
+  {
+    "id": "disc0268",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "28"
+  },
+  {
+    "id": "disc0269",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "29"
+  },
+  {
+    "id": "disc0270",
+    "amount": "1200",
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": "0",
+    "normalization": "exponential",
+    "seed": "30"
+  }
+]

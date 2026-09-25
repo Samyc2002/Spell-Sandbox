@@ -7,6 +7,7 @@ export type Metrics = {
 	generatedAt: string;
 	total: number;
 	unique: number;
+	uniqueValid: number;
 	valid: number;
 	average: number;
 	maxNesting: number;
@@ -24,7 +25,7 @@ export type Metrics = {
 	avgRawScore: number;
 	rawScoreHist: Histogram;
 	normalizationHistograms: { type: string; histogram: Histogram }[];
-	saturation: { n: number; unique: number }[];
+	saturation: { n: number; unique: number; uniqueValid: number }[];
 	buckets: { label: string; count: number }[];
 	depth: { label: string; ratio: number; total: number }[];
 	avgRatio: number;
@@ -34,8 +35,12 @@ export const palette = ["#f5a65b", "#58c8b0", "#e56b8a", "#8c7cf4", "#e8d36b"];
 
 function histogram(values: number[], binCount = 12): Histogram {
 	if (values.length === 0) return { labels: [], counts: [] };
-	const min = Math.min(...values);
-	const max = Math.max(...values);
+	let min = values[0]!;
+	let max = values[0]!;
+	for (const value of values) {
+		if (value < min) min = value;
+		if (value > max) max = value;
+	}
 	const binSize = (max - min || 1) / binCount;
 	const counts = Array.from({ length: binCount }, () => 0);
 	values.forEach((value) => {
@@ -60,9 +65,13 @@ export function metricsFromGenerated(data: BulkOutput): Metrics {
 			.sort((a, b) => b[1] - a[1])
 			.slice(0, limit);
 	const seen = new Set<string>();
+	const seenValid = new Set<string>();
 	const saturation = records.map((record, index) => {
 		seen.add(record.signature);
-		return { n: index + 1, unique: seen.size };
+		if (record.valid) {
+			seenValid.add(record.signature);
+		}
+		return { n: index + 1, unique: seen.size, uniqueValid: seenValid.size };
 	});
 	const bucketCount = Math.min(10, records.length) || 1;
 	const bucketSize = Math.ceil(records.length / bucketCount) || 1;
@@ -95,6 +104,7 @@ export function metricsFromGenerated(data: BulkOutput): Metrics {
 		generatedAt: data.generatedAt,
 		total: data.summary.totalGenerated,
 		unique: data.summary.uniqueSignatures,
+		uniqueValid: data.summary.uniqueValidSignatures,
 		valid: data.summary.validCount,
 		average: data.summary.averageScore,
 		maxNesting: data.config.maxNested,

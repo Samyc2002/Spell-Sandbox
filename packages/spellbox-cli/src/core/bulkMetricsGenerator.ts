@@ -36,6 +36,7 @@ export interface SpellRecord {
 export interface BulkSummary {
     totalGenerated: number;
     uniqueSignatures: number;
+    uniqueValidSignatures: number;
     validCount: number;
     invalidCount: number;
     averageScore: number;
@@ -118,6 +119,7 @@ class SummaryAccumulator {
     private symbolFrequency: Record<string, number> = {};
     private signFrequency: Record<string, number> = {};
     private signatures = new Set<string>();
+    private validSignatures = new Set<string>();
     private totalScore = 0;
     private validCount = 0;
     private totalGenerated = 0;
@@ -126,7 +128,10 @@ class SummaryAccumulator {
         this.totalGenerated++;
         this.tierCounts[record.tier] = (this.tierCounts[record.tier] ?? 0) + 1;
         this.totalScore += record.score;
-        if (record.valid) this.validCount++;
+        if (record.valid) {
+            this.validCount++;
+            this.validSignatures.add(record.signature);
+        }
         this.signatures.add(record.signature);
         for (const [key, value] of Object.entries(
             record.features.symbolMultiset
@@ -145,6 +150,7 @@ class SummaryAccumulator {
         return {
             totalGenerated: this.totalGenerated,
             uniqueSignatures: this.signatures.size,
+            uniqueValidSignatures: this.validSignatures.size,
             validCount: this.validCount,
             invalidCount: this.totalGenerated - this.validCount,
             averageScore: this.totalGenerated

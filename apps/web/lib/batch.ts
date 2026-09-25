@@ -71,20 +71,24 @@ export function uniquenessRatio(metrics: Metrics): number {
 	return metrics.total > 0 ? metrics.unique / metrics.total : 0;
 }
 
+export function validUniquenessRatio(metrics: Metrics): number {
+	return metrics.valid > 0 ? metrics.uniqueValid / metrics.valid : 0;
+}
+
 function capitalize(value: string): string {
 	return value.charAt(0).toUpperCase() + value.slice(1);
 }
 
 export function resultsToMarkdownTable(results: BatchResult[]): string {
 	const header =
-		"| Run / Simulation | Amount of Spells | Validity % | Average Uniqueness Ratio | Average Complexity Score | Average Raw Score | Highest Complexity Tier | Normalization | Max Nesting | Max Linking |\n" +
-		"| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |";
+		"| Run / Simulation | Amount of Spells | Validity % | Average Uniqueness Ratio | Average Uniqueness Ratio (valid only) | Average Complexity Score | Average Raw Score | Highest Complexity Tier | Normalization | Max Nesting | Max Linking |\n" +
+		"| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |";
 	const rows = results.map(({ config, metrics }, index) => {
 		return `| ${index + 1} | ${metrics.total} | ${validityPercent(metrics)} | ${uniquenessRatio(
 			metrics,
 		).toFixed(
 			2,
-		)} | ${metrics.avgScore.toFixed(2)} | ${metrics.avgRawScore.toFixed(
+		)} | ${validUniquenessRatio(metrics).toFixed(2)} | ${metrics.avgScore.toFixed(2)} | ${metrics.avgRawScore.toFixed(
 			2,
 		)} | ${highestTier(metrics)} | ${capitalize(config.normalization)} | ${metrics.maxNesting} | ${metrics.maxLinks} |`;
 	});

@@ -21,6 +21,18 @@ export function Navbar() {
             >
                 Batch Runs
             </Link>
+            <Link
+                href="/discovery"
+                className={`page-nav-link ${pathname === "/discovery" ? "active" : ""}`}
+            >
+                Discovery Rate
+            </Link>
+            <Link
+                href="/spellbuilder"
+                className={`page-nav-link ${pathname === "/spellbuilder" ? "active" : ""}`}
+            >
+                Spell Builder
+            </Link>
         </nav>
 	);
 }

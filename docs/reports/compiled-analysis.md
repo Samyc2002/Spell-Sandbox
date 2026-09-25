@@ -33,6 +33,7 @@ Variables used:
 - **Max Nesting Depth**: The ceiling on how many levels deep a spell's structure is allowed to nest in a run; each generated spell gets a random nesting depth somewhere between 0 and this ceiling.
 - **Max Linking Depth**: The ceiling on how many spells can be chained together as linked branches in a run; each generated spell gets a random linked-branch count somewhere between 0 and this ceiling. Note that a single spell is either nested or linked, never both at once; the two are mutually exclusive per spell.
 - **Seed**: The fixed starting value for the random number generator, used so a run's results can be reproduced exactly.
+- **Discovery Rate**: A cross-run metric, distinct from Average Uniqueness Ratio (which only looks at duplicates *within* a single run). It answers: if the same generation shape (amount, nesting/linking depth) is re-rolled with a new seed each time, how many of that run's spells are structurally new, i.e. never produced by any earlier run in that sequence? It's computed by keeping a persistent store of every distinct spell signature seen so far for that shape, then for each new run counting what fraction of its spells aren't already in the store (`newCount / total`). A discovery rate that stays high and flat across many re-rolls means the generator is nowhere near exhausting the space of possible spells for that shape; a rate that falls off means the space is starting to saturate, i.e. re-rolling is mostly just reproducing spells already seen.
 
 ## Observation Tables
 
@@ -121,6 +122,36 @@ Here, we use Max Nesting of 4 and Max Linking of 0 and vice versa
 | 44 | 12000 | 87 | 0.47 | 0.09 | 4.26 | Novice | Arctan | 0 | 0 |
 | 45 | 120000 | 88 | 0.12 | 0.09 | 4.25 | Novice | Arctan | 0 | 0 |
 
+**High-resolution graphs:** the table above has 5 amount points per shape/normalization; the graphs below are generated from a much denser sweep (16 amount points per shape/normalization, from 12 to 200,000 spells) so trends are easier to read. Split by shape (nesting vs. linking) since raw score is not directly comparable across shapes.
+
+**Nesting shape (Max Nesting = 4, Max Linking = 0):**
+
+![Validity % vs amount of spells (nesting)](Varying%20Amount%20of%20Spells/plots/amount_validity_nesting.png)
+*Validity % vs. amount of spells*
+
+![Uniqueness ratio vs amount of spells (nesting)](Varying%20Amount%20of%20Spells/plots/amount_uniqueness_nesting.png)
+*Average uniqueness ratio vs. amount of spells*
+
+![Raw score vs amount of spells (nesting)](Varying%20Amount%20of%20Spells/plots/amount_raw_score_nesting.png)
+*Average raw score vs. amount of spells*
+
+![Complexity score vs amount of spells (nesting)](Varying%20Amount%20of%20Spells/plots/amount_complexity_nesting.png)
+*Average complexity score vs. amount of spells*
+
+**Linking shape (Max Nesting = 0, Max Linking = 4):**
+
+![Validity % vs amount of spells (linking)](Varying%20Amount%20of%20Spells/plots/amount_validity_linking.png)
+*Validity % vs. amount of spells*
+
+![Uniqueness ratio vs amount of spells (linking)](Varying%20Amount%20of%20Spells/plots/amount_uniqueness_linking.png)
+*Average uniqueness ratio vs. amount of spells*
+
+![Raw score vs amount of spells (linking)](Varying%20Amount%20of%20Spells/plots/amount_raw_score_linking.png)
+*Average raw score vs. amount of spells*
+
+![Complexity score vs amount of spells (linking)](Varying%20Amount%20of%20Spells/plots/amount_complexity_linking.png)
+*Average complexity score vs. amount of spells*
+
 #### 2. Varying Max Nesting Depth
 
 | Run / Simulation | Amount of Spells | Validity % | Average Uniqueness Ratio | Average Complexity Score | Average Raw Score | Highest Complexity Tier | Normalization | Max Nesting | Max Linking |
@@ -147,6 +178,23 @@ Here, we use Max Nesting of 4 and Max Linking of 0 and vice versa
 | 20 | 1200 | 25 | 1.00 | 0.77 | 119.61 | Master | Exponential | 30 | 0 |
 | 21 | 1200 | 25 | 1.00 | 0.41 | 119.61 | Apprentice | Arctan | 30 | 0 |
 
+**High-resolution graphs:** the table above samples 7 nesting depths; the graphs below cover every depth from 0 to 30.
+
+![Validity % vs max nesting depth](Varying%20Max%20Nesting%20Depth/plots/nesting_validity.png)
+*Validity % vs. max nesting depth*
+
+![Uniqueness ratio vs max nesting depth](Varying%20Max%20Nesting%20Depth/plots/nesting_uniqueness.png)
+*Average uniqueness ratio vs. max nesting depth*
+
+![Raw score vs max nesting depth](Varying%20Max%20Nesting%20Depth/plots/nesting_raw_score.png)
+*Average raw score vs. max nesting depth*
+
+![Complexity score vs max nesting depth](Varying%20Max%20Nesting%20Depth/plots/nesting_complexity.png)
+*Average complexity score vs. max nesting depth*
+
+![Tier progression vs max nesting depth](Varying%20Max%20Nesting%20Depth/plots/nesting_tier.png)
+*Highest complexity tier vs. max nesting depth*
+
 #### 3. Varying Max Linking Depth
 
 | Run / Simulation | Amount of Spells | Validity % | Average Uniqueness Ratio | Average Complexity Score | Average Raw Score | Highest Complexity Tier | Normalization | Max Nesting | Max Linking |
@@ -172,3 +220,42 @@ Here, we use Max Nesting of 4 and Max Linking of 0 and vice versa
 | 19 | 1200 | 26 | 1.00 | 0.86 | 90.87 | Master | Sigmoid | 0 | 30 |
 | 20 | 1200 | 26 | 1.00 | 0.73 | 90.87 | Master | Exponential | 0 | 30 |
 | 21 | 1200 | 26 | 1.00 | 0.40 | 90.87 | Apprentice | Arctan | 0 | 30 |
+
+**High-resolution graphs:** the table above samples 7 linking depths; the graphs below cover every depth from 0 to 30.
+
+![Validity % vs max linking depth](Varying%20Max%20Linking%20Depth/plots/linking_validity.png)
+*Validity % vs. max linking depth*
+
+![Uniqueness ratio vs max linking depth](Varying%20Max%20Linking%20Depth/plots/linking_uniqueness.png)
+*Average uniqueness ratio vs. max linking depth*
+
+![Raw score vs max linking depth](Varying%20Max%20Linking%20Depth/plots/linking_raw_score.png)
+*Average raw score vs. max linking depth*
+
+![Complexity score vs max linking depth](Varying%20Max%20Linking%20Depth/plots/linking_complexity.png)
+*Average complexity score vs. max linking depth*
+
+![Tier progression vs max linking depth](Varying%20Max%20Linking%20Depth/plots/linking_tier.png)
+*Highest complexity tier vs. max linking depth*
+
+### Nesting vs. Linking Comparison
+
+Direct comparison of the two depth sweeps above on the same axes (Exponential normalization), showing how nesting and linking depth affect raw score and validity differently despite using the same depth scale.
+
+![Raw score: nesting vs linking depth](Misc%20plots/nesting_vs_linking_raw_score.png)
+*Average raw score: nesting depth vs. linking depth*
+
+![Validity %: nesting vs linking depth](Misc%20plots/nesting_vs_linking_validity.png)
+*Validity %: nesting depth vs. linking depth*
+
+### Discovery Rate
+
+Nine generation shapes (varying amount, and either nesting or linking depth, plus a depth-0 baseline) were each re-rolled 30 times in a row with ascending seeds (1-30), tracking a persistent store of distinct spell signatures per shape across the sequence. All rows use Exponential normalization, since normalization doesn't affect which spells are generated, only how their score is scaled.
+
+![Discovery rate across repeated re-rolls](Discovery%20Rate/plots/discovery_rate.png)
+*Discovery rate % (new spells / total spells that run) vs. run number, one line per shape*
+
+![Cumulative unique discoveries vs total spells generated](Discovery%20Rate/plots/discovery_cumulative_unique.png)
+*Cumulative distinct spells discovered vs. cumulative spells generated, one line per shape*
+
+The depth-0 baseline (amount=1200, no nesting/linking) is the clearest signal: its discovery rate starts around 76% and falls steadily to roughly 13% by run 30, showing the small, flat solution space for that shape visibly saturating as re-rolls keep landing on spells already seen. Every shape that adds nesting or linking depth stays far higher (mostly 60-90%) across all 30 runs, since deeper structures multiply the number of distinct spells possible and are nowhere near exhausted at this sample size.

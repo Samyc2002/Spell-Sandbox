@@ -1,0 +1,2513 @@
+[
+  {
+    "shapeKey": "200|nesting|4",
+    "amount": 200,
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": 4,
+    "normalization": "exponential",
+    "runs": [
+      {
+        "runIndex": 1,
+        "seed": 1,
+        "total": 200,
+        "newCount": 198,
+        "discoveryRate": 0.99,
+        "cumulativeUnique": 198,
+        "cumulativeTotal": 200
+      },
+      {
+        "runIndex": 2,
+        "seed": 2,
+        "total": 200,
+        "newCount": 194,
+        "discoveryRate": 0.97,
+        "cumulativeUnique": 392,
+        "cumulativeTotal": 400
+      },
+      {
+        "runIndex": 3,
+        "seed": 3,
+        "total": 200,
+        "newCount": 190,
+        "discoveryRate": 0.95,
+        "cumulativeUnique": 582,
+        "cumulativeTotal": 600
+      },
+      {
+        "runIndex": 4,
+        "seed": 4,
+        "total": 200,
+        "newCount": 186,
+        "discoveryRate": 0.93,
+        "cumulativeUnique": 768,
+        "cumulativeTotal": 800
+      },
+      {
+        "runIndex": 5,
+        "seed": 5,
+        "total": 200,
+        "newCount": 185,
+        "discoveryRate": 0.925,
+        "cumulativeUnique": 953,
+        "cumulativeTotal": 1000
+      },
+      {
+        "runIndex": 6,
+        "seed": 6,
+        "total": 200,
+        "newCount": 188,
+        "discoveryRate": 0.94,
+        "cumulativeUnique": 1141,
+        "cumulativeTotal": 1200
+      },
+      {
+        "runIndex": 7,
+        "seed": 7,
+        "total": 200,
+        "newCount": 184,
+        "discoveryRate": 0.92,
+        "cumulativeUnique": 1325,
+        "cumulativeTotal": 1400
+      },
+      {
+        "runIndex": 8,
+        "seed": 8,
+        "total": 200,
+        "newCount": 182,
+        "discoveryRate": 0.91,
+        "cumulativeUnique": 1507,
+        "cumulativeTotal": 1600
+      },
+      {
+        "runIndex": 9,
+        "seed": 9,
+        "total": 200,
+        "newCount": 180,
+        "discoveryRate": 0.9,
+        "cumulativeUnique": 1687,
+        "cumulativeTotal": 1800
+      },
+      {
+        "runIndex": 10,
+        "seed": 10,
+        "total": 200,
+        "newCount": 179,
+        "discoveryRate": 0.895,
+        "cumulativeUnique": 1866,
+        "cumulativeTotal": 2000
+      },
+      {
+        "runIndex": 11,
+        "seed": 11,
+        "total": 200,
+        "newCount": 177,
+        "discoveryRate": 0.885,
+        "cumulativeUnique": 2043,
+        "cumulativeTotal": 2200
+      },
+      {
+        "runIndex": 12,
+        "seed": 12,
+        "total": 200,
+        "newCount": 185,
+        "discoveryRate": 0.925,
+        "cumulativeUnique": 2228,
+        "cumulativeTotal": 2400
+      },
+      {
+        "runIndex": 13,
+        "seed": 13,
+        "total": 200,
+        "newCount": 175,
+        "discoveryRate": 0.875,
+        "cumulativeUnique": 2403,
+        "cumulativeTotal": 2600
+      },
+      {
+        "runIndex": 14,
+        "seed": 14,
+        "total": 200,
+        "newCount": 170,
+        "discoveryRate": 0.85,
+        "cumulativeUnique": 2573,
+        "cumulativeTotal": 2800
+      },
+      {
+        "runIndex": 15,
+        "seed": 15,
+        "total": 200,
+        "newCount": 176,
+        "discoveryRate": 0.88,
+        "cumulativeUnique": 2749,
+        "cumulativeTotal": 3000
+      },
+      {
+        "runIndex": 16,
+        "seed": 16,
+        "total": 200,
+        "newCount": 165,
+        "discoveryRate": 0.825,
+        "cumulativeUnique": 2914,
+        "cumulativeTotal": 3200
+      },
+      {
+        "runIndex": 17,
+        "seed": 17,
+        "total": 200,
+        "newCount": 174,
+        "discoveryRate": 0.87,
+        "cumulativeUnique": 3088,
+        "cumulativeTotal": 3400
+      },
+      {
+        "runIndex": 18,
+        "seed": 18,
+        "total": 200,
+        "newCount": 173,
+        "discoveryRate": 0.865,
+        "cumulativeUnique": 3261,
+        "cumulativeTotal": 3600
+      },
+      {
+        "runIndex": 19,
+        "seed": 19,
+        "total": 200,
+        "newCount": 175,
+        "discoveryRate": 0.875,
+        "cumulativeUnique": 3436,
+        "cumulativeTotal": 3800
+      },
+      {
+        "runIndex": 20,
+        "seed": 20,
+        "total": 200,
+        "newCount": 174,
+        "discoveryRate": 0.87,
+        "cumulativeUnique": 3610,
+        "cumulativeTotal": 4000
+      },
+      {
+        "runIndex": 21,
+        "seed": 21,
+        "total": 200,
+        "newCount": 170,
+        "discoveryRate": 0.85,
+        "cumulativeUnique": 3780,
+        "cumulativeTotal": 4200
+      },
+      {
+        "runIndex": 22,
+        "seed": 22,
+        "total": 200,
+        "newCount": 165,
+        "discoveryRate": 0.825,
+        "cumulativeUnique": 3945,
+        "cumulativeTotal": 4400
+      },
+      {
+        "runIndex": 23,
+        "seed": 23,
+        "total": 200,
+        "newCount": 165,
+        "discoveryRate": 0.825,
+        "cumulativeUnique": 4110,
+        "cumulativeTotal": 4600
+      },
+      {
+        "runIndex": 24,
+        "seed": 24,
+        "total": 200,
+        "newCount": 170,
+        "discoveryRate": 0.85,
+        "cumulativeUnique": 4280,
+        "cumulativeTotal": 4800
+      },
+      {
+        "runIndex": 25,
+        "seed": 25,
+        "total": 200,
+        "newCount": 165,
+        "discoveryRate": 0.825,
+        "cumulativeUnique": 4445,
+        "cumulativeTotal": 5000
+      },
+      {
+        "runIndex": 26,
+        "seed": 26,
+        "total": 200,
+        "newCount": 172,
+        "discoveryRate": 0.86,
+        "cumulativeUnique": 4617,
+        "cumulativeTotal": 5200
+      },
+      {
+        "runIndex": 27,
+        "seed": 27,
+        "total": 200,
+        "newCount": 159,
+        "discoveryRate": 0.795,
+        "cumulativeUnique": 4776,
+        "cumulativeTotal": 5400
+      },
+      {
+        "runIndex": 28,
+        "seed": 28,
+        "total": 200,
+        "newCount": 168,
+        "discoveryRate": 0.84,
+        "cumulativeUnique": 4944,
+        "cumulativeTotal": 5600
+      },
+      {
+        "runIndex": 29,
+        "seed": 29,
+        "total": 200,
+        "newCount": 161,
+        "discoveryRate": 0.805,
+        "cumulativeUnique": 5105,
+        "cumulativeTotal": 5800
+      },
+      {
+        "runIndex": 30,
+        "seed": 30,
+        "total": 200,
+        "newCount": 169,
+        "discoveryRate": 0.845,
+        "cumulativeUnique": 5274,
+        "cumulativeTotal": 6000
+      }
+    ]
+  },
+  {
+    "shapeKey": "1200|nesting|4",
+    "amount": 1200,
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": 4,
+    "normalization": "exponential",
+    "runs": [
+      {
+        "runIndex": 1,
+        "seed": 1,
+        "total": 1200,
+        "newCount": 1143,
+        "discoveryRate": 0.9525,
+        "cumulativeUnique": 1143,
+        "cumulativeTotal": 1200
+      },
+      {
+        "runIndex": 2,
+        "seed": 2,
+        "total": 1200,
+        "newCount": 1055,
+        "discoveryRate": 0.8791666666666667,
+        "cumulativeUnique": 2198,
+        "cumulativeTotal": 2400
+      },
+      {
+        "runIndex": 3,
+        "seed": 3,
+        "total": 1200,
+        "newCount": 1039,
+        "discoveryRate": 0.8658333333333333,
+        "cumulativeUnique": 3237,
+        "cumulativeTotal": 3600
+      },
+      {
+        "runIndex": 4,
+        "seed": 4,
+        "total": 1200,
+        "newCount": 1002,
+        "discoveryRate": 0.835,
+        "cumulativeUnique": 4239,
+        "cumulativeTotal": 4800
+      },
+      {
+        "runIndex": 5,
+        "seed": 5,
+        "total": 1200,
+        "newCount": 1016,
+        "discoveryRate": 0.8466666666666667,
+        "cumulativeUnique": 5255,
+        "cumulativeTotal": 6000
+      },
+      {
+        "runIndex": 6,
+        "seed": 6,
+        "total": 1200,
+        "newCount": 999,
+        "discoveryRate": 0.8325,
+        "cumulativeUnique": 6254,
+        "cumulativeTotal": 7200
+      },
+      {
+        "runIndex": 7,
+        "seed": 7,
+        "total": 1200,
+        "newCount": 970,
+        "discoveryRate": 0.8083333333333333,
+        "cumulativeUnique": 7224,
+        "cumulativeTotal": 8400
+      },
+      {
+        "runIndex": 8,
+        "seed": 8,
+        "total": 1200,
+        "newCount": 948,
+        "discoveryRate": 0.79,
+        "cumulativeUnique": 8172,
+        "cumulativeTotal": 9600
+      },
+      {
+        "runIndex": 9,
+        "seed": 9,
+        "total": 1200,
+        "newCount": 968,
+        "discoveryRate": 0.8066666666666666,
+        "cumulativeUnique": 9140,
+        "cumulativeTotal": 10800
+      },
+      {
+        "runIndex": 10,
+        "seed": 10,
+        "total": 1200,
+        "newCount": 930,
+        "discoveryRate": 0.775,
+        "cumulativeUnique": 10070,
+        "cumulativeTotal": 12000
+      },
+      {
+        "runIndex": 11,
+        "seed": 11,
+        "total": 1200,
+        "newCount": 934,
+        "discoveryRate": 0.7783333333333333,
+        "cumulativeUnique": 11004,
+        "cumulativeTotal": 13200
+      },
+      {
+        "runIndex": 12,
+        "seed": 12,
+        "total": 1200,
+        "newCount": 942,
+        "discoveryRate": 0.785,
+        "cumulativeUnique": 11946,
+        "cumulativeTotal": 14400
+      },
+      {
+        "runIndex": 13,
+        "seed": 13,
+        "total": 1200,
+        "newCount": 929,
+        "discoveryRate": 0.7741666666666667,
+        "cumulativeUnique": 12875,
+        "cumulativeTotal": 15600
+      },
+      {
+        "runIndex": 14,
+        "seed": 14,
+        "total": 1200,
+        "newCount": 917,
+        "discoveryRate": 0.7641666666666667,
+        "cumulativeUnique": 13792,
+        "cumulativeTotal": 16800
+      },
+      {
+        "runIndex": 15,
+        "seed": 15,
+        "total": 1200,
+        "newCount": 914,
+        "discoveryRate": 0.7616666666666667,
+        "cumulativeUnique": 14706,
+        "cumulativeTotal": 18000
+      },
+      {
+        "runIndex": 16,
+        "seed": 16,
+        "total": 1200,
+        "newCount": 910,
+        "discoveryRate": 0.7583333333333333,
+        "cumulativeUnique": 15616,
+        "cumulativeTotal": 19200
+      },
+      {
+        "runIndex": 17,
+        "seed": 17,
+        "total": 1200,
+        "newCount": 871,
+        "discoveryRate": 0.7258333333333333,
+        "cumulativeUnique": 16487,
+        "cumulativeTotal": 20400
+      },
+      {
+        "runIndex": 18,
+        "seed": 18,
+        "total": 1200,
+        "newCount": 890,
+        "discoveryRate": 0.7416666666666667,
+        "cumulativeUnique": 17377,
+        "cumulativeTotal": 21600
+      },
+      {
+        "runIndex": 19,
+        "seed": 19,
+        "total": 1200,
+        "newCount": 898,
+        "discoveryRate": 0.7483333333333333,
+        "cumulativeUnique": 18275,
+        "cumulativeTotal": 22800
+      },
+      {
+        "runIndex": 20,
+        "seed": 20,
+        "total": 1200,
+        "newCount": 881,
+        "discoveryRate": 0.7341666666666666,
+        "cumulativeUnique": 19156,
+        "cumulativeTotal": 24000
+      },
+      {
+        "runIndex": 21,
+        "seed": 21,
+        "total": 1200,
+        "newCount": 864,
+        "discoveryRate": 0.72,
+        "cumulativeUnique": 20020,
+        "cumulativeTotal": 25200
+      },
+      {
+        "runIndex": 22,
+        "seed": 22,
+        "total": 1200,
+        "newCount": 894,
+        "discoveryRate": 0.745,
+        "cumulativeUnique": 20914,
+        "cumulativeTotal": 26400
+      },
+      {
+        "runIndex": 23,
+        "seed": 23,
+        "total": 1200,
+        "newCount": 862,
+        "discoveryRate": 0.7183333333333334,
+        "cumulativeUnique": 21776,
+        "cumulativeTotal": 27600
+      },
+      {
+        "runIndex": 24,
+        "seed": 24,
+        "total": 1200,
+        "newCount": 892,
+        "discoveryRate": 0.7433333333333333,
+        "cumulativeUnique": 22668,
+        "cumulativeTotal": 28800
+      },
+      {
+        "runIndex": 25,
+        "seed": 25,
+        "total": 1200,
+        "newCount": 882,
+        "discoveryRate": 0.735,
+        "cumulativeUnique": 23550,
+        "cumulativeTotal": 30000
+      },
+      {
+        "runIndex": 26,
+        "seed": 26,
+        "total": 1200,
+        "newCount": 863,
+        "discoveryRate": 0.7191666666666666,
+        "cumulativeUnique": 24413,
+        "cumulativeTotal": 31200
+      },
+      {
+        "runIndex": 27,
+        "seed": 27,
+        "total": 1200,
+        "newCount": 827,
+        "discoveryRate": 0.6891666666666667,
+        "cumulativeUnique": 25240,
+        "cumulativeTotal": 32400
+      },
+      {
+        "runIndex": 28,
+        "seed": 28,
+        "total": 1200,
+        "newCount": 883,
+        "discoveryRate": 0.7358333333333333,
+        "cumulativeUnique": 26123,
+        "cumulativeTotal": 33600
+      },
+      {
+        "runIndex": 29,
+        "seed": 29,
+        "total": 1200,
+        "newCount": 852,
+        "discoveryRate": 0.71,
+        "cumulativeUnique": 26975,
+        "cumulativeTotal": 34800
+      },
+      {
+        "runIndex": 30,
+        "seed": 30,
+        "total": 1200,
+        "newCount": 854,
+        "discoveryRate": 0.7116666666666667,
+        "cumulativeUnique": 27829,
+        "cumulativeTotal": 36000
+      }
+    ]
+  },
+  {
+    "shapeKey": "5000|nesting|4",
+    "amount": 5000,
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": 4,
+    "normalization": "exponential",
+    "runs": [
+      {
+        "runIndex": 1,
+        "seed": 1,
+        "total": 5000,
+        "newCount": 4380,
+        "discoveryRate": 0.876,
+        "cumulativeUnique": 4380,
+        "cumulativeTotal": 5000
+      },
+      {
+        "runIndex": 2,
+        "seed": 2,
+        "total": 5000,
+        "newCount": 4035,
+        "discoveryRate": 0.807,
+        "cumulativeUnique": 8415,
+        "cumulativeTotal": 10000
+      },
+      {
+        "runIndex": 3,
+        "seed": 3,
+        "total": 5000,
+        "newCount": 3922,
+        "discoveryRate": 0.7844,
+        "cumulativeUnique": 12337,
+        "cumulativeTotal": 15000
+      },
+      {
+        "runIndex": 4,
+        "seed": 4,
+        "total": 5000,
+        "newCount": 3761,
+        "discoveryRate": 0.7522,
+        "cumulativeUnique": 16098,
+        "cumulativeTotal": 20000
+      },
+      {
+        "runIndex": 5,
+        "seed": 5,
+        "total": 5000,
+        "newCount": 3756,
+        "discoveryRate": 0.7512,
+        "cumulativeUnique": 19854,
+        "cumulativeTotal": 25000
+      },
+      {
+        "runIndex": 6,
+        "seed": 6,
+        "total": 5000,
+        "newCount": 3648,
+        "discoveryRate": 0.7296,
+        "cumulativeUnique": 23502,
+        "cumulativeTotal": 30000
+      },
+      {
+        "runIndex": 7,
+        "seed": 7,
+        "total": 5000,
+        "newCount": 3493,
+        "discoveryRate": 0.6986,
+        "cumulativeUnique": 26995,
+        "cumulativeTotal": 35000
+      },
+      {
+        "runIndex": 8,
+        "seed": 8,
+        "total": 5000,
+        "newCount": 3532,
+        "discoveryRate": 0.7064,
+        "cumulativeUnique": 30527,
+        "cumulativeTotal": 40000
+      },
+      {
+        "runIndex": 9,
+        "seed": 9,
+        "total": 5000,
+        "newCount": 3465,
+        "discoveryRate": 0.693,
+        "cumulativeUnique": 33992,
+        "cumulativeTotal": 45000
+      },
+      {
+        "runIndex": 10,
+        "seed": 10,
+        "total": 5000,
+        "newCount": 3403,
+        "discoveryRate": 0.6806,
+        "cumulativeUnique": 37395,
+        "cumulativeTotal": 50000
+      },
+      {
+        "runIndex": 11,
+        "seed": 11,
+        "total": 5000,
+        "newCount": 3376,
+        "discoveryRate": 0.6752,
+        "cumulativeUnique": 40771,
+        "cumulativeTotal": 55000
+      },
+      {
+        "runIndex": 12,
+        "seed": 12,
+        "total": 5000,
+        "newCount": 3370,
+        "discoveryRate": 0.674,
+        "cumulativeUnique": 44141,
+        "cumulativeTotal": 60000
+      },
+      {
+        "runIndex": 13,
+        "seed": 13,
+        "total": 5000,
+        "newCount": 3318,
+        "discoveryRate": 0.6636,
+        "cumulativeUnique": 47459,
+        "cumulativeTotal": 65000
+      },
+      {
+        "runIndex": 14,
+        "seed": 14,
+        "total": 5000,
+        "newCount": 3264,
+        "discoveryRate": 0.6528,
+        "cumulativeUnique": 50723,
+        "cumulativeTotal": 70000
+      },
+      {
+        "runIndex": 15,
+        "seed": 15,
+        "total": 5000,
+        "newCount": 3253,
+        "discoveryRate": 0.6506,
+        "cumulativeUnique": 53976,
+        "cumulativeTotal": 75000
+      },
+      {
+        "runIndex": 16,
+        "seed": 16,
+        "total": 5000,
+        "newCount": 3258,
+        "discoveryRate": 0.6516,
+        "cumulativeUnique": 57234,
+        "cumulativeTotal": 80000
+      },
+      {
+        "runIndex": 17,
+        "seed": 17,
+        "total": 5000,
+        "newCount": 3190,
+        "discoveryRate": 0.638,
+        "cumulativeUnique": 60424,
+        "cumulativeTotal": 85000
+      },
+      {
+        "runIndex": 18,
+        "seed": 18,
+        "total": 5000,
+        "newCount": 3196,
+        "discoveryRate": 0.6392,
+        "cumulativeUnique": 63620,
+        "cumulativeTotal": 90000
+      },
+      {
+        "runIndex": 19,
+        "seed": 19,
+        "total": 5000,
+        "newCount": 3203,
+        "discoveryRate": 0.6406,
+        "cumulativeUnique": 66823,
+        "cumulativeTotal": 95000
+      },
+      {
+        "runIndex": 20,
+        "seed": 20,
+        "total": 5000,
+        "newCount": 3164,
+        "discoveryRate": 0.6328,
+        "cumulativeUnique": 69987,
+        "cumulativeTotal": 100000
+      },
+      {
+        "runIndex": 21,
+        "seed": 21,
+        "total": 5000,
+        "newCount": 3148,
+        "discoveryRate": 0.6296,
+        "cumulativeUnique": 73135,
+        "cumulativeTotal": 105000
+      },
+      {
+        "runIndex": 22,
+        "seed": 22,
+        "total": 5000,
+        "newCount": 3160,
+        "discoveryRate": 0.632,
+        "cumulativeUnique": 76295,
+        "cumulativeTotal": 110000
+      },
+      {
+        "runIndex": 23,
+        "seed": 23,
+        "total": 5000,
+        "newCount": 3133,
+        "discoveryRate": 0.6266,
+        "cumulativeUnique": 79428,
+        "cumulativeTotal": 115000
+      },
+      {
+        "runIndex": 24,
+        "seed": 24,
+        "total": 5000,
+        "newCount": 3091,
+        "discoveryRate": 0.6182,
+        "cumulativeUnique": 82519,
+        "cumulativeTotal": 120000
+      },
+      {
+        "runIndex": 25,
+        "seed": 25,
+        "total": 5000,
+        "newCount": 3087,
+        "discoveryRate": 0.6174,
+        "cumulativeUnique": 85606,
+        "cumulativeTotal": 125000
+      },
+      {
+        "runIndex": 26,
+        "seed": 26,
+        "total": 5000,
+        "newCount": 3137,
+        "discoveryRate": 0.6274,
+        "cumulativeUnique": 88743,
+        "cumulativeTotal": 130000
+      },
+      {
+        "runIndex": 27,
+        "seed": 27,
+        "total": 5000,
+        "newCount": 3050,
+        "discoveryRate": 0.61,
+        "cumulativeUnique": 91793,
+        "cumulativeTotal": 135000
+      },
+      {
+        "runIndex": 28,
+        "seed": 28,
+        "total": 5000,
+        "newCount": 3112,
+        "discoveryRate": 0.6224,
+        "cumulativeUnique": 94905,
+        "cumulativeTotal": 140000
+      },
+      {
+        "runIndex": 29,
+        "seed": 29,
+        "total": 5000,
+        "newCount": 3050,
+        "discoveryRate": 0.61,
+        "cumulativeUnique": 97955,
+        "cumulativeTotal": 145000
+      },
+      {
+        "runIndex": 30,
+        "seed": 30,
+        "total": 5000,
+        "newCount": 3122,
+        "discoveryRate": 0.6244,
+        "cumulativeUnique": 101077,
+        "cumulativeTotal": 150000
+      }
+    ]
+  },
+  {
+    "shapeKey": "1200|nesting|10",
+    "amount": 1200,
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": 10,
+    "normalization": "exponential",
+    "runs": [
+      {
+        "runIndex": 1,
+        "seed": 1,
+        "total": 1200,
+        "newCount": 1190,
+        "discoveryRate": 0.9916666666666667,
+        "cumulativeUnique": 1190,
+        "cumulativeTotal": 1200
+      },
+      {
+        "runIndex": 2,
+        "seed": 2,
+        "total": 1200,
+        "newCount": 1176,
+        "discoveryRate": 0.98,
+        "cumulativeUnique": 2366,
+        "cumulativeTotal": 2400
+      },
+      {
+        "runIndex": 3,
+        "seed": 3,
+        "total": 1200,
+        "newCount": 1144,
+        "discoveryRate": 0.9533333333333334,
+        "cumulativeUnique": 3510,
+        "cumulativeTotal": 3600
+      },
+      {
+        "runIndex": 4,
+        "seed": 4,
+        "total": 1200,
+        "newCount": 1142,
+        "discoveryRate": 0.9516666666666667,
+        "cumulativeUnique": 4652,
+        "cumulativeTotal": 4800
+      },
+      {
+        "runIndex": 5,
+        "seed": 5,
+        "total": 1200,
+        "newCount": 1133,
+        "discoveryRate": 0.9441666666666667,
+        "cumulativeUnique": 5785,
+        "cumulativeTotal": 6000
+      },
+      {
+        "runIndex": 6,
+        "seed": 6,
+        "total": 1200,
+        "newCount": 1120,
+        "discoveryRate": 0.9333333333333333,
+        "cumulativeUnique": 6905,
+        "cumulativeTotal": 7200
+      },
+      {
+        "runIndex": 7,
+        "seed": 7,
+        "total": 1200,
+        "newCount": 1114,
+        "discoveryRate": 0.9283333333333333,
+        "cumulativeUnique": 8019,
+        "cumulativeTotal": 8400
+      },
+      {
+        "runIndex": 8,
+        "seed": 8,
+        "total": 1200,
+        "newCount": 1109,
+        "discoveryRate": 0.9241666666666667,
+        "cumulativeUnique": 9128,
+        "cumulativeTotal": 9600
+      },
+      {
+        "runIndex": 9,
+        "seed": 9,
+        "total": 1200,
+        "newCount": 1101,
+        "discoveryRate": 0.9175,
+        "cumulativeUnique": 10229,
+        "cumulativeTotal": 10800
+      },
+      {
+        "runIndex": 10,
+        "seed": 10,
+        "total": 1200,
+        "newCount": 1122,
+        "discoveryRate": 0.935,
+        "cumulativeUnique": 11351,
+        "cumulativeTotal": 12000
+      },
+      {
+        "runIndex": 11,
+        "seed": 11,
+        "total": 1200,
+        "newCount": 1108,
+        "discoveryRate": 0.9233333333333333,
+        "cumulativeUnique": 12459,
+        "cumulativeTotal": 13200
+      },
+      {
+        "runIndex": 12,
+        "seed": 12,
+        "total": 1200,
+        "newCount": 1113,
+        "discoveryRate": 0.9275,
+        "cumulativeUnique": 13572,
+        "cumulativeTotal": 14400
+      },
+      {
+        "runIndex": 13,
+        "seed": 13,
+        "total": 1200,
+        "newCount": 1101,
+        "discoveryRate": 0.9175,
+        "cumulativeUnique": 14673,
+        "cumulativeTotal": 15600
+      },
+      {
+        "runIndex": 14,
+        "seed": 14,
+        "total": 1200,
+        "newCount": 1096,
+        "discoveryRate": 0.9133333333333333,
+        "cumulativeUnique": 15769,
+        "cumulativeTotal": 16800
+      },
+      {
+        "runIndex": 15,
+        "seed": 15,
+        "total": 1200,
+        "newCount": 1095,
+        "discoveryRate": 0.9125,
+        "cumulativeUnique": 16864,
+        "cumulativeTotal": 18000
+      },
+      {
+        "runIndex": 16,
+        "seed": 16,
+        "total": 1200,
+        "newCount": 1089,
+        "discoveryRate": 0.9075,
+        "cumulativeUnique": 17953,
+        "cumulativeTotal": 19200
+      },
+      {
+        "runIndex": 17,
+        "seed": 17,
+        "total": 1200,
+        "newCount": 1096,
+        "discoveryRate": 0.9133333333333333,
+        "cumulativeUnique": 19049,
+        "cumulativeTotal": 20400
+      },
+      {
+        "runIndex": 18,
+        "seed": 18,
+        "total": 1200,
+        "newCount": 1075,
+        "discoveryRate": 0.8958333333333334,
+        "cumulativeUnique": 20124,
+        "cumulativeTotal": 21600
+      },
+      {
+        "runIndex": 19,
+        "seed": 19,
+        "total": 1200,
+        "newCount": 1093,
+        "discoveryRate": 0.9108333333333334,
+        "cumulativeUnique": 21217,
+        "cumulativeTotal": 22800
+      },
+      {
+        "runIndex": 20,
+        "seed": 20,
+        "total": 1200,
+        "newCount": 1089,
+        "discoveryRate": 0.9075,
+        "cumulativeUnique": 22306,
+        "cumulativeTotal": 24000
+      },
+      {
+        "runIndex": 21,
+        "seed": 21,
+        "total": 1200,
+        "newCount": 1089,
+        "discoveryRate": 0.9075,
+        "cumulativeUnique": 23395,
+        "cumulativeTotal": 25200
+      },
+      {
+        "runIndex": 22,
+        "seed": 22,
+        "total": 1200,
+        "newCount": 1082,
+        "discoveryRate": 0.9016666666666666,
+        "cumulativeUnique": 24477,
+        "cumulativeTotal": 26400
+      },
+      {
+        "runIndex": 23,
+        "seed": 23,
+        "total": 1200,
+        "newCount": 1081,
+        "discoveryRate": 0.9008333333333334,
+        "cumulativeUnique": 25558,
+        "cumulativeTotal": 27600
+      },
+      {
+        "runIndex": 24,
+        "seed": 24,
+        "total": 1200,
+        "newCount": 1055,
+        "discoveryRate": 0.8791666666666667,
+        "cumulativeUnique": 26613,
+        "cumulativeTotal": 28800
+      },
+      {
+        "runIndex": 25,
+        "seed": 25,
+        "total": 1200,
+        "newCount": 1093,
+        "discoveryRate": 0.9108333333333334,
+        "cumulativeUnique": 27706,
+        "cumulativeTotal": 30000
+      },
+      {
+        "runIndex": 26,
+        "seed": 26,
+        "total": 1200,
+        "newCount": 1078,
+        "discoveryRate": 0.8983333333333333,
+        "cumulativeUnique": 28784,
+        "cumulativeTotal": 31200
+      },
+      {
+        "runIndex": 27,
+        "seed": 27,
+        "total": 1200,
+        "newCount": 1096,
+        "discoveryRate": 0.9133333333333333,
+        "cumulativeUnique": 29880,
+        "cumulativeTotal": 32400
+      },
+      {
+        "runIndex": 28,
+        "seed": 28,
+        "total": 1200,
+        "newCount": 1063,
+        "discoveryRate": 0.8858333333333334,
+        "cumulativeUnique": 30943,
+        "cumulativeTotal": 33600
+      },
+      {
+        "runIndex": 29,
+        "seed": 29,
+        "total": 1200,
+        "newCount": 1055,
+        "discoveryRate": 0.8791666666666667,
+        "cumulativeUnique": 31998,
+        "cumulativeTotal": 34800
+      },
+      {
+        "runIndex": 30,
+        "seed": 30,
+        "total": 1200,
+        "newCount": 1078,
+        "discoveryRate": 0.8983333333333333,
+        "cumulativeUnique": 33076,
+        "cumulativeTotal": 36000
+      }
+    ]
+  },
+  {
+    "shapeKey": "200|links|4",
+    "amount": 200,
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": 4,
+    "normalization": "exponential",
+    "runs": [
+      {
+        "runIndex": 1,
+        "seed": 1,
+        "total": 200,
+        "newCount": 198,
+        "discoveryRate": 0.99,
+        "cumulativeUnique": 198,
+        "cumulativeTotal": 200
+      },
+      {
+        "runIndex": 2,
+        "seed": 2,
+        "total": 200,
+        "newCount": 193,
+        "discoveryRate": 0.965,
+        "cumulativeUnique": 391,
+        "cumulativeTotal": 400
+      },
+      {
+        "runIndex": 3,
+        "seed": 3,
+        "total": 200,
+        "newCount": 191,
+        "discoveryRate": 0.955,
+        "cumulativeUnique": 582,
+        "cumulativeTotal": 600
+      },
+      {
+        "runIndex": 4,
+        "seed": 4,
+        "total": 200,
+        "newCount": 192,
+        "discoveryRate": 0.96,
+        "cumulativeUnique": 774,
+        "cumulativeTotal": 800
+      },
+      {
+        "runIndex": 5,
+        "seed": 5,
+        "total": 200,
+        "newCount": 188,
+        "discoveryRate": 0.94,
+        "cumulativeUnique": 962,
+        "cumulativeTotal": 1000
+      },
+      {
+        "runIndex": 6,
+        "seed": 6,
+        "total": 200,
+        "newCount": 187,
+        "discoveryRate": 0.935,
+        "cumulativeUnique": 1149,
+        "cumulativeTotal": 1200
+      },
+      {
+        "runIndex": 7,
+        "seed": 7,
+        "total": 200,
+        "newCount": 182,
+        "discoveryRate": 0.91,
+        "cumulativeUnique": 1331,
+        "cumulativeTotal": 1400
+      },
+      {
+        "runIndex": 8,
+        "seed": 8,
+        "total": 200,
+        "newCount": 174,
+        "discoveryRate": 0.87,
+        "cumulativeUnique": 1505,
+        "cumulativeTotal": 1600
+      },
+      {
+        "runIndex": 9,
+        "seed": 9,
+        "total": 200,
+        "newCount": 183,
+        "discoveryRate": 0.915,
+        "cumulativeUnique": 1688,
+        "cumulativeTotal": 1800
+      },
+      {
+        "runIndex": 10,
+        "seed": 10,
+        "total": 200,
+        "newCount": 171,
+        "discoveryRate": 0.855,
+        "cumulativeUnique": 1859,
+        "cumulativeTotal": 2000
+      },
+      {
+        "runIndex": 11,
+        "seed": 11,
+        "total": 200,
+        "newCount": 172,
+        "discoveryRate": 0.86,
+        "cumulativeUnique": 2031,
+        "cumulativeTotal": 2200
+      },
+      {
+        "runIndex": 12,
+        "seed": 12,
+        "total": 200,
+        "newCount": 175,
+        "discoveryRate": 0.875,
+        "cumulativeUnique": 2206,
+        "cumulativeTotal": 2400
+      },
+      {
+        "runIndex": 13,
+        "seed": 13,
+        "total": 200,
+        "newCount": 177,
+        "discoveryRate": 0.885,
+        "cumulativeUnique": 2383,
+        "cumulativeTotal": 2600
+      },
+      {
+        "runIndex": 14,
+        "seed": 14,
+        "total": 200,
+        "newCount": 176,
+        "discoveryRate": 0.88,
+        "cumulativeUnique": 2559,
+        "cumulativeTotal": 2800
+      },
+      {
+        "runIndex": 15,
+        "seed": 15,
+        "total": 200,
+        "newCount": 179,
+        "discoveryRate": 0.895,
+        "cumulativeUnique": 2738,
+        "cumulativeTotal": 3000
+      },
+      {
+        "runIndex": 16,
+        "seed": 16,
+        "total": 200,
+        "newCount": 174,
+        "discoveryRate": 0.87,
+        "cumulativeUnique": 2912,
+        "cumulativeTotal": 3200
+      },
+      {
+        "runIndex": 17,
+        "seed": 17,
+        "total": 200,
+        "newCount": 173,
+        "discoveryRate": 0.865,
+        "cumulativeUnique": 3085,
+        "cumulativeTotal": 3400
+      },
+      {
+        "runIndex": 18,
+        "seed": 18,
+        "total": 200,
+        "newCount": 168,
+        "discoveryRate": 0.84,
+        "cumulativeUnique": 3253,
+        "cumulativeTotal": 3600
+      },
+      {
+        "runIndex": 19,
+        "seed": 19,
+        "total": 200,
+        "newCount": 171,
+        "discoveryRate": 0.855,
+        "cumulativeUnique": 3424,
+        "cumulativeTotal": 3800
+      },
+      {
+        "runIndex": 20,
+        "seed": 20,
+        "total": 200,
+        "newCount": 168,
+        "discoveryRate": 0.84,
+        "cumulativeUnique": 3592,
+        "cumulativeTotal": 4000
+      },
+      {
+        "runIndex": 21,
+        "seed": 21,
+        "total": 200,
+        "newCount": 164,
+        "discoveryRate": 0.82,
+        "cumulativeUnique": 3756,
+        "cumulativeTotal": 4200
+      },
+      {
+        "runIndex": 22,
+        "seed": 22,
+        "total": 200,
+        "newCount": 169,
+        "discoveryRate": 0.845,
+        "cumulativeUnique": 3925,
+        "cumulativeTotal": 4400
+      },
+      {
+        "runIndex": 23,
+        "seed": 23,
+        "total": 200,
+        "newCount": 174,
+        "discoveryRate": 0.87,
+        "cumulativeUnique": 4099,
+        "cumulativeTotal": 4600
+      },
+      {
+        "runIndex": 24,
+        "seed": 24,
+        "total": 200,
+        "newCount": 170,
+        "discoveryRate": 0.85,
+        "cumulativeUnique": 4269,
+        "cumulativeTotal": 4800
+      },
+      {
+        "runIndex": 25,
+        "seed": 25,
+        "total": 200,
+        "newCount": 181,
+        "discoveryRate": 0.905,
+        "cumulativeUnique": 4450,
+        "cumulativeTotal": 5000
+      },
+      {
+        "runIndex": 26,
+        "seed": 26,
+        "total": 200,
+        "newCount": 158,
+        "discoveryRate": 0.79,
+        "cumulativeUnique": 4608,
+        "cumulativeTotal": 5200
+      },
+      {
+        "runIndex": 27,
+        "seed": 27,
+        "total": 200,
+        "newCount": 157,
+        "discoveryRate": 0.785,
+        "cumulativeUnique": 4765,
+        "cumulativeTotal": 5400
+      },
+      {
+        "runIndex": 28,
+        "seed": 28,
+        "total": 200,
+        "newCount": 163,
+        "discoveryRate": 0.815,
+        "cumulativeUnique": 4928,
+        "cumulativeTotal": 5600
+      },
+      {
+        "runIndex": 29,
+        "seed": 29,
+        "total": 200,
+        "newCount": 171,
+        "discoveryRate": 0.855,
+        "cumulativeUnique": 5099,
+        "cumulativeTotal": 5800
+      },
+      {
+        "runIndex": 30,
+        "seed": 30,
+        "total": 200,
+        "newCount": 166,
+        "discoveryRate": 0.83,
+        "cumulativeUnique": 5265,
+        "cumulativeTotal": 6000
+      }
+    ]
+  },
+  {
+    "shapeKey": "1200|links|4",
+    "amount": 1200,
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": 4,
+    "normalization": "exponential",
+    "runs": [
+      {
+        "runIndex": 1,
+        "seed": 1,
+        "total": 1200,
+        "newCount": 1130,
+        "discoveryRate": 0.9416666666666667,
+        "cumulativeUnique": 1130,
+        "cumulativeTotal": 1200
+      },
+      {
+        "runIndex": 2,
+        "seed": 2,
+        "total": 1200,
+        "newCount": 1053,
+        "discoveryRate": 0.8775,
+        "cumulativeUnique": 2183,
+        "cumulativeTotal": 2400
+      },
+      {
+        "runIndex": 3,
+        "seed": 3,
+        "total": 1200,
+        "newCount": 1045,
+        "discoveryRate": 0.8708333333333333,
+        "cumulativeUnique": 3228,
+        "cumulativeTotal": 3600
+      },
+      {
+        "runIndex": 4,
+        "seed": 4,
+        "total": 1200,
+        "newCount": 1011,
+        "discoveryRate": 0.8425,
+        "cumulativeUnique": 4239,
+        "cumulativeTotal": 4800
+      },
+      {
+        "runIndex": 5,
+        "seed": 5,
+        "total": 1200,
+        "newCount": 1000,
+        "discoveryRate": 0.8333333333333334,
+        "cumulativeUnique": 5239,
+        "cumulativeTotal": 6000
+      },
+      {
+        "runIndex": 6,
+        "seed": 6,
+        "total": 1200,
+        "newCount": 987,
+        "discoveryRate": 0.8225,
+        "cumulativeUnique": 6226,
+        "cumulativeTotal": 7200
+      },
+      {
+        "runIndex": 7,
+        "seed": 7,
+        "total": 1200,
+        "newCount": 980,
+        "discoveryRate": 0.8166666666666667,
+        "cumulativeUnique": 7206,
+        "cumulativeTotal": 8400
+      },
+      {
+        "runIndex": 8,
+        "seed": 8,
+        "total": 1200,
+        "newCount": 927,
+        "discoveryRate": 0.7725,
+        "cumulativeUnique": 8133,
+        "cumulativeTotal": 9600
+      },
+      {
+        "runIndex": 9,
+        "seed": 9,
+        "total": 1200,
+        "newCount": 967,
+        "discoveryRate": 0.8058333333333333,
+        "cumulativeUnique": 9100,
+        "cumulativeTotal": 10800
+      },
+      {
+        "runIndex": 10,
+        "seed": 10,
+        "total": 1200,
+        "newCount": 919,
+        "discoveryRate": 0.7658333333333334,
+        "cumulativeUnique": 10019,
+        "cumulativeTotal": 12000
+      },
+      {
+        "runIndex": 11,
+        "seed": 11,
+        "total": 1200,
+        "newCount": 911,
+        "discoveryRate": 0.7591666666666667,
+        "cumulativeUnique": 10930,
+        "cumulativeTotal": 13200
+      },
+      {
+        "runIndex": 12,
+        "seed": 12,
+        "total": 1200,
+        "newCount": 931,
+        "discoveryRate": 0.7758333333333334,
+        "cumulativeUnique": 11861,
+        "cumulativeTotal": 14400
+      },
+      {
+        "runIndex": 13,
+        "seed": 13,
+        "total": 1200,
+        "newCount": 942,
+        "discoveryRate": 0.785,
+        "cumulativeUnique": 12803,
+        "cumulativeTotal": 15600
+      },
+      {
+        "runIndex": 14,
+        "seed": 14,
+        "total": 1200,
+        "newCount": 923,
+        "discoveryRate": 0.7691666666666667,
+        "cumulativeUnique": 13726,
+        "cumulativeTotal": 16800
+      },
+      {
+        "runIndex": 15,
+        "seed": 15,
+        "total": 1200,
+        "newCount": 933,
+        "discoveryRate": 0.7775,
+        "cumulativeUnique": 14659,
+        "cumulativeTotal": 18000
+      },
+      {
+        "runIndex": 16,
+        "seed": 16,
+        "total": 1200,
+        "newCount": 886,
+        "discoveryRate": 0.7383333333333333,
+        "cumulativeUnique": 15545,
+        "cumulativeTotal": 19200
+      },
+      {
+        "runIndex": 17,
+        "seed": 17,
+        "total": 1200,
+        "newCount": 906,
+        "discoveryRate": 0.755,
+        "cumulativeUnique": 16451,
+        "cumulativeTotal": 20400
+      },
+      {
+        "runIndex": 18,
+        "seed": 18,
+        "total": 1200,
+        "newCount": 910,
+        "discoveryRate": 0.7583333333333333,
+        "cumulativeUnique": 17361,
+        "cumulativeTotal": 21600
+      },
+      {
+        "runIndex": 19,
+        "seed": 19,
+        "total": 1200,
+        "newCount": 897,
+        "discoveryRate": 0.7475,
+        "cumulativeUnique": 18258,
+        "cumulativeTotal": 22800
+      },
+      {
+        "runIndex": 20,
+        "seed": 20,
+        "total": 1200,
+        "newCount": 838,
+        "discoveryRate": 0.6983333333333334,
+        "cumulativeUnique": 19096,
+        "cumulativeTotal": 24000
+      },
+      {
+        "runIndex": 21,
+        "seed": 21,
+        "total": 1200,
+        "newCount": 871,
+        "discoveryRate": 0.7258333333333333,
+        "cumulativeUnique": 19967,
+        "cumulativeTotal": 25200
+      },
+      {
+        "runIndex": 22,
+        "seed": 22,
+        "total": 1200,
+        "newCount": 861,
+        "discoveryRate": 0.7175,
+        "cumulativeUnique": 20828,
+        "cumulativeTotal": 26400
+      },
+      {
+        "runIndex": 23,
+        "seed": 23,
+        "total": 1200,
+        "newCount": 895,
+        "discoveryRate": 0.7458333333333333,
+        "cumulativeUnique": 21723,
+        "cumulativeTotal": 27600
+      },
+      {
+        "runIndex": 24,
+        "seed": 24,
+        "total": 1200,
+        "newCount": 864,
+        "discoveryRate": 0.72,
+        "cumulativeUnique": 22587,
+        "cumulativeTotal": 28800
+      },
+      {
+        "runIndex": 25,
+        "seed": 25,
+        "total": 1200,
+        "newCount": 854,
+        "discoveryRate": 0.7116666666666667,
+        "cumulativeUnique": 23441,
+        "cumulativeTotal": 30000
+      },
+      {
+        "runIndex": 26,
+        "seed": 26,
+        "total": 1200,
+        "newCount": 882,
+        "discoveryRate": 0.735,
+        "cumulativeUnique": 24323,
+        "cumulativeTotal": 31200
+      },
+      {
+        "runIndex": 27,
+        "seed": 27,
+        "total": 1200,
+        "newCount": 846,
+        "discoveryRate": 0.705,
+        "cumulativeUnique": 25169,
+        "cumulativeTotal": 32400
+      },
+      {
+        "runIndex": 28,
+        "seed": 28,
+        "total": 1200,
+        "newCount": 851,
+        "discoveryRate": 0.7091666666666666,
+        "cumulativeUnique": 26020,
+        "cumulativeTotal": 33600
+      },
+      {
+        "runIndex": 29,
+        "seed": 29,
+        "total": 1200,
+        "newCount": 848,
+        "discoveryRate": 0.7066666666666667,
+        "cumulativeUnique": 26868,
+        "cumulativeTotal": 34800
+      },
+      {
+        "runIndex": 30,
+        "seed": 30,
+        "total": 1200,
+        "newCount": 865,
+        "discoveryRate": 0.7208333333333333,
+        "cumulativeUnique": 27733,
+        "cumulativeTotal": 36000
+      }
+    ]
+  },
+  {
+    "shapeKey": "5000|links|4",
+    "amount": 5000,
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": 4,
+    "normalization": "exponential",
+    "runs": [
+      {
+        "runIndex": 1,
+        "seed": 1,
+        "total": 5000,
+        "newCount": 4426,
+        "discoveryRate": 0.8852,
+        "cumulativeUnique": 4426,
+        "cumulativeTotal": 5000
+      },
+      {
+        "runIndex": 2,
+        "seed": 2,
+        "total": 5000,
+        "newCount": 4053,
+        "discoveryRate": 0.8106,
+        "cumulativeUnique": 8479,
+        "cumulativeTotal": 10000
+      },
+      {
+        "runIndex": 3,
+        "seed": 3,
+        "total": 5000,
+        "newCount": 3885,
+        "discoveryRate": 0.777,
+        "cumulativeUnique": 12364,
+        "cumulativeTotal": 15000
+      },
+      {
+        "runIndex": 4,
+        "seed": 4,
+        "total": 5000,
+        "newCount": 3756,
+        "discoveryRate": 0.7512,
+        "cumulativeUnique": 16120,
+        "cumulativeTotal": 20000
+      },
+      {
+        "runIndex": 5,
+        "seed": 5,
+        "total": 5000,
+        "newCount": 3740,
+        "discoveryRate": 0.748,
+        "cumulativeUnique": 19860,
+        "cumulativeTotal": 25000
+      },
+      {
+        "runIndex": 6,
+        "seed": 6,
+        "total": 5000,
+        "newCount": 3600,
+        "discoveryRate": 0.72,
+        "cumulativeUnique": 23460,
+        "cumulativeTotal": 30000
+      },
+      {
+        "runIndex": 7,
+        "seed": 7,
+        "total": 5000,
+        "newCount": 3564,
+        "discoveryRate": 0.7128,
+        "cumulativeUnique": 27024,
+        "cumulativeTotal": 35000
+      },
+      {
+        "runIndex": 8,
+        "seed": 8,
+        "total": 5000,
+        "newCount": 3488,
+        "discoveryRate": 0.6976,
+        "cumulativeUnique": 30512,
+        "cumulativeTotal": 40000
+      },
+      {
+        "runIndex": 9,
+        "seed": 9,
+        "total": 5000,
+        "newCount": 3463,
+        "discoveryRate": 0.6926,
+        "cumulativeUnique": 33975,
+        "cumulativeTotal": 45000
+      },
+      {
+        "runIndex": 10,
+        "seed": 10,
+        "total": 5000,
+        "newCount": 3368,
+        "discoveryRate": 0.6736,
+        "cumulativeUnique": 37343,
+        "cumulativeTotal": 50000
+      },
+      {
+        "runIndex": 11,
+        "seed": 11,
+        "total": 5000,
+        "newCount": 3372,
+        "discoveryRate": 0.6744,
+        "cumulativeUnique": 40715,
+        "cumulativeTotal": 55000
+      },
+      {
+        "runIndex": 12,
+        "seed": 12,
+        "total": 5000,
+        "newCount": 3349,
+        "discoveryRate": 0.6698,
+        "cumulativeUnique": 44064,
+        "cumulativeTotal": 60000
+      },
+      {
+        "runIndex": 13,
+        "seed": 13,
+        "total": 5000,
+        "newCount": 3356,
+        "discoveryRate": 0.6712,
+        "cumulativeUnique": 47420,
+        "cumulativeTotal": 65000
+      },
+      {
+        "runIndex": 14,
+        "seed": 14,
+        "total": 5000,
+        "newCount": 3264,
+        "discoveryRate": 0.6528,
+        "cumulativeUnique": 50684,
+        "cumulativeTotal": 70000
+      },
+      {
+        "runIndex": 15,
+        "seed": 15,
+        "total": 5000,
+        "newCount": 3288,
+        "discoveryRate": 0.6576,
+        "cumulativeUnique": 53972,
+        "cumulativeTotal": 75000
+      },
+      {
+        "runIndex": 16,
+        "seed": 16,
+        "total": 5000,
+        "newCount": 3211,
+        "discoveryRate": 0.6422,
+        "cumulativeUnique": 57183,
+        "cumulativeTotal": 80000
+      },
+      {
+        "runIndex": 17,
+        "seed": 17,
+        "total": 5000,
+        "newCount": 3199,
+        "discoveryRate": 0.6398,
+        "cumulativeUnique": 60382,
+        "cumulativeTotal": 85000
+      },
+      {
+        "runIndex": 18,
+        "seed": 18,
+        "total": 5000,
+        "newCount": 3193,
+        "discoveryRate": 0.6386,
+        "cumulativeUnique": 63575,
+        "cumulativeTotal": 90000
+      },
+      {
+        "runIndex": 19,
+        "seed": 19,
+        "total": 5000,
+        "newCount": 3192,
+        "discoveryRate": 0.6384,
+        "cumulativeUnique": 66767,
+        "cumulativeTotal": 95000
+      },
+      {
+        "runIndex": 20,
+        "seed": 20,
+        "total": 5000,
+        "newCount": 3136,
+        "discoveryRate": 0.6272,
+        "cumulativeUnique": 69903,
+        "cumulativeTotal": 100000
+      },
+      {
+        "runIndex": 21,
+        "seed": 21,
+        "total": 5000,
+        "newCount": 3141,
+        "discoveryRate": 0.6282,
+        "cumulativeUnique": 73044,
+        "cumulativeTotal": 105000
+      },
+      {
+        "runIndex": 22,
+        "seed": 22,
+        "total": 5000,
+        "newCount": 3136,
+        "discoveryRate": 0.6272,
+        "cumulativeUnique": 76180,
+        "cumulativeTotal": 110000
+      },
+      {
+        "runIndex": 23,
+        "seed": 23,
+        "total": 5000,
+        "newCount": 3142,
+        "discoveryRate": 0.6284,
+        "cumulativeUnique": 79322,
+        "cumulativeTotal": 115000
+      },
+      {
+        "runIndex": 24,
+        "seed": 24,
+        "total": 5000,
+        "newCount": 3107,
+        "discoveryRate": 0.6214,
+        "cumulativeUnique": 82429,
+        "cumulativeTotal": 120000
+      },
+      {
+        "runIndex": 25,
+        "seed": 25,
+        "total": 5000,
+        "newCount": 3105,
+        "discoveryRate": 0.621,
+        "cumulativeUnique": 85534,
+        "cumulativeTotal": 125000
+      },
+      {
+        "runIndex": 26,
+        "seed": 26,
+        "total": 5000,
+        "newCount": 3128,
+        "discoveryRate": 0.6256,
+        "cumulativeUnique": 88662,
+        "cumulativeTotal": 130000
+      },
+      {
+        "runIndex": 27,
+        "seed": 27,
+        "total": 5000,
+        "newCount": 3137,
+        "discoveryRate": 0.6274,
+        "cumulativeUnique": 91799,
+        "cumulativeTotal": 135000
+      },
+      {
+        "runIndex": 28,
+        "seed": 28,
+        "total": 5000,
+        "newCount": 3122,
+        "discoveryRate": 0.6244,
+        "cumulativeUnique": 94921,
+        "cumulativeTotal": 140000
+      },
+      {
+        "runIndex": 29,
+        "seed": 29,
+        "total": 5000,
+        "newCount": 3083,
+        "discoveryRate": 0.6166,
+        "cumulativeUnique": 98004,
+        "cumulativeTotal": 145000
+      },
+      {
+        "runIndex": 30,
+        "seed": 30,
+        "total": 5000,
+        "newCount": 3079,
+        "discoveryRate": 0.6158,
+        "cumulativeUnique": 101083,
+        "cumulativeTotal": 150000
+      }
+    ]
+  },
+  {
+    "shapeKey": "1200|links|10",
+    "amount": 1200,
+    "nestingOrLinksType": "links",
+    "nestingOrLinks": 10,
+    "normalization": "exponential",
+    "runs": [
+      {
+        "runIndex": 1,
+        "seed": 1,
+        "total": 1200,
+        "newCount": 1186,
+        "discoveryRate": 0.9883333333333333,
+        "cumulativeUnique": 1186,
+        "cumulativeTotal": 1200
+      },
+      {
+        "runIndex": 2,
+        "seed": 2,
+        "total": 1200,
+        "newCount": 1177,
+        "discoveryRate": 0.9808333333333333,
+        "cumulativeUnique": 2363,
+        "cumulativeTotal": 2400
+      },
+      {
+        "runIndex": 3,
+        "seed": 3,
+        "total": 1200,
+        "newCount": 1147,
+        "discoveryRate": 0.9558333333333333,
+        "cumulativeUnique": 3510,
+        "cumulativeTotal": 3600
+      },
+      {
+        "runIndex": 4,
+        "seed": 4,
+        "total": 1200,
+        "newCount": 1132,
+        "discoveryRate": 0.9433333333333334,
+        "cumulativeUnique": 4642,
+        "cumulativeTotal": 4800
+      },
+      {
+        "runIndex": 5,
+        "seed": 5,
+        "total": 1200,
+        "newCount": 1136,
+        "discoveryRate": 0.9466666666666667,
+        "cumulativeUnique": 5778,
+        "cumulativeTotal": 6000
+      },
+      {
+        "runIndex": 6,
+        "seed": 6,
+        "total": 1200,
+        "newCount": 1097,
+        "discoveryRate": 0.9141666666666667,
+        "cumulativeUnique": 6875,
+        "cumulativeTotal": 7200
+      },
+      {
+        "runIndex": 7,
+        "seed": 7,
+        "total": 1200,
+        "newCount": 1121,
+        "discoveryRate": 0.9341666666666667,
+        "cumulativeUnique": 7996,
+        "cumulativeTotal": 8400
+      },
+      {
+        "runIndex": 8,
+        "seed": 8,
+        "total": 1200,
+        "newCount": 1117,
+        "discoveryRate": 0.9308333333333333,
+        "cumulativeUnique": 9113,
+        "cumulativeTotal": 9600
+      },
+      {
+        "runIndex": 9,
+        "seed": 9,
+        "total": 1200,
+        "newCount": 1120,
+        "discoveryRate": 0.9333333333333333,
+        "cumulativeUnique": 10233,
+        "cumulativeTotal": 10800
+      },
+      {
+        "runIndex": 10,
+        "seed": 10,
+        "total": 1200,
+        "newCount": 1113,
+        "discoveryRate": 0.9275,
+        "cumulativeUnique": 11346,
+        "cumulativeTotal": 12000
+      },
+      {
+        "runIndex": 11,
+        "seed": 11,
+        "total": 1200,
+        "newCount": 1103,
+        "discoveryRate": 0.9191666666666667,
+        "cumulativeUnique": 12449,
+        "cumulativeTotal": 13200
+      },
+      {
+        "runIndex": 12,
+        "seed": 12,
+        "total": 1200,
+        "newCount": 1095,
+        "discoveryRate": 0.9125,
+        "cumulativeUnique": 13544,
+        "cumulativeTotal": 14400
+      },
+      {
+        "runIndex": 13,
+        "seed": 13,
+        "total": 1200,
+        "newCount": 1107,
+        "discoveryRate": 0.9225,
+        "cumulativeUnique": 14651,
+        "cumulativeTotal": 15600
+      },
+      {
+        "runIndex": 14,
+        "seed": 14,
+        "total": 1200,
+        "newCount": 1100,
+        "discoveryRate": 0.9166666666666666,
+        "cumulativeUnique": 15751,
+        "cumulativeTotal": 16800
+      },
+      {
+        "runIndex": 15,
+        "seed": 15,
+        "total": 1200,
+        "newCount": 1088,
+        "discoveryRate": 0.9066666666666666,
+        "cumulativeUnique": 16839,
+        "cumulativeTotal": 18000
+      },
+      {
+        "runIndex": 16,
+        "seed": 16,
+        "total": 1200,
+        "newCount": 1101,
+        "discoveryRate": 0.9175,
+        "cumulativeUnique": 17940,
+        "cumulativeTotal": 19200
+      },
+      {
+        "runIndex": 17,
+        "seed": 17,
+        "total": 1200,
+        "newCount": 1082,
+        "discoveryRate": 0.9016666666666666,
+        "cumulativeUnique": 19022,
+        "cumulativeTotal": 20400
+      },
+      {
+        "runIndex": 18,
+        "seed": 18,
+        "total": 1200,
+        "newCount": 1084,
+        "discoveryRate": 0.9033333333333333,
+        "cumulativeUnique": 20106,
+        "cumulativeTotal": 21600
+      },
+      {
+        "runIndex": 19,
+        "seed": 19,
+        "total": 1200,
+        "newCount": 1087,
+        "discoveryRate": 0.9058333333333334,
+        "cumulativeUnique": 21193,
+        "cumulativeTotal": 22800
+      },
+      {
+        "runIndex": 20,
+        "seed": 20,
+        "total": 1200,
+        "newCount": 1089,
+        "discoveryRate": 0.9075,
+        "cumulativeUnique": 22282,
+        "cumulativeTotal": 24000
+      },
+      {
+        "runIndex": 21,
+        "seed": 21,
+        "total": 1200,
+        "newCount": 1084,
+        "discoveryRate": 0.9033333333333333,
+        "cumulativeUnique": 23366,
+        "cumulativeTotal": 25200
+      },
+      {
+        "runIndex": 22,
+        "seed": 22,
+        "total": 1200,
+        "newCount": 1071,
+        "discoveryRate": 0.8925,
+        "cumulativeUnique": 24437,
+        "cumulativeTotal": 26400
+      },
+      {
+        "runIndex": 23,
+        "seed": 23,
+        "total": 1200,
+        "newCount": 1083,
+        "discoveryRate": 0.9025,
+        "cumulativeUnique": 25520,
+        "cumulativeTotal": 27600
+      },
+      {
+        "runIndex": 24,
+        "seed": 24,
+        "total": 1200,
+        "newCount": 1078,
+        "discoveryRate": 0.8983333333333333,
+        "cumulativeUnique": 26598,
+        "cumulativeTotal": 28800
+      },
+      {
+        "runIndex": 25,
+        "seed": 25,
+        "total": 1200,
+        "newCount": 1089,
+        "discoveryRate": 0.9075,
+        "cumulativeUnique": 27687,
+        "cumulativeTotal": 30000
+      },
+      {
+        "runIndex": 26,
+        "seed": 26,
+        "total": 1200,
+        "newCount": 1065,
+        "discoveryRate": 0.8875,
+        "cumulativeUnique": 28752,
+        "cumulativeTotal": 31200
+      },
+      {
+        "runIndex": 27,
+        "seed": 27,
+        "total": 1200,
+        "newCount": 1065,
+        "discoveryRate": 0.8875,
+        "cumulativeUnique": 29817,
+        "cumulativeTotal": 32400
+      },
+      {
+        "runIndex": 28,
+        "seed": 28,
+        "total": 1200,
+        "newCount": 1077,
+        "discoveryRate": 0.8975,
+        "cumulativeUnique": 30894,
+        "cumulativeTotal": 33600
+      },
+      {
+        "runIndex": 29,
+        "seed": 29,
+        "total": 1200,
+        "newCount": 1090,
+        "discoveryRate": 0.9083333333333333,
+        "cumulativeUnique": 31984,
+        "cumulativeTotal": 34800
+      },
+      {
+        "runIndex": 30,
+        "seed": 30,
+        "total": 1200,
+        "newCount": 1074,
+        "discoveryRate": 0.895,
+        "cumulativeUnique": 33058,
+        "cumulativeTotal": 36000
+      }
+    ]
+  },
+  {
+    "shapeKey": "1200|nesting|0",
+    "amount": 1200,
+    "nestingOrLinksType": "nesting",
+    "nestingOrLinks": 0,
+    "normalization": "exponential",
+    "runs": [
+      {
+        "runIndex": 1,
+        "seed": 1,
+        "total": 1200,
+        "newCount": 914,
+        "discoveryRate": 0.7616666666666667,
+        "cumulativeUnique": 914,
+        "cumulativeTotal": 1200
+      },
+      {
+        "runIndex": 2,
+        "seed": 2,
+        "total": 1200,
+        "newCount": 739,
+        "discoveryRate": 0.6158333333333333,
+        "cumulativeUnique": 1653,
+        "cumulativeTotal": 2400
+      },
+      {
+        "runIndex": 3,
+        "seed": 3,
+        "total": 1200,
+        "newCount": 632,
+        "discoveryRate": 0.5266666666666666,
+        "cumulativeUnique": 2285,
+        "cumulativeTotal": 3600
+      },
+      {
+        "runIndex": 4,
+        "seed": 4,
+        "total": 1200,
+        "newCount": 597,
+        "discoveryRate": 0.4975,
+        "cumulativeUnique": 2882,
+        "cumulativeTotal": 4800
+      },
+      {
+        "runIndex": 5,
+        "seed": 5,
+        "total": 1200,
+        "newCount": 511,
+        "discoveryRate": 0.42583333333333334,
+        "cumulativeUnique": 3393,
+        "cumulativeTotal": 6000
+      },
+      {
+        "runIndex": 6,
+        "seed": 6,
+        "total": 1200,
+        "newCount": 465,
+        "discoveryRate": 0.3875,
+        "cumulativeUnique": 3858,
+        "cumulativeTotal": 7200
+      },
+      {
+        "runIndex": 7,
+        "seed": 7,
+        "total": 1200,
+        "newCount": 469,
+        "discoveryRate": 0.3908333333333333,
+        "cumulativeUnique": 4327,
+        "cumulativeTotal": 8400
+      },
+      {
+        "runIndex": 8,
+        "seed": 8,
+        "total": 1200,
+        "newCount": 415,
+        "discoveryRate": 0.3458333333333333,
+        "cumulativeUnique": 4742,
+        "cumulativeTotal": 9600
+      },
+      {
+        "runIndex": 9,
+        "seed": 9,
+        "total": 1200,
+        "newCount": 405,
+        "discoveryRate": 0.3375,
+        "cumulativeUnique": 5147,
+        "cumulativeTotal": 10800
+      },
+      {
+        "runIndex": 10,
+        "seed": 10,
+        "total": 1200,
+        "newCount": 389,
+        "discoveryRate": 0.32416666666666666,
+        "cumulativeUnique": 5536,
+        "cumulativeTotal": 12000
+      },
+      {
+        "runIndex": 11,
+        "seed": 11,
+        "total": 1200,
+        "newCount": 344,
+        "discoveryRate": 0.2866666666666667,
+        "cumulativeUnique": 5880,
+        "cumulativeTotal": 13200
+      },
+      {
+        "runIndex": 12,
+        "seed": 12,
+        "total": 1200,
+        "newCount": 349,
+        "discoveryRate": 0.29083333333333333,
+        "cumulativeUnique": 6229,
+        "cumulativeTotal": 14400
+      },
+      {
+        "runIndex": 13,
+        "seed": 13,
+        "total": 1200,
+        "newCount": 280,
+        "discoveryRate": 0.23333333333333334,
+        "cumulativeUnique": 6509,
+        "cumulativeTotal": 15600
+      },
+      {
+        "runIndex": 14,
+        "seed": 14,
+        "total": 1200,
+        "newCount": 276,
+        "discoveryRate": 0.23,
+        "cumulativeUnique": 6785,
+        "cumulativeTotal": 16800
+      },
+      {
+        "runIndex": 15,
+        "seed": 15,
+        "total": 1200,
+        "newCount": 278,
+        "discoveryRate": 0.23166666666666666,
+        "cumulativeUnique": 7063,
+        "cumulativeTotal": 18000
+      },
+      {
+        "runIndex": 16,
+        "seed": 16,
+        "total": 1200,
+        "newCount": 239,
+        "discoveryRate": 0.19916666666666666,
+        "cumulativeUnique": 7302,
+        "cumulativeTotal": 19200
+      },
+      {
+        "runIndex": 17,
+        "seed": 17,
+        "total": 1200,
+        "newCount": 227,
+        "discoveryRate": 0.18916666666666668,
+        "cumulativeUnique": 7529,
+        "cumulativeTotal": 20400
+      },
+      {
+        "runIndex": 18,
+        "seed": 18,
+        "total": 1200,
+        "newCount": 256,
+        "discoveryRate": 0.21333333333333335,
+        "cumulativeUnique": 7785,
+        "cumulativeTotal": 21600
+      },
+      {
+        "runIndex": 19,
+        "seed": 19,
+        "total": 1200,
+        "newCount": 235,
+        "discoveryRate": 0.19583333333333333,
+        "cumulativeUnique": 8020,
+        "cumulativeTotal": 22800
+      },
+      {
+        "runIndex": 20,
+        "seed": 20,
+        "total": 1200,
+        "newCount": 221,
+        "discoveryRate": 0.18416666666666667,
+        "cumulativeUnique": 8241,
+        "cumulativeTotal": 24000
+      },
+      {
+        "runIndex": 21,
+        "seed": 21,
+        "total": 1200,
+        "newCount": 216,
+        "discoveryRate": 0.18,
+        "cumulativeUnique": 8457,
+        "cumulativeTotal": 25200
+      },
+      {
+        "runIndex": 22,
+        "seed": 22,
+        "total": 1200,
+        "newCount": 211,
+        "discoveryRate": 0.17583333333333334,
+        "cumulativeUnique": 8668,
+        "cumulativeTotal": 26400
+      },
+      {
+        "runIndex": 23,
+        "seed": 23,
+        "total": 1200,
+        "newCount": 198,
+        "discoveryRate": 0.165,
+        "cumulativeUnique": 8866,
+        "cumulativeTotal": 27600
+      },
+      {
+        "runIndex": 24,
+        "seed": 24,
+        "total": 1200,
+        "newCount": 171,
+        "discoveryRate": 0.1425,
+        "cumulativeUnique": 9037,
+        "cumulativeTotal": 28800
+      },
+      {
+        "runIndex": 25,
+        "seed": 25,
+        "total": 1200,
+        "newCount": 172,
+        "discoveryRate": 0.14333333333333334,
+        "cumulativeUnique": 9209,
+        "cumulativeTotal": 30000
+      },
+      {
+        "runIndex": 26,
+        "seed": 26,
+        "total": 1200,
+        "newCount": 162,
+        "discoveryRate": 0.135,
+        "cumulativeUnique": 9371,
+        "cumulativeTotal": 31200
+      },
+      {
+        "runIndex": 27,
+        "seed": 27,
+        "total": 1200,
+        "newCount": 153,
+        "discoveryRate": 0.1275,
+        "cumulativeUnique": 9524,
+        "cumulativeTotal": 32400
+      },
+      {
+        "runIndex": 28,
+        "seed": 28,
+        "total": 1200,
+        "newCount": 161,
+        "discoveryRate": 0.13416666666666666,
+        "cumulativeUnique": 9685,
+        "cumulativeTotal": 33600
+      },
+      {
+        "runIndex": 29,
+        "seed": 29,
+        "total": 1200,
+        "newCount": 135,
+        "discoveryRate": 0.1125,
+        "cumulativeUnique": 9820,
+        "cumulativeTotal": 34800
+      },
+      {
+        "runIndex": 30,
+        "seed": 30,
+        "total": 1200,
+        "newCount": 156,
+        "discoveryRate": 0.13,
+        "cumulativeUnique": 9976,
+        "cumulativeTotal": 36000
+      }
+    ]
+  }
+]

@@ -10,6 +10,7 @@ import {
 	highestTier,
 	resultsToMarkdownTable,
 	uniquenessRatio,
+	validUniquenessRatio,
 	validityPercent,
 } from "@/lib/batch";
 
@@ -60,6 +61,7 @@ export function ResultsTable({ results }: { results: BatchResult[] }) {
 						<th>Amount of Spells</th>
 						<th>Validity %</th>
 						<th>Avg Uniqueness Ratio</th>
+						<th>Avg Uniqueness Ratio (valid only)</th>
 						<th>Avg Complexity Score</th>
 						<th>Avg Raw Score</th>
 						<th>Highest Tier</th>
@@ -77,6 +79,9 @@ export function ResultsTable({ results }: { results: BatchResult[] }) {
 							<td>{validityPercent(result.metrics)}</td>
 							<td>
 								{uniquenessRatio(result.metrics).toFixed(2)}
+							</td>
+							<td>
+								{validUniquenessRatio(result.metrics).toFixed(2)}
 							</td>
 							<td>{result.metrics.avgScore.toFixed(2)}</td>
 							<td>{result.metrics.avgRawScore.toFixed(2)}</td>

@@ -1,0 +1,351 @@
+{
+  "seed": 12345,
+  "nesting": [
+    {
+      "amount": 12,
+      "uniquenessRatio": 1,
+      "uniquenessRatioValidOnly": 1,
+      "validityPct": 66.66666666666666
+    },
+    {
+      "amount": 25,
+      "uniquenessRatio": 1,
+      "uniquenessRatioValidOnly": 1,
+      "validityPct": 56.00000000000001
+    },
+    {
+      "amount": 50,
+      "uniquenessRatio": 1,
+      "uniquenessRatioValidOnly": 1,
+      "validityPct": 70
+    },
+    {
+      "amount": 100,
+      "uniquenessRatio": 1,
+      "uniquenessRatioValidOnly": 1,
+      "validityPct": 75
+    },
+    {
+      "amount": 200,
+      "uniquenessRatio": 0.99,
+      "uniquenessRatioValidOnly": 0.9935064935064936,
+      "validityPct": 77
+    },
+    {
+      "amount": 400,
+      "uniquenessRatio": 0.99,
+      "uniquenessRatioValidOnly": 0.990228013029316,
+      "validityPct": 76.75
+    },
+    {
+      "amount": 800,
+      "uniquenessRatio": 0.985,
+      "uniquenessRatioValidOnly": 0.9870550161812298,
+      "validityPct": 77.25
+    },
+    {
+      "amount": 1200,
+      "uniquenessRatio": 0.965,
+      "uniquenessRatioValidOnly": 0.96,
+      "validityPct": 77.08333333333334
+    },
+    {
+      "amount": 2000,
+      "uniquenessRatio": 0.94,
+      "uniquenessRatioValidOnly": 0.9282018111254852,
+      "validityPct": 77.3
+    },
+    {
+      "amount": 3000,
+      "uniquenessRatio": 0.92,
+      "uniquenessRatioValidOnly": 0.9040382110290925,
+      "validityPct": 76.76666666666667
+    },
+    {
+      "amount": 5000,
+      "uniquenessRatio": 0.8918,
+      "uniquenessRatioValidOnly": 0.8703071672354948,
+      "validityPct": 76.18
+    },
+    {
+      "amount": 8000,
+      "uniquenessRatio": 0.864875,
+      "uniquenessRatioValidOnly": 0.8404412975465174,
+      "validityPct": 75.91250000000001
+    },
+    {
+      "amount": 12000,
+      "uniquenessRatio": 0.8405833333333333,
+      "uniquenessRatioValidOnly": 0.8120218579234972,
+      "validityPct": 76.25
+    },
+    {
+      "amount": 20000,
+      "uniquenessRatio": 0.80895,
+      "uniquenessRatioValidOnly": 0.7761311993677139,
+      "validityPct": 75.91499999999999
+    },
+    {
+      "amount": 35000,
+      "uniquenessRatio": 0.7718,
+      "uniquenessRatioValidOnly": 0.7324128615915657,
+      "validityPct": 76.15142857142857
+    },
+    {
+      "amount": 60000,
+      "uniquenessRatio": 0.7329666666666667,
+      "uniquenessRatioValidOnly": 0.6863255529061755,
+      "validityPct": 76.18833333333333
+    },
+    {
+      "amount": 100000,
+      "uniquenessRatio": 0.69965,
+      "uniquenessRatioValidOnly": 0.646577576682275,
+      "validityPct": 76.02799999999999
+    },
+    {
+      "amount": 150000,
+      "uniquenessRatio": 0.6744733333333334,
+      "uniquenessRatioValidOnly": 0.6182855442876267,
+      "validityPct": 76.19133333333333
+    },
+    {
+      "amount": 200000,
+      "uniquenessRatio": 0.656335,
+      "uniquenessRatioValidOnly": 0.5981396081106789,
+      "validityPct": 76.2205
+    }
+  ],
+  "links": [
+    {
+      "amount": 12,
+      "uniquenessRatio": 1,
+      "uniquenessRatioValidOnly": 1,
+      "validityPct": 75
+    },
+    {
+      "amount": 25,
+      "uniquenessRatio": 1,
+      "uniquenessRatioValidOnly": 1,
+      "validityPct": 60
+    },
+    {
+      "amount": 50,
+      "uniquenessRatio": 1,
+      "uniquenessRatioValidOnly": 1,
+      "validityPct": 70
+    },
+    {
+      "amount": 100,
+      "uniquenessRatio": 0.99,
+      "uniquenessRatioValidOnly": 0.9863013698630136,
+      "validityPct": 73
+    },
+    {
+      "amount": 200,
+      "uniquenessRatio": 0.99,
+      "uniquenessRatioValidOnly": 0.9864864864864865,
+      "validityPct": 74
+    },
+    {
+      "amount": 400,
+      "uniquenessRatio": 0.9675,
+      "uniquenessRatioValidOnly": 0.9611650485436893,
+      "validityPct": 77.25
+    },
+    {
+      "amount": 800,
+      "uniquenessRatio": 0.95625,
+      "uniquenessRatioValidOnly": 0.9466019417475728,
+      "validityPct": 77.25
+    },
+    {
+      "amount": 1200,
+      "uniquenessRatio": 0.9441666666666667,
+      "uniquenessRatioValidOnly": 0.9312567132116004,
+      "validityPct": 77.58333333333334
+    },
+    {
+      "amount": 2000,
+      "uniquenessRatio": 0.926,
+      "uniquenessRatioValidOnly": 0.90956749672346,
+      "validityPct": 76.3
+    },
+    {
+      "amount": 3000,
+      "uniquenessRatio": 0.9106666666666666,
+      "uniquenessRatioValidOnly": 0.8902064119455424,
+      "validityPct": 75.9
+    },
+    {
+      "amount": 5000,
+      "uniquenessRatio": 0.8834,
+      "uniquenessRatioValidOnly": 0.8613467656415694,
+      "validityPct": 75.44
+    },
+    {
+      "amount": 8000,
+      "uniquenessRatio": 0.859625,
+      "uniquenessRatioValidOnly": 0.8330290456431535,
+      "validityPct": 75.3125
+    },
+    {
+      "amount": 12000,
+      "uniquenessRatio": 0.8405833333333333,
+      "uniquenessRatioValidOnly": 0.8125482412614401,
+      "validityPct": 75.575
+    },
+    {
+      "amount": 20000,
+      "uniquenessRatio": 0.8094,
+      "uniquenessRatioValidOnly": 0.7758575197889183,
+      "validityPct": 75.8
+    },
+    {
+      "amount": 35000,
+      "uniquenessRatio": 0.7712857142857142,
+      "uniquenessRatioValidOnly": 0.7307374896841473,
+      "validityPct": 76.16571428571429
+    },
+    {
+      "amount": 60000,
+      "uniquenessRatio": 0.73315,
+      "uniquenessRatioValidOnly": 0.685963260569702,
+      "validityPct": 76.12166666666667
+    },
+    {
+      "amount": 100000,
+      "uniquenessRatio": 0.69865,
+      "uniquenessRatioValidOnly": 0.6460035197394343,
+      "validityPct": 76.142
+    },
+    {
+      "amount": 150000,
+      "uniquenessRatio": 0.6721866666666667,
+      "uniquenessRatioValidOnly": 0.6157347431812612,
+      "validityPct": 76.16266666666667
+    },
+    {
+      "amount": 200000,
+      "uniquenessRatio": 0.654915,
+      "uniquenessRatioValidOnly": 0.5965369442931127,
+      "validityPct": 76.1755
+    }
+  ],
+  "flat": [
+    {
+      "amount": 12,
+      "uniquenessRatio": 1,
+      "uniquenessRatioValidOnly": 1,
+      "validityPct": 83.33333333333334
+    },
+    {
+      "amount": 25,
+      "uniquenessRatio": 1,
+      "uniquenessRatioValidOnly": 1,
+      "validityPct": 84
+    },
+    {
+      "amount": 50,
+      "uniquenessRatio": 1,
+      "uniquenessRatioValidOnly": 1,
+      "validityPct": 86
+    },
+    {
+      "amount": 100,
+      "uniquenessRatio": 0.99,
+      "uniquenessRatioValidOnly": 0.9882352941176471,
+      "validityPct": 85
+    },
+    {
+      "amount": 200,
+      "uniquenessRatio": 0.945,
+      "uniquenessRatioValidOnly": 0.9556962025316456,
+      "validityPct": 79
+    },
+    {
+      "amount": 400,
+      "uniquenessRatio": 0.9025,
+      "uniquenessRatioValidOnly": 0.9014925373134328,
+      "validityPct": 83.75
+    },
+    {
+      "amount": 800,
+      "uniquenessRatio": 0.835,
+      "uniquenessRatioValidOnly": 0.8218978102189781,
+      "validityPct": 85.625
+    },
+    {
+      "amount": 1200,
+      "uniquenessRatio": 0.7841666666666667,
+      "uniquenessRatioValidOnly": 0.7696737044145874,
+      "validityPct": 86.83333333333333
+    },
+    {
+      "amount": 2000,
+      "uniquenessRatio": 0.727,
+      "uniquenessRatioValidOnly": 0.7148571428571429,
+      "validityPct": 87.5
+    },
+    {
+      "amount": 3000,
+      "uniquenessRatio": 0.6706666666666666,
+      "uniquenessRatioValidOnly": 0.6581359816653934,
+      "validityPct": 87.26666666666667
+    },
+    {
+      "amount": 5000,
+      "uniquenessRatio": 0.6004,
+      "uniquenessRatioValidOnly": 0.5876146788990826,
+      "validityPct": 87.2
+    },
+    {
+      "amount": 8000,
+      "uniquenessRatio": 0.532625,
+      "uniquenessRatioValidOnly": 0.5204183980512967,
+      "validityPct": 87.2375
+    },
+    {
+      "amount": 12000,
+      "uniquenessRatio": 0.4658333333333333,
+      "uniquenessRatioValidOnly": 0.45161597864429404,
+      "validityPct": 87.40833333333333
+    },
+    {
+      "amount": 20000,
+      "uniquenessRatio": 0.3785,
+      "uniquenessRatioValidOnly": 0.36339250042805776,
+      "validityPct": 87.605
+    },
+    {
+      "amount": 35000,
+      "uniquenessRatio": 0.28485714285714286,
+      "uniquenessRatioValidOnly": 0.26961790286328546,
+      "validityPct": 87.71142857142857
+    },
+    {
+      "amount": 60000,
+      "uniquenessRatio": 0.20275,
+      "uniquenessRatioValidOnly": 0.189282463592233,
+      "validityPct": 87.89333333333333
+    },
+    {
+      "amount": 100000,
+      "uniquenessRatio": 0.13859,
+      "uniquenessRatioValidOnly": 0.12814889724680992,
+      "validityPct": 88.007
+    },
+    {
+      "amount": 150000,
+      "uniquenessRatio": 0.09956666666666666,
+      "uniquenessRatioValidOnly": 0.09152691499609378,
+      "validityPct": 87.894
+    },
+    {
+      "amount": 200000,
+      "uniquenessRatio": 0.077435,
+      "uniquenessRatioValidOnly": 0.07081255933735453,
+      "validityPct": 87.9505
+    }
+  ]
+}

@@ -70,6 +70,10 @@ export function MetricsWorkspace({
 					<strong>{metrics.unique.toLocaleString()}</strong>
 				</span>
 				<span>
+					STRUCTURALLY DISTINCT (VALID ONLY){" "}
+					<strong>{metrics.uniqueValid.toLocaleString()}</strong>
+				</span>
+				<span>
 					MAX NESTING <strong>{metrics.maxNesting.toFixed(3)}</strong>
 				</span>
 				<span>
@@ -207,7 +211,7 @@ export function MetricsWorkspace({
 				</Panel>
 				<Panel
 					title="Diversity saturation"
-					note="Cumulative distinct count as more spells are generated"
+					note="Cumulative distinct count as more spells are generated (mint = all spells, purple = valid only)"
 					wide
 				>
 					<div className="sparkline">
@@ -216,6 +220,20 @@ export function MetricsWorkspace({
 								key={point.n}
 								style={{
 									height: `${(point.unique / metrics.unique) * 100}%`,
+									left: `${(index / (metrics.saturation.length - 1)) * 100}%`,
+								}}
+							/>
+						))}
+						{metrics.saturation.map((point, index) => (
+							<span
+								key={`valid-${point.n}`}
+								className="valid-only"
+								style={{
+									height: `${
+										metrics.uniqueValid > 0
+											? (point.uniqueValid / metrics.uniqueValid) * 100
+											: 0
+									}%`,
 									left: `${(index / (metrics.saturation.length - 1)) * 100}%`,
 								}}
 							/>
