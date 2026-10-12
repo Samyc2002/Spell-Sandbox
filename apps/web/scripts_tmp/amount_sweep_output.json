@@ -1,0 +1,503 @@
+{
+  "nestingShapeRows": [
+    {
+      "amount": 12,
+      "normalization": "sigmoid",
+      "maxNesting": 4,
+      "maxLinking": 0,
+      "validityPct": 66.66666666666666,
+      "uniquenessRatio": 1,
+      "avgRawScore": 15.25,
+      "avgComplexityScore": 0.4231263198180717,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 120,
+      "normalization": "sigmoid",
+      "maxNesting": 4,
+      "maxLinking": 0,
+      "validityPct": 76.66666666666667,
+      "uniquenessRatio": 0.9916666666666667,
+      "avgRawScore": 16.458333333333332,
+      "avgComplexityScore": 0.4567500343704951,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 1200,
+      "normalization": "sigmoid",
+      "maxNesting": 4,
+      "maxLinking": 0,
+      "validityPct": 77.08333333333334,
+      "uniquenessRatio": 0.965,
+      "avgRawScore": 13.885833333333334,
+      "avgComplexityScore": 0.3959752733578472,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 12000,
+      "normalization": "sigmoid",
+      "maxNesting": 4,
+      "maxLinking": 0,
+      "validityPct": 76.25,
+      "uniquenessRatio": 0.8405833333333333,
+      "avgRawScore": 14.086208333333333,
+      "avgComplexityScore": 0.3991419630380837,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 120000,
+      "normalization": "sigmoid",
+      "maxNesting": 4,
+      "maxLinking": 0,
+      "validityPct": 76.12333333333333,
+      "uniquenessRatio": 0.6873916666666666,
+      "avgRawScore": 14.142175,
+      "avgComplexityScore": 0.4005397237306847,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 12,
+      "normalization": "exponential",
+      "maxNesting": 4,
+      "maxLinking": 0,
+      "validityPct": 66.66666666666666,
+      "uniquenessRatio": 1,
+      "avgRawScore": 15.25,
+      "avgComplexityScore": 0.3033643088460083,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 120,
+      "normalization": "exponential",
+      "maxNesting": 4,
+      "maxLinking": 0,
+      "validityPct": 76.66666666666667,
+      "uniquenessRatio": 0.9916666666666667,
+      "avgRawScore": 16.458333333333332,
+      "avgComplexityScore": 0.3397156316383492,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 1200,
+      "normalization": "exponential",
+      "maxNesting": 4,
+      "maxLinking": 0,
+      "validityPct": 77.08333333333334,
+      "uniquenessRatio": 0.965,
+      "avgRawScore": 13.885833333333334,
+      "avgComplexityScore": 0.2858175336439816,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 12000,
+      "normalization": "exponential",
+      "maxNesting": 4,
+      "maxLinking": 0,
+      "validityPct": 76.25,
+      "uniquenessRatio": 0.8405833333333333,
+      "avgRawScore": 14.086208333333333,
+      "avgComplexityScore": 0.2895258936335772,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 120000,
+      "normalization": "exponential",
+      "maxNesting": 4,
+      "maxLinking": 0,
+      "validityPct": 76.12333333333333,
+      "uniquenessRatio": 0.6873916666666666,
+      "avgRawScore": 14.142175,
+      "avgComplexityScore": 0.2908056060837785,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 12,
+      "normalization": "arctan",
+      "maxNesting": 4,
+      "maxLinking": 0,
+      "validityPct": 66.66666666666666,
+      "uniquenessRatio": 1,
+      "avgRawScore": 15.25,
+      "avgComplexityScore": 0.2142895140290634,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 120,
+      "normalization": "arctan",
+      "maxNesting": 4,
+      "maxLinking": 0,
+      "validityPct": 76.66666666666667,
+      "uniquenessRatio": 0.9916666666666667,
+      "avgRawScore": 16.458333333333332,
+      "avgComplexityScore": 0.23100150192224425,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 1200,
+      "normalization": "arctan",
+      "maxNesting": 4,
+      "maxLinking": 0,
+      "validityPct": 77.08333333333334,
+      "uniquenessRatio": 0.965,
+      "avgRawScore": 13.885833333333334,
+      "avgComplexityScore": 0.20550663322734947,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 12000,
+      "normalization": "arctan",
+      "maxNesting": 4,
+      "maxLinking": 0,
+      "validityPct": 76.25,
+      "uniquenessRatio": 0.8405833333333333,
+      "avgRawScore": 14.086208333333333,
+      "avgComplexityScore": 0.20589249067465512,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 120000,
+      "normalization": "arctan",
+      "maxNesting": 4,
+      "maxLinking": 0,
+      "validityPct": 76.12333333333333,
+      "uniquenessRatio": 0.6873916666666666,
+      "avgRawScore": 14.142175,
+      "avgComplexityScore": 0.20648318462821824,
+      "highestTier": "Novice"
+    }
+  ],
+  "linkingShapeRows": [
+    {
+      "amount": 12,
+      "normalization": "sigmoid",
+      "maxNesting": 0,
+      "maxLinking": 4,
+      "validityPct": 75,
+      "uniquenessRatio": 1,
+      "avgRawScore": 7.5,
+      "avgComplexityScore": 0.23805333499854986,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 120,
+      "normalization": "sigmoid",
+      "maxNesting": 0,
+      "maxLinking": 4,
+      "validityPct": 72.5,
+      "uniquenessRatio": 0.9916666666666667,
+      "avgRawScore": 10.75,
+      "avgComplexityScore": 0.32191316951367327,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 1200,
+      "normalization": "sigmoid",
+      "maxNesting": 0,
+      "maxLinking": 4,
+      "validityPct": 77.58333333333334,
+      "uniquenessRatio": 0.9441666666666667,
+      "avgRawScore": 11.300416666666667,
+      "avgComplexityScore": 0.33859462837892995,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 12000,
+      "normalization": "sigmoid",
+      "maxNesting": 0,
+      "maxLinking": 4,
+      "validityPct": 75.575,
+      "uniquenessRatio": 0.8405833333333333,
+      "avgRawScore": 11.759208333333333,
+      "avgComplexityScore": 0.3504956777708678,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 120000,
+      "normalization": "sigmoid",
+      "maxNesting": 0,
+      "maxLinking": 4,
+      "validityPct": 76.19416666666666,
+      "uniquenessRatio": 0.6854416666666666,
+      "avgRawScore": 11.7313875,
+      "avgComplexityScore": 0.34969636197396,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 12,
+      "normalization": "exponential",
+      "maxNesting": 0,
+      "maxLinking": 4,
+      "validityPct": 75,
+      "uniquenessRatio": 1,
+      "avgRawScore": 7.5,
+      "avgComplexityScore": 0.1491510776606885,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 120,
+      "normalization": "exponential",
+      "maxNesting": 0,
+      "maxLinking": 4,
+      "validityPct": 72.5,
+      "uniquenessRatio": 0.9916666666666667,
+      "avgRawScore": 10.75,
+      "avgComplexityScore": 0.2195556329080578,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 1200,
+      "normalization": "exponential",
+      "maxNesting": 0,
+      "maxLinking": 4,
+      "validityPct": 77.58333333333334,
+      "uniquenessRatio": 0.9441666666666667,
+      "avgRawScore": 11.300416666666667,
+      "avgComplexityScore": 0.237040881325082,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 12000,
+      "normalization": "exponential",
+      "maxNesting": 0,
+      "maxLinking": 4,
+      "validityPct": 75.575,
+      "uniquenessRatio": 0.8405833333333333,
+      "avgRawScore": 11.759208333333333,
+      "avgComplexityScore": 0.2477048140974226,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 120000,
+      "normalization": "exponential",
+      "maxNesting": 0,
+      "maxLinking": 4,
+      "validityPct": 76.19416666666666,
+      "uniquenessRatio": 0.6854416666666666,
+      "avgRawScore": 11.7313875,
+      "avgComplexityScore": 0.24685746785305304,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 12,
+      "normalization": "arctan",
+      "maxNesting": 0,
+      "maxLinking": 4,
+      "validityPct": 75,
+      "uniquenessRatio": 1,
+      "avgRawScore": 7.5,
+      "avgComplexityScore": 0.13732673890776453,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 120,
+      "normalization": "arctan",
+      "maxNesting": 0,
+      "maxLinking": 4,
+      "validityPct": 72.5,
+      "uniquenessRatio": 0.9916666666666667,
+      "avgRawScore": 10.75,
+      "avgComplexityScore": 0.17495327742533526,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 1200,
+      "normalization": "arctan",
+      "maxNesting": 0,
+      "maxLinking": 4,
+      "validityPct": 77.58333333333334,
+      "uniquenessRatio": 0.9441666666666667,
+      "avgRawScore": 11.300416666666667,
+      "avgComplexityScore": 0.18233138230588536,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 12000,
+      "normalization": "arctan",
+      "maxNesting": 0,
+      "maxLinking": 4,
+      "validityPct": 75.575,
+      "uniquenessRatio": 0.8405833333333333,
+      "avgRawScore": 11.759208333333333,
+      "avgComplexityScore": 0.1877289985584284,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 120000,
+      "normalization": "arctan",
+      "maxNesting": 0,
+      "maxLinking": 4,
+      "validityPct": 76.19416666666666,
+      "uniquenessRatio": 0.6854416666666666,
+      "avgRawScore": 11.7313875,
+      "avgComplexityScore": 0.1873633028007124,
+      "highestTier": "Novice"
+    }
+  ],
+  "flatShapeRows": [
+    {
+      "amount": 12,
+      "normalization": "sigmoid",
+      "maxNesting": 0,
+      "maxLinking": 0,
+      "validityPct": 83.33333333333334,
+      "uniquenessRatio": 1,
+      "avgRawScore": 5.541666666666667,
+      "avgComplexityScore": 0.18168502168952808,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 120,
+      "normalization": "sigmoid",
+      "maxNesting": 0,
+      "maxLinking": 0,
+      "validityPct": 81.66666666666667,
+      "uniquenessRatio": 0.9916666666666667,
+      "avgRawScore": 5.045833333333333,
+      "avgComplexityScore": 0.16567640202401404,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 1200,
+      "normalization": "sigmoid",
+      "maxNesting": 0,
+      "maxLinking": 0,
+      "validityPct": 86.83333333333333,
+      "uniquenessRatio": 0.7841666666666667,
+      "avgRawScore": 4.3125,
+      "avgComplexityScore": 0.1419972266808037,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 12000,
+      "normalization": "sigmoid",
+      "maxNesting": 0,
+      "maxLinking": 0,
+      "validityPct": 87.40833333333333,
+      "uniquenessRatio": 0.4658333333333333,
+      "avgRawScore": 4.2603333333333335,
+      "avgComplexityScore": 0.1402943530685271,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 120000,
+      "normalization": "sigmoid",
+      "maxNesting": 0,
+      "maxLinking": 0,
+      "validityPct": 88.02166666666666,
+      "uniquenessRatio": 0.11975833333333333,
+      "avgRawScore": 4.251391666666667,
+      "avgComplexityScore": 0.1400070956299219,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 12,
+      "normalization": "exponential",
+      "maxNesting": 0,
+      "maxLinking": 0,
+      "validityPct": 83.33333333333334,
+      "uniquenessRatio": 1,
+      "avgRawScore": 5.541666666666667,
+      "avgComplexityScore": 0.07864385833168672,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 120,
+      "normalization": "exponential",
+      "maxNesting": 0,
+      "maxLinking": 0,
+      "validityPct": 81.66666666666667,
+      "uniquenessRatio": 0.9916666666666667,
+      "avgRawScore": 5.045833333333333,
+      "avgComplexityScore": 0.06623815728369904,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 1200,
+      "normalization": "exponential",
+      "maxNesting": 0,
+      "maxLinking": 0,
+      "validityPct": 86.83333333333333,
+      "uniquenessRatio": 0.7841666666666667,
+      "avgRawScore": 4.3125,
+      "avgComplexityScore": 0.04839662811300033,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 12000,
+      "normalization": "exponential",
+      "maxNesting": 0,
+      "maxLinking": 0,
+      "validityPct": 87.40833333333333,
+      "uniquenessRatio": 0.4658333333333333,
+      "avgRawScore": 4.2603333333333335,
+      "avgComplexityScore": 0.047116552428061426,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 120000,
+      "normalization": "exponential",
+      "maxNesting": 0,
+      "maxLinking": 0,
+      "validityPct": 88.02166666666666,
+      "uniquenessRatio": 0.11975833333333333,
+      "avgRawScore": 4.251391666666667,
+      "avgComplexityScore": 0.04689447570010555,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 12,
+      "normalization": "arctan",
+      "maxNesting": 0,
+      "maxLinking": 0,
+      "validityPct": 83.33333333333334,
+      "uniquenessRatio": 1,
+      "avgRawScore": 5.541666666666667,
+      "avgComplexityScore": 0.11069182321466016,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 120,
+      "normalization": "arctan",
+      "maxNesting": 0,
+      "maxLinking": 0,
+      "validityPct": 81.66666666666667,
+      "uniquenessRatio": 0.9916666666666667,
+      "avgRawScore": 5.045833333333333,
+      "avgComplexityScore": 0.1013185593930055,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 1200,
+      "normalization": "arctan",
+      "maxNesting": 0,
+      "maxLinking": 0,
+      "validityPct": 86.83333333333333,
+      "uniquenessRatio": 0.7841666666666667,
+      "avgRawScore": 4.3125,
+      "avgComplexityScore": 0.08744909089916492,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 12000,
+      "normalization": "arctan",
+      "maxNesting": 0,
+      "maxLinking": 0,
+      "validityPct": 87.40833333333333,
+      "uniquenessRatio": 0.4658333333333333,
+      "avgRawScore": 4.2603333333333335,
+      "avgComplexityScore": 0.08642788587353954,
+      "highestTier": "Novice"
+    },
+    {
+      "amount": 120000,
+      "normalization": "arctan",
+      "maxNesting": 0,
+      "maxLinking": 0,
+      "validityPct": 88.02166666666666,
+      "uniquenessRatio": 0.11975833333333333,
+      "avgRawScore": 4.251391666666667,
+      "avgComplexityScore": 0.08626164570627826,
+      "highestTier": "Novice"
+    }
+  ]
+}

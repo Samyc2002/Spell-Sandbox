@@ -1,0 +1,678 @@
+{
+  "nesting": {
+    "0|sigmoid": {
+      "validity_mean": 87.9,
+      "validity_std": 0.4262237284181458,
+      "uniq_mean": 0.7778333333333334,
+      "uniqV_mean": 0.765861546820086,
+      "raw_mean": 4.220916666666667,
+      "raw_std": 0.04120275071723587,
+      "comp_mean": 0.13904357181567462,
+      "tiers": [
+        "Novice",
+        "Novice",
+        "Novice",
+        "Novice",
+        "Novice"
+      ]
+    },
+    "0|exponential": {
+      "validity_mean": 87.9,
+      "validity_std": 0.4262237284181458,
+      "uniq_mean": 0.7778333333333334,
+      "uniqV_mean": 0.765861546820086,
+      "raw_mean": 4.220916666666667,
+      "raw_std": 0.04120275071723587,
+      "comp_mean": 0.04578783617743297,
+      "tiers": [
+        "Novice",
+        "Novice",
+        "Novice",
+        "Novice",
+        "Novice"
+      ]
+    },
+    "0|arctan": {
+      "validity_mean": 87.9,
+      "validity_std": 0.4262237284181458,
+      "uniq_mean": 0.7778333333333334,
+      "uniqV_mean": 0.765861546820086,
+      "raw_mean": 4.220916666666667,
+      "raw_std": 0.04120275071723587,
+      "comp_mean": 0.08572806811413651,
+      "tiers": [
+        "Novice",
+        "Novice",
+        "Novice",
+        "Novice",
+        "Novice"
+      ]
+    },
+    "5|sigmoid": {
+      "validity_mean": 71.96666666666667,
+      "validity_std": 1.1421227799341205,
+      "uniq_mean": 0.9581666666666666,
+      "uniqV_mean": 0.9462917482749573,
+      "raw_mean": 18.036416666666668,
+      "raw_std": 0.33040827017494606,
+      "comp_mean": 0.47315427882437605,
+      "tiers": [
+        "Novice",
+        "Novice",
+        "Novice",
+        "Novice",
+        "Novice"
+      ]
+    },
+    "5|exponential": {
+      "validity_mean": 71.96666666666667,
+      "validity_std": 1.1421227799341205,
+      "uniq_mean": 0.9581666666666666,
+      "uniqV_mean": 0.9462917482749573,
+      "raw_mean": 18.036416666666668,
+      "raw_std": 0.33040827017494606,
+      "comp_mean": 0.35259201749202096,
+      "tiers": [
+        "Novice",
+        "Novice",
+        "Adept",
+        "Novice",
+        "Novice"
+      ]
+    },
+    "5|arctan": {
+      "validity_mean": 71.96666666666667,
+      "validity_std": 1.1421227799341205,
+      "uniq_mean": 0.9581666666666666,
+      "uniqV_mean": 0.9462917482749573,
+      "raw_mean": 18.036416666666668,
+      "raw_std": 0.33040827017494606,
+      "comp_mean": 0.23418966553156692,
+      "tiers": [
+        "Novice",
+        "Novice",
+        "Novice",
+        "Novice",
+        "Novice"
+      ]
+    },
+    "10|sigmoid": {
+      "validity_mean": 56.0,
+      "validity_std": 0.9732534213770943,
+      "uniq_mean": 0.99,
+      "uniqV_mean": 0.9833378187102206,
+      "raw_mean": 38.07608333333334,
+      "raw_std": 0.550446573752216,
+      "comp_mean": 0.696183919225922,
+      "tiers": [
+        "Master",
+        "Master",
+        "Master",
+        "Master",
+        "Master"
+      ]
+    },
+    "10|exponential": {
+      "validity_mean": 56.0,
+      "validity_std": 0.9732534213770943,
+      "uniq_mean": 0.99,
+      "uniqV_mean": 0.9833378187102206,
+      "raw_mean": 38.07608333333334,
+      "raw_std": 0.550446573752216,
+      "comp_mean": 0.5486716662649906,
+      "tiers": [
+        "Adept",
+        "Adept",
+        "Adept",
+        "Master",
+        "Adept"
+      ]
+    },
+    "10|arctan": {
+      "validity_mean": 56.0,
+      "validity_std": 0.9732534213770943,
+      "uniq_mean": 0.99,
+      "uniqV_mean": 0.9833378187102206,
+      "raw_mean": 38.07608333333334,
+      "raw_std": 0.550446573752216,
+      "comp_mean": 0.320726576633156,
+      "tiers": [
+        "Apprentice",
+        "Apprentice",
+        "Apprentice",
+        "Apprentice",
+        "Apprentice"
+      ]
+    },
+    "15|sigmoid": {
+      "validity_mean": 44.31666666666666,
+      "validity_std": 0.5901977069875232,
+      "uniq_mean": 0.996,
+      "uniqV_mean": 0.9924809753676175,
+      "raw_mean": 58.76775,
+      "raw_std": 0.7221854178656467,
+      "comp_mean": 0.7909906418601443,
+      "tiers": [
+        "Master",
+        "Master",
+        "Master",
+        "Master",
+        "Master"
+      ]
+    },
+    "15|exponential": {
+      "validity_mean": 44.31666666666666,
+      "validity_std": 0.5901977069875232,
+      "uniq_mean": 0.996,
+      "uniqV_mean": 0.9924809753676175,
+      "raw_mean": 58.76775,
+      "raw_std": 0.7221854178656467,
+      "comp_mean": 0.6475247898589617,
+      "tiers": [
+        "Master",
+        "Master",
+        "Master",
+        "Master",
+        "Master"
+      ]
+    },
+    "15|arctan": {
+      "validity_mean": 44.31666666666666,
+      "validity_std": 0.5901977069875232,
+      "uniq_mean": 0.996,
+      "uniqV_mean": 0.9924809753676175,
+      "raw_mean": 58.76775,
+      "raw_std": 0.7221854178656467,
+      "comp_mean": 0.36249324377481207,
+      "tiers": [
+        "Apprentice",
+        "Apprentice",
+        "Apprentice",
+        "Apprentice",
+        "Apprentice"
+      ]
+    },
+    "20|sigmoid": {
+      "validity_mean": 36.1,
+      "validity_std": 1.312757911167679,
+      "uniq_mean": 0.9971666666666666,
+      "uniqV_mean": 0.9920038463825611,
+      "raw_mean": 78.053,
+      "raw_std": 0.7589082253108368,
+      "comp_mean": 0.8355145668584517,
+      "tiers": [
+        "Master",
+        "Master",
+        "Master",
+        "Master",
+        "Master"
+      ]
+    },
+    "20|exponential": {
+      "validity_mean": 36.1,
+      "validity_std": 1.312757911167679,
+      "uniq_mean": 0.9971666666666666,
+      "uniqV_mean": 0.9920038463825611,
+      "raw_mean": 78.053,
+      "raw_std": 0.7589082253108368,
+      "comp_mean": 0.702213908325505,
+      "tiers": [
+        "Master",
+        "Master",
+        "Master",
+        "Master",
+        "Master"
+      ]
+    },
+    "20|arctan": {
+      "validity_mean": 36.1,
+      "validity_std": 1.312757911167679,
+      "uniq_mean": 0.9971666666666666,
+      "uniqV_mean": 0.9920038463825611,
+      "raw_mean": 78.053,
+      "raw_std": 0.7589082253108368,
+      "comp_mean": 0.38496893532348164,
+      "tiers": [
+        "Apprentice",
+        "Apprentice",
+        "Apprentice",
+        "Apprentice",
+        "Apprentice"
+      ]
+    },
+    "25|sigmoid": {
+      "validity_mean": 29.7,
+      "validity_std": 1.1709445380166874,
+      "uniq_mean": 0.9983333333333333,
+      "uniqV_mean": 0.9948811998946824,
+      "raw_mean": 99.81375,
+      "raw_std": 1.4478862706641615,
+      "comp_mean": 0.8748118171347963,
+      "tiers": [
+        "Master",
+        "Master",
+        "Master",
+        "Master",
+        "Master"
+      ]
+    },
+    "25|exponential": {
+      "validity_mean": 29.7,
+      "validity_std": 1.1709445380166874,
+      "uniq_mean": 0.9983333333333333,
+      "uniqV_mean": 0.9948811998946824,
+      "raw_mean": 99.81375,
+      "raw_std": 1.4478862706641615,
+      "comp_mean": 0.7524564845497965,
+      "tiers": [
+        "Master",
+        "Master",
+        "Master",
+        "Master",
+        "Master"
+      ]
+    },
+    "25|arctan": {
+      "validity_mean": 29.7,
+      "validity_std": 1.1709445380166874,
+      "uniq_mean": 0.9983333333333333,
+      "uniqV_mean": 0.9948811998946824,
+      "raw_mean": 99.81375,
+      "raw_std": 1.4478862706641615,
+      "comp_mean": 0.4056580444402293,
+      "tiers": [
+        "Apprentice",
+        "Apprentice",
+        "Apprentice",
+        "Apprentice",
+        "Apprentice"
+      ]
+    },
+    "30|sigmoid": {
+      "validity_mean": 25.7,
+      "validity_std": 0.458257569495584,
+      "uniq_mean": 0.9984999999999999,
+      "uniqV_mean": 0.9941096966839541,
+      "raw_mean": 119.96966666666667,
+      "raw_std": 1.3121581142021965,
+      "comp_mean": 0.8882944134490708,
+      "tiers": [
+        "Master",
+        "Master",
+        "Master",
+        "Master",
+        "Master"
+      ]
+    },
+    "30|exponential": {
+      "validity_mean": 25.7,
+      "validity_std": 0.458257569495584,
+      "uniq_mean": 0.9984999999999999,
+      "uniqV_mean": 0.9941096966839541,
+      "raw_mean": 119.96966666666667,
+      "raw_std": 1.3121581142021965,
+      "comp_mean": 0.775451665610977,
+      "tiers": [
+        "Master",
+        "Master",
+        "Master",
+        "Master",
+        "Master"
+      ]
+    },
+    "30|arctan": {
+      "validity_mean": 25.7,
+      "validity_std": 0.458257569495584,
+      "uniq_mean": 0.9984999999999999,
+      "uniqV_mean": 0.9941096966839541,
+      "raw_mean": 119.96966666666667,
+      "raw_std": 1.3121581142021965,
+      "comp_mean": 0.4143478079735021,
+      "tiers": [
+        "Apprentice",
+        "Apprentice",
+        "Apprentice",
+        "Apprentice",
+        "Apprentice"
+      ]
+    }
+  },
+  "linking": {
+    "0|sigmoid": {
+      "validity_mean": 87.9,
+      "validity_std": 0.4262237284181458,
+      "uniq_mean": 0.7778333333333334,
+      "uniqV_mean": 0.765861546820086,
+      "raw_mean": 4.220916666666667,
+      "raw_std": 0.04120275071723587,
+      "comp_mean": 0.13904357181567462,
+      "tiers": [
+        "Novice",
+        "Novice",
+        "Novice",
+        "Novice",
+        "Novice"
+      ]
+    },
+    "0|exponential": {
+      "validity_mean": 87.9,
+      "validity_std": 0.4262237284181458,
+      "uniq_mean": 0.7778333333333334,
+      "uniqV_mean": 0.765861546820086,
+      "raw_mean": 4.220916666666667,
+      "raw_std": 0.04120275071723587,
+      "comp_mean": 0.04578783617743297,
+      "tiers": [
+        "Novice",
+        "Novice",
+        "Novice",
+        "Novice",
+        "Novice"
+      ]
+    },
+    "0|arctan": {
+      "validity_mean": 87.9,
+      "validity_std": 0.4262237284181458,
+      "uniq_mean": 0.7778333333333334,
+      "uniqV_mean": 0.765861546820086,
+      "raw_mean": 4.220916666666667,
+      "raw_std": 0.04120275071723587,
+      "comp_mean": 0.08572806811413651,
+      "tiers": [
+        "Novice",
+        "Novice",
+        "Novice",
+        "Novice",
+        "Novice"
+      ]
+    },
+    "5|sigmoid": {
+      "validity_mean": 71.61666666666666,
+      "validity_std": 1.15060370627288,
+      "uniq_mean": 0.9686666666666667,
+      "uniqV_mean": 0.9611157835188391,
+      "raw_mean": 14.750166666666667,
+      "raw_std": 0.16329519112467566,
+      "comp_mean": 0.41743897981327877,
+      "tiers": [
+        "Novice",
+        "Novice",
+        "Novice",
+        "Novice",
+        "Novice"
+      ]
+    },
+    "5|exponential": {
+      "validity_mean": 71.61666666666666,
+      "validity_std": 1.15060370627288,
+      "uniq_mean": 0.9686666666666667,
+      "uniqV_mean": 0.9611157835188391,
+      "raw_mean": 14.750166666666667,
+      "raw_std": 0.16329519112467566,
+      "comp_mean": 0.30630010407138875,
+      "tiers": [
+        "Novice",
+        "Novice",
+        "Novice",
+        "Novice",
+        "Novice"
+      ]
+    },
+    "5|arctan": {
+      "validity_mean": 71.61666666666666,
+      "validity_std": 1.15060370627288,
+      "uniq_mean": 0.9686666666666667,
+      "uniqV_mean": 0.9611157835188391,
+      "raw_mean": 14.750166666666667,
+      "raw_std": 0.16329519112467566,
+      "comp_mean": 0.2149957921921684,
+      "tiers": [
+        "Novice",
+        "Novice",
+        "Novice",
+        "Novice",
+        "Novice"
+      ]
+    },
+    "10|sigmoid": {
+      "validity_mean": 57.53333333333334,
+      "validity_std": 2.59786236911983,
+      "uniq_mean": 0.9891666666666666,
+      "uniqV_mean": 0.9828022593679577,
+      "raw_mean": 29.548083333333334,
+      "raw_std": 0.6605135102495806,
+      "comp_mean": 0.6327888225024781,
+      "tiers": [
+        "Master",
+        "Master",
+        "Master",
+        "Master",
+        "Master"
+      ]
+    },
+    "10|exponential": {
+      "validity_mean": 57.53333333333334,
+      "validity_std": 2.59786236911983,
+      "uniq_mean": 0.9891666666666666,
+      "uniqV_mean": 0.9828022593679577,
+      "raw_mean": 29.548083333333334,
+      "raw_std": 0.6605135102495806,
+      "comp_mean": 0.4904531512419296,
+      "tiers": [
+        "Adept",
+        "Adept",
+        "Adept",
+        "Adept",
+        "Adept"
+      ]
+    },
+    "10|arctan": {
+      "validity_mean": 57.53333333333334,
+      "validity_std": 2.59786236911983,
+      "uniq_mean": 0.9891666666666666,
+      "uniqV_mean": 0.9828022593679577,
+      "raw_mean": 29.548083333333334,
+      "raw_std": 0.6605135102495806,
+      "comp_mean": 0.29655770958876926,
+      "tiers": [
+        "Apprentice",
+        "Apprentice",
+        "Apprentice",
+        "Apprentice",
+        "Apprentice"
+      ]
+    },
+    "15|sigmoid": {
+      "validity_mean": 45.08333333333333,
+      "validity_std": 0.6302556800396337,
+      "uniq_mean": 0.9948333333333333,
+      "uniqV_mean": 0.988948987360083,
+      "raw_mean": 45.525166666666664,
+      "raw_std": 0.5470006982526529,
+      "comp_mean": 0.7460227923799687,
+      "tiers": [
+        "Master",
+        "Master",
+        "Master",
+        "Master",
+        "Master"
+      ]
+    },
+    "15|exponential": {
+      "validity_mean": 45.08333333333333,
+      "validity_std": 0.6302556800396337,
+      "uniq_mean": 0.9948333333333333,
+      "uniqV_mean": 0.988948987360083,
+      "raw_mean": 45.525166666666664,
+      "raw_std": 0.5470006982526529,
+      "comp_mean": 0.5969884364347762,
+      "tiers": [
+        "Master",
+        "Master",
+        "Master",
+        "Master",
+        "Master"
+      ]
+    },
+    "15|arctan": {
+      "validity_mean": 45.08333333333333,
+      "validity_std": 0.6302556800396337,
+      "uniq_mean": 0.9948333333333333,
+      "uniqV_mean": 0.988948987360083,
+      "raw_mean": 45.525166666666664,
+      "raw_std": 0.5470006982526529,
+      "comp_mean": 0.3421141393012349,
+      "tiers": [
+        "Apprentice",
+        "Apprentice",
+        "Apprentice",
+        "Apprentice",
+        "Apprentice"
+      ]
+    },
+    "20|sigmoid": {
+      "validity_mean": 36.21666666666667,
+      "validity_std": 1.127435635019184,
+      "uniq_mean": 0.997,
+      "uniqV_mean": 0.992207011385708,
+      "raw_mean": 60.870666666666665,
+      "raw_std": 1.2648402292604222,
+      "comp_mean": 0.8065034608365573,
+      "tiers": [
+        "Master",
+        "Master",
+        "Master",
+        "Master",
+        "Master"
+      ]
+    },
+    "20|exponential": {
+      "validity_mean": 36.21666666666667,
+      "validity_std": 1.127435635019184,
+      "uniq_mean": 0.997,
+      "uniqV_mean": 0.992207011385708,
+      "raw_mean": 60.870666666666665,
+      "raw_std": 1.2648402292604222,
+      "comp_mean": 0.6628937324757632,
+      "tiers": [
+        "Master",
+        "Master",
+        "Master",
+        "Master",
+        "Master"
+      ]
+    },
+    "20|arctan": {
+      "validity_mean": 36.21666666666667,
+      "validity_std": 1.127435635019184,
+      "uniq_mean": 0.997,
+      "uniqV_mean": 0.992207011385708,
+      "raw_mean": 60.870666666666665,
+      "raw_std": 1.2648402292604222,
+      "comp_mean": 0.36959238099399405,
+      "tiers": [
+        "Apprentice",
+        "Apprentice",
+        "Apprentice",
+        "Apprentice",
+        "Apprentice"
+      ]
+    },
+    "25|sigmoid": {
+      "validity_mean": 31.099999999999998,
+      "validity_std": 1.823762898819665,
+      "uniq_mean": 0.9976666666666667,
+      "uniqV_mean": 0.9922704374420822,
+      "raw_mean": 76.66108333333334,
+      "raw_std": 2.0279744033284923,
+      "comp_mean": 0.8460678130790801,
+      "tiers": [
+        "Master",
+        "Master",
+        "Master",
+        "Master",
+        "Master"
+      ]
+    },
+    "25|exponential": {
+      "validity_mean": 31.099999999999998,
+      "validity_std": 1.823762898819665,
+      "uniq_mean": 0.9976666666666667,
+      "uniqV_mean": 0.9922704374420822,
+      "raw_mean": 76.66108333333334,
+      "raw_std": 2.0279744033284923,
+      "comp_mean": 0.7103458675414107,
+      "tiers": [
+        "Master",
+        "Master",
+        "Master",
+        "Master",
+        "Master"
+      ]
+    },
+    "25|arctan": {
+      "validity_mean": 31.099999999999998,
+      "validity_std": 1.823762898819665,
+      "uniq_mean": 0.9976666666666667,
+      "uniqV_mean": 0.9922704374420822,
+      "raw_mean": 76.66108333333334,
+      "raw_std": 2.0279744033284923,
+      "comp_mean": 0.38889800900753146,
+      "tiers": [
+        "Apprentice",
+        "Apprentice",
+        "Apprentice",
+        "Apprentice",
+        "Apprentice"
+      ]
+    },
+    "30|sigmoid": {
+      "validity_mean": 25.05,
+      "validity_std": 1.397020639313059,
+      "uniq_mean": 0.9991666666666666,
+      "uniqV_mean": 0.9967689354327152,
+      "raw_mean": 91.80433333333333,
+      "raw_std": 1.9401865889650916,
+      "comp_mean": 0.8691924748306309,
+      "tiers": [
+        "Master",
+        "Master",
+        "Master",
+        "Master",
+        "Master"
+      ]
+    },
+    "30|exponential": {
+      "validity_mean": 25.05,
+      "validity_std": 1.397020639313059,
+      "uniq_mean": 0.9991666666666666,
+      "uniqV_mean": 0.9967689354327152,
+      "raw_mean": 91.80433333333333,
+      "raw_std": 1.9401865889650916,
+      "comp_mean": 0.741951880542137,
+      "tiers": [
+        "Master",
+        "Master",
+        "Master",
+        "Master",
+        "Master"
+      ]
+    },
+    "30|arctan": {
+      "validity_mean": 25.05,
+      "validity_std": 1.397020639313059,
+      "uniq_mean": 0.9991666666666666,
+      "uniqV_mean": 0.9967689354327152,
+      "raw_mean": 91.80433333333333,
+      "raw_std": 1.9401865889650916,
+      "comp_mean": 0.4018178786873937,
+      "tiers": [
+        "Apprentice",
+        "Apprentice",
+        "Apprentice",
+        "Apprentice",
+        "Apprentice"
+      ]
+    }
+  }
+}
